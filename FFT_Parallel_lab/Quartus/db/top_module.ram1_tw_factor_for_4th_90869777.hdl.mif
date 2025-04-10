@@ -1,0 +1,24 @@
+-- begin_signature
+-- tw_factor_for_4th(stage_FFT
+-- 4
+-- SIZE
+-- 10
+-- word_length_tw
+-- 14)
+-- end_signature
+WIDTH=14;
+DEPTH=8;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	7 :	11000100111000;
+	6 :	11010010110000;
+	5 :	11100111100001;
+	4 :	00000000000000;
+	3 :	00011000011111;
+	2 :	00101101010000;
+	1 :	00111011001000;
+	0 :	01000000000000;
+END;

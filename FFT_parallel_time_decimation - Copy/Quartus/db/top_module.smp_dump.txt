@@ -1,0 +1,176 @@
+
+State Machine - |top_module|uart_tx:UART_TX|state
+Name state.s_done state.s_stop state.s_wr state.s_start2 state.s_start1 state.s_idle 
+state.s_idle 0 0 0 0 0 0 
+state.s_start1 0 0 0 0 1 1 
+state.s_start2 0 0 0 1 0 1 
+state.s_wr 0 0 1 0 0 1 
+state.s_stop 0 1 0 0 0 1 
+state.s_done 1 0 0 0 0 1 
+
+State Machine - |top_module|PROCESS_O_DATA:PROCESS_O_DATA|cur_state
+Name cur_state.WAIT cur_state.WRITE cur_state.IDLE cur_state.DONE cur_state.READ 
+cur_state.IDLE 0 0 0 0 0 
+cur_state.WRITE 0 1 1 0 0 
+cur_state.WAIT 1 0 1 0 0 
+cur_state.READ 0 0 1 0 1 
+cur_state.DONE 0 0 1 1 0 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Out_stage:Out_stage|out_addres_generator:out_addres_generator|cur_state
+Name cur_state.WAIT_1 cur_state.DONE cur_state.READ_2 cur_state.READ_1 cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 0 
+cur_state.READ_1 0 0 0 1 1 
+cur_state.READ_2 0 0 1 0 1 
+cur_state.DONE 0 1 0 0 1 
+cur_state.WAIT_1 1 0 0 0 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Final_stage:Final_stage|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Final_stage:Final_stage|demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Final_stage:Final_stage|final_addres_generator:addres_final_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage7:Inter_stage_7|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage7:Inter_stage_7|demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage7:Inter_stage_7|addres_generator:addres_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage6:Inter_stage_6|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage6:Inter_stage_6|demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage6:Inter_stage_6|addres_generator:addres_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage5:Inter_stage_5|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage5:Inter_stage_5|demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage5:Inter_stage_5|addres_generator:addres_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage4:Inter_stage_4|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage4:Inter_stage_4|demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage4:Inter_stage_4|addres_generator:addres_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage3:Inter_stage_3|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage3:Inter_stage_3|demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage3:Inter_stage_3|addres_generator:addres_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage2:Inter_stage_2|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage2:Inter_stage_2|demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|Inter_stage2:Inter_stage_2|addres_generator:addres_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|First_stage:First_stage|multiplexor:multiplexor|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|First_stage:First_stage|first_demultiplexor:demultiplexor|state
+Name state.SEC_OUT 
+state.FIRST_OUT 0 
+state.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|First_stage:First_stage|addres_1st_generator:addres_1st_generator|cur_state
+Name cur_state.READ_2 cur_state.READ_1 cur_state.IDLE cur_state.DONE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ_1 0 1 1 0 
+cur_state.READ_2 1 0 1 0 
+cur_state.DONE 0 0 1 1 
+
+State Machine - |top_module|INVERT_ADDR:INVERT_ADDR|cur_state
+Name cur_state.DONE cur_state.READ cur_state.WRITE_2 cur_state.WRITE_1 cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 0 
+cur_state.WRITE_1 0 0 0 1 1 
+cur_state.WRITE_2 0 0 1 0 1 
+cur_state.READ 0 1 0 0 1 
+cur_state.DONE 1 0 0 0 1 
+
+State Machine - |top_module|uart_rx:UART_RX|state
+Name state.s_done state.s_rd state.s_start state.s_idle 
+state.s_idle 0 0 0 0 
+state.s_start 0 0 1 1 
+state.s_rd 0 1 0 1 
+state.s_done 1 0 0 1 

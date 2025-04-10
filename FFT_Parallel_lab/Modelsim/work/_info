@@ -1,0 +1,1623 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vadd_multiplier_generator
+Z0 !s110 1739294582
+!i10b 1
+!s100 =Hm3E9MezDEDOW^:RRcT=2
+IP>on;e2n;JVGI^Pgzb[Bo1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Digital chipset design/FFT_Parallel_lab/Modelsim
+w1739294416
+8D:/Digital chipset design/FFT_Parallel_lab/add_multiplier_generator.v
+FD:/Digital chipset design/FFT_Parallel_lab/add_multiplier_generator.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1739294582.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/add_multiplier_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/add_multiplier_generator.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vadder
+Z7 !s110 1739276593
+!i10b 1
+!s100 4b5IBGc8nzY70K;TZmlj>3
+IlHojdo6j_<7L>zC=YnZGe0
+R1
+R2
+w1739256291
+8D:/Digital chipset design/FFT_Parallel_lab/adder.v
+FD:/Digital chipset design/FFT_Parallel_lab/adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1739276593.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/adder.v|
+!i113 1
+R5
+R6
+vaddres_1st_generator
+Z9 !s110 1741098295
+!i10b 1
+!s100 G5jDT6P0TOhaHI?@0b0f[2
+IdlSmkKYOb[L7azi^2]76c3
+R1
+R2
+w1741098209
+8D:/Digital chipset design/FFT_Parallel_lab/addres_1st_generator.v
+FD:/Digital chipset design/FFT_Parallel_lab/addres_1st_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1741098295.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/addres_1st_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/addres_1st_generator.v|
+!i113 1
+R5
+R6
+vaddres_generator
+!s110 1741169403
+!i10b 1
+!s100 edgEd@gI7J58@K2cGFH_P0
+ITf7KLgDG]?[nAW6hXNl2V0
+R1
+R2
+w1741169393
+8D:/Digital chipset design/FFT_Parallel_lab/addres_generator.v
+FD:/Digital chipset design/FFT_Parallel_lab/addres_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1741169403.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/addres_generator.v|
+!i113 1
+R5
+R6
+vCLASS_CONTROL
+Z11 !s110 1744224717
+!i10b 1
+!s100 DI0jbCZf>o@EYGUXl<0zh0
+Io4ba3TPQ<<Zblo=@`nPGE1
+R1
+R2
+w1741980575
+8D:/Digital chipset design/FFT_Parallel_lab/CLASS_CONTROL.v
+FD:/Digital chipset design/FFT_Parallel_lab/CLASS_CONTROL.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z12 !s108 1744224717.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/CLASS_CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/CLASS_CONTROL.v|
+!i113 1
+R5
+R6
+n@c@l@a@s@s_@c@o@n@t@r@o@l
+vCLASS_FFT
+Z13 !s110 1739280099
+!i10b 1
+!s100 mzfM4nKf7I6Tbbd@>kMPe2
+IKo]A0`[AjQIH7_:gHoHIb3
+R1
+R2
+w1739278730
+8D:/Digital chipset design/FFT_Parallel_lab/CLASS_FFT.v
+FD:/Digital chipset design/FFT_Parallel_lab/CLASS_FFT.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z14 !s108 1739280099.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/CLASS_FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/CLASS_FFT.v|
+!i113 1
+R5
+R6
+n@c@l@a@s@s_@f@f@t
+vclass_final_state
+!s110 1739293166
+!i10b 1
+!s100 a1joFF`Ti7OJ0I73iI1@Z2
+I2kX7dM>3F_V]<U]ln[QJ21
+R1
+R2
+w1739293164
+8D:/Digital chipset design/FFT_Parallel_lab/class_final_state.v
+FD:/Digital chipset design/FFT_Parallel_lab/class_final_state.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1739293166.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/class_final_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/class_final_state.v|
+!i113 1
+R5
+R6
+vclass_tw_factor_generator
+R7
+!i10b 1
+!s100 ^TZH]Dmb5WU`88DIE0PoX2
+Ia5ESRE]JJ8?3^X3Y;Z;TV1
+R1
+R2
+w1738873309
+8D:/Digital chipset design/FFT_Parallel_lab/class_tw_factor_generator.v
+FD:/Digital chipset design/FFT_Parallel_lab/class_tw_factor_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Digital chipset design/FFT_Parallel_lab/class_tw_factor_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/class_tw_factor_generator.v|
+!i113 1
+R5
+R6
+vCONTROL
+!s110 1738603989
+!i10b 1
+!s100 i3>oGHE9oDl=B5>HMUFL02
+I2Ie[_YX<a[57jeK]o1=lQ2
+R1
+Z15 dD:/Digital chipset design/FFT_Sequence_lab/Modelsim
+w1736928850
+8D:/Digital chipset design/FFT_Sequence_lab/CONTROL.v
+FD:/Digital chipset design/FFT_Sequence_lab/CONTROL.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1738603989.000000
+!s107 D:/Digital chipset design/FFT_Sequence_lab/CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab/CONTROL.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l
+vCONTROL2
+!s110 1738918369
+!i10b 1
+!s100 9b[?c3hFVA;?BeN9RNg:J0
+I57;g<O1eMieA_4b4W2:E92
+R1
+R15
+w1738696939
+8D:/Digital chipset design/FFT_Sequence_lab/CONTROL2.v
+FD:/Digital chipset design/FFT_Sequence_lab/CONTROL2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1738918369.000000
+!s107 D:/Digital chipset design/FFT_Sequence_lab/CONTROL2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab/CONTROL2.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l2
+vCONTROL_norm
+R7
+!i10b 1
+!s100 bZ:C5lMn_cnBbT@19i^PN2
+IZ>`:mMe>a3_eUfa?d076H1
+R1
+R2
+w1736886180
+8D:/Digital chipset design/FFT_Parallel_lab/CONTROL_norm.v
+FD:/Digital chipset design/FFT_Parallel_lab/CONTROL_norm.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Digital chipset design/FFT_Parallel_lab/CONTROL_norm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/CONTROL_norm.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l_norm
+vdemultiplexor
+!s110 1739292418
+!i10b 1
+!s100 ZYD2mhg[YXQgh]G:CYT9T1
+IgWZ]CS09QTm4o?KE72_Em1
+R1
+R2
+w1739289228
+8D:/Digital chipset design/FFT_Parallel_lab/demultiplexor.v
+FD:/Digital chipset design/FFT_Parallel_lab/demultiplexor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1739292418.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/demultiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/demultiplexor.v|
+!i113 1
+R5
+R6
+vfinal_addres_generator
+R9
+!i10b 1
+!s100 ;iB[Wj1OnDD1jd58:0:a41
+I[5H0W_5BHYV2G7laP8IZY0
+R1
+R2
+w1741098293
+8D:/Digital chipset design/FFT_Parallel_lab/final_addres_generator.v
+FD:/Digital chipset design/FFT_Parallel_lab/final_addres_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/Digital chipset design/FFT_Parallel_lab/final_addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/final_addres_generator.v|
+!i113 1
+R5
+R6
+vfinal_state
+R0
+!i10b 1
+!s100 hi5G:3nUDNKjd4hkdL1mD1
+I54]jB;gICKVfml6JL:il00
+R1
+R2
+w1739294450
+8D:/Digital chipset design/FFT_Parallel_lab/final_state.v
+FD:/Digital chipset design/FFT_Parallel_lab/final_state.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_Parallel_lab/final_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/final_state.v|
+!i113 1
+R5
+R6
+vfirst_state
+R0
+!i10b 1
+!s100 0G?k=SAn^`]jIg^iMDWKV2
+IoKzdPCoZ_KhkZ9GzPn@Zm2
+R1
+R2
+w1739294474
+8D:/Digital chipset design/FFT_Parallel_lab/first_state.v
+FD:/Digital chipset design/FFT_Parallel_lab/first_state.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_Parallel_lab/first_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/first_state.v|
+!i113 1
+R5
+R6
+vinter_state
+R0
+!i10b 1
+!s100 2V;_:[56W]1ce;71E48zo2
+IV9cY3[H=Ubah=ER2^jdio0
+R1
+R2
+w1739294480
+8D:/Digital chipset design/FFT_Parallel_lab/inter_state.v
+FD:/Digital chipset design/FFT_Parallel_lab/inter_state.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_Parallel_lab/inter_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/inter_state.v|
+!i113 1
+R5
+R6
+vINVERT_ADDR
+Z16 !s110 1739276594
+!i10b 1
+!s100 8@MYhF?j]3jJ:75D7E;C91
+Ia1E>2GSZT3;2Dc8lf<7Q>1
+R1
+R2
+w1738698960
+8D:/Digital chipset design/FFT_Parallel_lab/INVERT_ADDR.v
+FD:/Digital chipset design/FFT_Parallel_lab/INVERT_ADDR.v
+L0 16
+R3
+r1
+!s85 0
+31
+Z17 !s108 1739276594.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/INVERT_ADDR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/INVERT_ADDR.v|
+!i113 1
+R5
+R6
+n@i@n@v@e@r@t_@a@d@d@r
+vM_TWIDLE_0_05_v
+Z18 !s110 1739284602
+!i10b 1
+!s100 IkMZ<5JNM=XN6^lG58doz2
+IL^k37AdT0OYWhG8j1fX5B2
+R1
+R2
+w1739284559
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_05_v.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_05_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z19 !s108 1739284602.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_05_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_05_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_05_v
+vM_TWIDLE_0_10_v
+R18
+!i10b 1
+!s100 gC5z=2NDl2HoX5;EFDizJ0
+I:eM9gc?Z^cDB^LCIBQ>z80
+R1
+R2
+w1739284565
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_10_v.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_10_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R19
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_10_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_10_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_10_v
+vM_TWIDLE_0_15_v
+Z20 !s110 1739284603
+!i10b 1
+!s100 _?[6X1I_a3?6bF?jzNbRI2
+IoLe2Fh6=8mmUU:hgV?J[N3
+R1
+R2
+w1739284570
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_15_v.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_15_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z21 !s108 1739284603.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_15_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_15_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_15_v
+vM_TWIDLE_0_25_v
+R20
+!i10b 1
+!s100 jYAzS1<ICb3^]a_N5J;RM2
+Iz6=>>h4GEYSijM?T_Jb8b3
+R1
+R2
+w1739284579
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_25_v.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_25_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_25_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_0_25_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_25_v
+vM_TWIDLE_10_bit
+Z22 !s110 1739276595
+!i10b 1
+!s100 M=U<63a[`fa1]I58FS_Vg2
+ISc0P2Z8UAoAoOWnG9<J`e3
+R1
+R2
+w1738831185
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_10_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z23 !s108 1739276595.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_10_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_10_bit
+vM_TWIDLE_11_bit
+R22
+!i10b 1
+!s100 obV]I]X?K<Fo11Xb8mi0@2
+I1F`[@M<P8BTlbP^@W[AjC1
+R1
+R2
+w1738830830
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_11_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_11_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_11_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_11_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_11_bit
+vM_TWIDLE_12_bit
+R22
+!i10b 1
+!s100 m<9?WEH51hz4F^Lz;WRj40
+IjRz@NYOId0k_;LGc?244g3
+R1
+R2
+w1738830822
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_12_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_12_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_12_bit
+vM_TWIDLE_14_bit
+!s110 1739288590
+!i10b 1
+!s100 Rha[jVcHU<KNe;e4Kca<j0
+ID<4VVb5V:@jR9X6T0mUhb2
+R1
+R2
+w1739288587
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_14_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1739288590.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_14_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_14_bit
+vM_TWIDLE_16_bit
+R22
+!i10b 1
+!s100 P]kmdc1c<Ck<YJ6kW;SXR3
+IOoQLlNVYgdR9LDgB7<A@[0
+R1
+R2
+w1738830862
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_16_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_16_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_16_bit
+vM_TWIDLE_6_bit
+R16
+!i10b 1
+!s100 :AMV7fYG8WKC;?cJRLcDE1
+Ib=MDT9>NXVj0J;kV9fYzi2
+R1
+R2
+w1738831100
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_6_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_6_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_6_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_6_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_6_bit
+vM_TWIDLE_7_bit
+R16
+!i10b 1
+!s100 l@6E3f_:B3O1]aM`Mg3@L1
+IiJHM1ngEn4d99BM9c:;i>2
+R1
+R2
+w1738831052
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_7_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_7_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_7_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_7_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_7_bit
+vM_TWIDLE_8_bit
+R16
+!i10b 1
+!s100 XQFDWQ6H=ChDdzNz6LcaL0
+IG@8FBSPjoO@Ee_kN2LXTK0
+R1
+R2
+w1738831157
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_8_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_8_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_8_bit
+vM_TWIDLE_9_bit
+R22
+!i10b 1
+!s100 ;[X31UUX=[kNXYCQOTGcL0
+Ilc>U07dQFAo1kH7ek4f6m2
+R1
+R2
+w1738831165
+8D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_9_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_9_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R23
+!s107 D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_9_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/M_TWIDLE_9_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_9_bit
+vMODIFY_CONTROL
+R16
+!i10b 1
+!s100 M4iagB_nHiMNOY_io:f<^1
+I;bf^3b4WmmDNhY_Im^`[h0
+R1
+R2
+w1738921728
+8D:/Digital chipset design/FFT_Parallel_lab/CONTROL2.v
+FD:/Digital chipset design/FFT_Parallel_lab/CONTROL2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Digital chipset design/FFT_Parallel_lab/CONTROL2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/CONTROL2.v|
+!i113 1
+R5
+R6
+n@m@o@d@i@f@y_@c@o@n@t@r@o@l
+vMODIFY_FFT
+R13
+!i10b 1
+!s100 EKPZD3Ll`3K<ndR376h0P2
+IKH`81B9iTX6eQWM[;0mCA2
+R1
+R2
+w1739278695
+8D:/Digital chipset design/FFT_Parallel_lab/MODIFY_FFT.v
+FD:/Digital chipset design/FFT_Parallel_lab/MODIFY_FFT.v
+L0 2
+R3
+r1
+!s85 0
+31
+R14
+!s107 D:/Digital chipset design/FFT_Parallel_lab/MODIFY_FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/MODIFY_FFT.v|
+!i113 1
+R5
+R6
+n@m@o@d@i@f@y_@f@f@t
+vMODIFY_RADIX2
+Z24 !s110 1739276597
+!i10b 1
+!s100 D1<jUz7DZl^Z;^P06g[0X2
+ImOnE<cKCdC7_=dLZ_RP1V1
+R1
+R2
+w1739262640
+8D:/Digital chipset design/FFT_Parallel_lab/MODIFY_RADIX2.v
+FD:/Digital chipset design/FFT_Parallel_lab/MODIFY_RADIX2.v
+L0 2
+R3
+r1
+!s85 0
+31
+R23
+!s107 D:/Digital chipset design/FFT_Parallel_lab/MODIFY_RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/MODIFY_RADIX2.v|
+!i113 1
+R5
+R6
+n@m@o@d@i@f@y_@r@a@d@i@x2
+vmodifying_adder
+R24
+!i10b 1
+!s100 zWRWc830QU1V04z;LT=]T0
+IIaHPmSF<UNh=hGQ4PSWRJ3
+R1
+R2
+w1739255527
+8D:/Digital chipset design/FFT_Parallel_lab/modifying_adder.v
+FD:/Digital chipset design/FFT_Parallel_lab/modifying_adder.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z25 !s108 1739276597.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/modifying_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/modifying_adder.v|
+!i113 1
+R5
+R6
+vmultiplexor
+R24
+!i10b 1
+!s100 GN0PhK64ohzlVi0:`lnVM2
+Ig]UzCCOP@8YE=hbfS@LeU0
+R1
+R2
+w1736789507
+8D:/Digital chipset design/FFT_Parallel_lab/multiplexor.v
+FD:/Digital chipset design/FFT_Parallel_lab/multiplexor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/multiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/multiplexor.v|
+!i113 1
+R5
+R6
+vmultiply
+R24
+!i10b 1
+!s100 DRFY?>`kNU[Om4c_`jU`W1
+IH<J2j4eo44`@2dADfPkNG2
+R1
+R2
+w1738918303
+8D:/Digital chipset design/FFT_Parallel_lab/multiply.v
+FD:/Digital chipset design/FFT_Parallel_lab/multiply.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/multiply.v|
+!i113 1
+R5
+R6
+vout_addres_generator
+R24
+!i10b 1
+!s100 QlcJl_>CO6zFbMj;7E>1b2
+IOhk6f[CVaK4>b2f9gURf71
+R1
+R2
+w1737127434
+8D:/Digital chipset design/FFT_Parallel_lab/out_addres_generator.v
+FD:/Digital chipset design/FFT_Parallel_lab/out_addres_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/out_addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/out_addres_generator.v|
+!i113 1
+R5
+R6
+vout_state
+Z26 !s110 1739276600
+!i10b 1
+!s100 eBl[6W[XoVE1mG<NaJzMB3
+IX]EUzIoWCk9=U2Nn[6a<;0
+R1
+R2
+w1739261592
+8D:/Digital chipset design/FFT_Parallel_lab/out_state.v
+FD:/Digital chipset design/FFT_Parallel_lab/out_state.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z27 !s108 1739276600.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/out_state.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/out_state.v|
+!i113 1
+R5
+R6
+vPROCESS_O_DATA
+R24
+!i10b 1
+!s100 g[SKeW5^b:>bUIJh^ZKOl1
+I1@2gWo?T=T7jdk_zQ4kek0
+R1
+R2
+w1737125326
+8D:/Digital chipset design/FFT_Parallel_lab/PROCESS_O_DATA.v
+FD:/Digital chipset design/FFT_Parallel_lab/PROCESS_O_DATA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/PROCESS_O_DATA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/PROCESS_O_DATA.v|
+!i113 1
+R5
+R6
+n@p@r@o@c@e@s@s_@o_@d@a@t@a
+vRADIX
+R24
+!i10b 1
+!s100 D;C?JaUceV?Xz8I>9h__B1
+IJJRe115PLdVJof;X]Y47H1
+R1
+R2
+w1739256182
+8D:/Digital chipset design/FFT_Parallel_lab/RADIX.v
+FD:/Digital chipset design/FFT_Parallel_lab/RADIX.v
+L0 3
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/RADIX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/RADIX.v|
+!i113 1
+R5
+R6
+n@r@a@d@i@x
+vRADIX2
+R24
+!i10b 1
+!s100 oQnPBY0?YGS>S6E@:bFF<3
+I6T9jT?@7UjS7fPJ1bi5Kb2
+R1
+R2
+w1733559951
+8D:/Digital chipset design/FFT_Parallel_lab/RADIX2.v
+FD:/Digital chipset design/FFT_Parallel_lab/RADIX2.v
+L0 6
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:\Digital chipset design\FFT_Parallel_lab\config_FFT.svh|D:/Digital chipset design/FFT_Parallel_lab/RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/RADIX2.v|
+!i113 1
+R5
+R6
+n@r@a@d@i@x2
+vRADIX_WITH_NO_MULTIPLIER
+R26
+!i10b 1
+!s100 3G]Ud:m?OdgVA0T:A<Unj2
+IEd5ZmKFjB^eIzYFbQ3lKk2
+R1
+R2
+w1739255828
+8D:/Digital chipset design/FFT_Parallel_lab/RADIX_WITH_NO_MULTIPLIER.v
+FD:/Digital chipset design/FFT_Parallel_lab/RADIX_WITH_NO_MULTIPLIER.v
+L0 2
+R3
+r1
+!s85 0
+31
+R27
+!s107 D:/Digital chipset design/FFT_Parallel_lab/RADIX_WITH_NO_MULTIPLIER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/RADIX_WITH_NO_MULTIPLIER.v|
+!i113 1
+R5
+R6
+n@r@a@d@i@x_@w@i@t@h_@n@o_@m@u@l@t@i@p@l@i@e@r
+vRAM
+R24
+!i10b 1
+!s100 bGRU1>48aZjL`3]CSN07R3
+Io@UOa>5h@F]I40TL?Wfk83
+R1
+R2
+w1739262155
+8D:/Digital chipset design/FFT_Parallel_lab/RAM.v
+FD:/Digital chipset design/FFT_Parallel_lab/RAM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/RAM.v|
+!i113 1
+R5
+R6
+n@r@a@m
+vring_buffer_with_single_pointer
+!s110 1739294092
+!i10b 1
+!s100 YYLKWabPmVk9F32FAWaGN3
+IHD0^b2S@ENc@oWg=[A`A61
+R1
+R2
+w1739293573
+8D:/Digital chipset design/FFT_Parallel_lab/ring_buffer_with_single_pointer.v
+FD:/Digital chipset design/FFT_Parallel_lab/ring_buffer_with_single_pointer.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1739294092.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/ring_buffer_with_single_pointer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/ring_buffer_with_single_pointer.v|
+!i113 1
+R5
+R6
+vseg7_data
+R24
+!i10b 1
+!s100 A[E9;jm@WMGR1G>RJeC?i0
+IPlOo3Bz>Vj6kMnie?WS030
+R1
+R2
+w1733131615
+8D:/Digital chipset design/FFT_Parallel_lab/seg7_data.v
+FD:/Digital chipset design/FFT_Parallel_lab/seg7_data.v
+Z28 L0 17
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/seg7_data.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/seg7_data.v|
+!i113 1
+R5
+R6
+vseg7_data2
+R24
+!i10b 1
+!s100 _XVEbEgc>]YhkSVK9N0z_2
+I;NRYNR=5FK^D8POgO_K5a0
+R1
+R2
+w1738698326
+8D:/Digital chipset design/FFT_Parallel_lab/seg7_data2.v
+FD:/Digital chipset design/FFT_Parallel_lab/seg7_data2.v
+R28
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/seg7_data2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/seg7_data2.v|
+!i113 1
+R5
+R6
+vshift_register
+Z29 !s110 1739276598
+!i10b 1
+!s100 VAzG:O2b5c_d47VO6CLeK0
+IAjZz[g1^8mJNKNZ5l@96k3
+R1
+R2
+w1736845077
+8D:/Digital chipset design/FFT_Parallel_lab/shift_register.v
+FD:/Digital chipset design/FFT_Parallel_lab/shift_register.v
+L0 1
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_Parallel_lab/shift_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/shift_register.v|
+!i113 1
+R5
+R6
+vshift_register_with_valid
+!s110 1739285813
+!i10b 1
+!s100 W[BRUFO];L?`QcSJDg0T@0
+I^fCPFBFYmF5=6QXQ9fLIT3
+R1
+R2
+w1739285810
+8D:/Digital chipset design/FFT_Parallel_lab/shift_register_with_valid.v
+FD:/Digital chipset design/FFT_Parallel_lab/shift_register_with_valid.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1739285813.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/shift_register_with_valid.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/shift_register_with_valid.v|
+!i113 1
+R5
+R6
+vsigned_shift_register
+R29
+!i10b 1
+!s100 ZkK_4GR3cCkIjfWClZW;93
+I2_[@cB[@U<n6e70;Vi[W?1
+R1
+R2
+w1736845120
+8D:/Digital chipset design/FFT_Parallel_lab/signed_shift_register.v
+FD:/Digital chipset design/FFT_Parallel_lab/signed_shift_register.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z30 !s108 1739276598.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/signed_shift_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/signed_shift_register.v|
+!i113 1
+R5
+R6
+vtest_real
+R29
+!i10b 1
+!s100 F<YjNeRJe0diDGNJ[I<O;0
+Ieb32D[ZC77hhFe4BZ^@k03
+R1
+R2
+w1738669071
+8D:/Digital chipset design/FFT_Parallel_lab/test_real.v
+FD:/Digital chipset design/FFT_Parallel_lab/test_real.v
+L0 2
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/test_real.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/test_real.v|
+!i113 1
+R5
+R6
+vtop_module
+R11
+!i10b 1
+!s100 MaEGEegnANNeLa`Y`Lk[Q1
+IE=iOE]79DlT>lcKg1oPmG2
+R1
+R2
+w1742809232
+8D:/Digital chipset design/FFT_Parallel_lab/top_module.v
+FD:/Digital chipset design/FFT_Parallel_lab/top_module.v
+L0 18
+R3
+r1
+!s85 0
+31
+R12
+!s107 D:/Digital chipset design/FFT_Parallel_lab/top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/top_module.v|
+!i113 1
+R5
+R6
+vtw_factor_for_3th
+R20
+!i10b 1
+!s100 J51nh`<Y^=JKalPFEL2jk0
+IG=Zz;6aD0E5=:ON[`MZ@l3
+R1
+R2
+w1739284515
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_3th.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_3th.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_3th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_3th.v|
+!i113 1
+R5
+R6
+vtw_factor_for_4th
+R20
+!i10b 1
+!s100 Gbg0Rf5jzBOH9aLVKohjg3
+IkiR5lc_Cbma15eRF7na=l3
+R1
+R2
+w1739284522
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_4th.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_4th.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_4th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_4th.v|
+!i113 1
+R5
+R6
+vtw_factor_for_5th
+R20
+!i10b 1
+!s100 TP@PA5kz76NB:feAO[0cF0
+I:EBATX`4Z7:Ko:9RM4a:g0
+R1
+R2
+w1739284527
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_5th.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_5th.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_5th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_5th.v|
+!i113 1
+R5
+R6
+vtw_factor_for_6th
+Z31 !s110 1739284604
+!i10b 1
+!s100 R:eCJT?@c`_Lfi;EX:=Me0
+I3GKVRnmXGNLkegLBJz0gH1
+R1
+R2
+w1739284533
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_6th.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_6th.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_6th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_6th.v|
+!i113 1
+R5
+R6
+vtw_factor_for_7th
+R31
+!i10b 1
+!s100 eWTM?OedZA0I;0PZDo82L0
+InXQlP1oj5eIQbBg@EZD6I2
+R1
+R2
+w1739284538
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_7th.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_7th.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z32 !s108 1739284604.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_7th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_7th.v|
+!i113 1
+R5
+R6
+vtw_factor_for_8th
+R31
+!i10b 1
+!s100 Jc`mLSFBZnfNhdEiAJK5<2
+IjZ1e_jCSSRBbiQ4`6M7Rm3
+R1
+R2
+w1739284541
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_8th.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_8th.v
+L0 1
+R3
+r1
+!s85 0
+31
+R32
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_8th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_8th.v|
+!i113 1
+R5
+R6
+vtw_factor_for_9th
+R31
+!i10b 1
+!s100 Ef@6gD3?[Uh3jXlA[3hRh2
+I90f2e5MjA9XhP;]aQ5RO73
+R1
+R2
+w1739284545
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_9th.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_9th.v
+L0 1
+R3
+r1
+!s85 0
+31
+R32
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_9th.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_9th.v|
+!i113 1
+R5
+R6
+vtw_factor_for_sec
+R20
+!i10b 1
+!s100 =FTn]U@[ZR9PmWE:RCKzV1
+I1Nn=[LZ`j>XK1oh:ACh9G3
+R1
+R2
+w1739284490
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_sec.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_sec.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_sec.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_for_sec.v|
+!i113 1
+R5
+R6
+vtw_factor_generator
+!s110 1739284985
+!i10b 1
+!s100 ]]dMch8=1aibTW7EeoaG?3
+IRV[A1MXMTFHm1le6kUS2g3
+R1
+R2
+w1739284982
+8D:/Digital chipset design/FFT_Parallel_lab/tw_factor_generator.v
+FD:/Digital chipset design/FFT_Parallel_lab/tw_factor_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1739284985.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/tw_factor_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/tw_factor_generator.v|
+!i113 1
+R5
+R6
+vTWIDLE_10_bit
+R29
+!i10b 1
+!s100 1_A:aQTSDYLY_DQ;Z`jac0
+Izk3gRoiME7GJDAOd02ReY2
+R1
+R2
+w1738832010
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_10_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_10_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_10_bit
+vTWIDLE_11_bit
+R29
+!i10b 1
+!s100 >jELMMYh<5`^NeAM65G@P0
+IMFB>SfJFz@09?bcRc8H<V3
+R1
+R2
+w1738872966
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_11_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_11_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_11_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_11_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_11_bit
+vTWIDLE_12_bit
+R29
+!i10b 1
+!s100 zn^g<<IgWDFDl1ogl8CCz2
+IGg3A5]h>ZY0N<m7MHX7JX1
+R1
+R2
+w1738832006
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_12_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_12_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_12_bit
+vTWIDLE_13_bit
+R29
+!i10b 1
+!s100 PN59SFL^ie5_8A5OKE_9a0
+IYUMFoXd[:ba>HLTaXaQ]A3
+R1
+R2
+w1738873279
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_13_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_13_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_13_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_13_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_13_bit
+vTWIDLE_14_bit
+R20
+!i10b 1
+!s100 99Ii0aEZV_jCD9?<m8K=U3
+I?;zA>0DzKSWEac1oS;A5c3
+R1
+R2
+w1739284598
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_14_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_14_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_14_bit
+vTWIDLE_15_bit
+Z33 !s110 1739276599
+!i10b 1
+!s100 dRmzMaQnNO]lhIGFY`OUm0
+Iz:1oW=Zo@X81E82S_MbdU1
+R1
+R2
+w1738873036
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_15_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_15_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z34 !s108 1739276599.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_15_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_15_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_15_bit
+vTWIDLE_16_bit
+R33
+!i10b 1
+!s100 QY8L[]9^8WX`YEXJ04a8<3
+IZ6bSS5V<FlmeI`CcAzS3M0
+R1
+R2
+w1738832002
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_16_bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R34
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_16_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_16_bit
+vTWIDLE_6_bit
+R29
+!i10b 1
+!s100 :lPA5Fe23_`E6]>]a70<;3
+IF=_?;BBBonzBQX_f565Pg0
+R1
+R2
+w1738872771
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_6_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_6_bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_6_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_6_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_6_bit
+vTWIDLE_7_bit
+R29
+!i10b 1
+!s100 bI`i>]V]XXcJ@0ChZZ]g=2
+IlE=P;L^A6AVhd6zW:W_im0
+R1
+R2
+w1738872833
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_7_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_7_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_7_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_7_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_7_bit
+vTWIDLE_8_bit
+R29
+!i10b 1
+!s100 39;d5TjzZbze:6dUeI?Om0
+IhZomPZjjlnY7WJ9U6h<=G0
+R1
+R2
+w1738832015
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_8_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_8_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_8_bit
+vTWIDLE_9_bit
+R29
+!i10b 1
+!s100 GF]_Q`PJU=]@]7@Vb=9F:0
+I5`dz9ezH:Jz9fzLH;cdKV1
+R1
+R2
+w1738872880
+8D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_9_bit.v
+FD:/Digital chipset design/FFT_Parallel_lab/TWIDLE_9_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_9_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/TWIDLE_9_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_9_bit
+vuart_rx
+R33
+!i10b 1
+!s100 Gfk>=21f5SL>oWKE8R@;70
+IleCaUdcXU7IiWB05I1IMY2
+R1
+R2
+w1737037188
+8D:/Digital chipset design/FFT_Parallel_lab/uart_rx.v
+FD:/Digital chipset design/FFT_Parallel_lab/uart_rx.v
+L0 2
+R3
+r1
+!s85 0
+31
+R34
+!s107 D:/Digital chipset design/FFT_Parallel_lab/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/uart_rx.v|
+!i113 1
+R5
+R6
+vuart_tx
+R33
+!i10b 1
+!s100 oOZJWPON163B8?gcT]NTm2
+I:<Y`n@dT_4JLaQ;]62SgK3
+R1
+R2
+w1737125613
+8D:/Digital chipset design/FFT_Parallel_lab/uart_tx.v
+FD:/Digital chipset design/FFT_Parallel_lab/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R34
+!s107 D:/Digital chipset design/FFT_Parallel_lab/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/uart_tx.v|
+!i113 1
+R5
+R6
+vuart_vd
+R26
+!i10b 1
+!s100 SnHHUP@J>NdQ>UKBR?d;?2
+I_QSi0kldF_X2Rd<Q2CB3T2
+R1
+R2
+w1738690381
+8D:/Digital chipset design/FFT_Parallel_lab/uart_vd.v
+FD:/Digital chipset design/FFT_Parallel_lab/uart_vd.v
+L0 4
+R3
+r1
+!s85 0
+31
+R34
+!s107 D:/Digital chipset design/FFT_Parallel_lab/uart_vd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/uart_vd.v|
+!i113 1
+R5
+R6
+vuart_vd_tb
+!s110 1741168174
+!i10b 1
+!s100 [^^Gfe9B5jO[CK`Z@CmEh1
+I^KQ`^a4RXz]mAVfQHL;052
+R1
+R2
+w1741168167
+8D:/Digital chipset design/FFT_Parallel_lab/uart_vd_tb.v
+FD:/Digital chipset design/FFT_Parallel_lab/uart_vd_tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1741168174.000000
+!s107 D:/Digital chipset design/FFT_Parallel_lab/uart_vd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Parallel_lab/uart_vd_tb.v|
+!i113 1
+R5
+R6

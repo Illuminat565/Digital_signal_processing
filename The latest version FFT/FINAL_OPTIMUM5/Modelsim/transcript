@@ -1,0 +1,48 @@
+vsim -gui work.top_module_tb
+# vsim -gui work.top_module_tb 
+# Start time: 10:00:16 on Jun 16,2024
+# Loading work.top_module_tb
+# Loading work.top_module_models
+# Loading work.data_FFT
+# Loading work.register
+# Loading work.MODIFY_FFT2
+# Loading work.CONTROL
+# Loading work.RAM
+# Loading work.ROM_TWIDLE
+# Loading work.RADIX2
+# Loading work.adder
+# Loading work.multiply
+# Loading work.uart_tx2
+# Loading work.seg7_data
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position insertpoint  \
+sim:/top_module_tb/TOP_MODULE/SEG7_DATA/count
+restart
+run
+add wave -position insertpoint  \
+sim:/top_module_tb/TOP_MODULE/MODIFY_FFT/CONTROL/count
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of seg7_data.v was successful.
+restart
+# Loading work.seg7_data
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/top_module_tb/TOP_MODULE/SEG7_DATA/data_out
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 

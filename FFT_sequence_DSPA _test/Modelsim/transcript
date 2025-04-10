@@ -1,0 +1,302 @@
+# Compile of top_module.v was successful.
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 12:39:32 on Jan 17,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.uart_rx
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL
+# Loading work.RAM
+# Loading work.M_TWIDLE_14_bit
+# Loading work.MODIFY_RADIX2
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'key' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'led' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'dig' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'seg' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Fatal: (vsim-3365) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Too many port connections. Expected 4, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 12:39:33 on Jan 17,2025, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 12:40:43 on Jan 17,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.uart_rx
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL
+# Loading work.RAM
+# Loading work.M_TWIDLE_14_bit
+# Loading work.MODIFY_RADIX2
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'key' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'led' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'dig' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Error: (vsim-3389) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Port 'seg' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# ** Fatal: (vsim-3365) D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v(15): Too many port connections. Expected 4, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_sequence_DSPA/top_module.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 12:40:43 on Jan 17,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# Compile of uart_vd_tb.v was successful.
+# Compile of adder.v was successful.
+# Compile of config_FFT.svh was successful.
+# Compile of CONTROL.v was successful.
+# Compile of INVERT_ADDR.v was successful.
+# Compile of M_TWIDLE_0_05_v.v was successful.
+# Compile of M_TWIDLE_0_10_v.v was successful.
+# Compile of M_TWIDLE_0_15_v.v was successful.
+# Compile of M_TWIDLE_0_25_v.v was successful.
+# Compile of M_TWIDLE_6_bit.v was successful.
+# Compile of M_TWIDLE_7_bit.v was successful.
+# Compile of M_TWIDLE_8_bit.v was successful.
+# Compile of M_TWIDLE_9_bit.v was successful.
+# Compile of M_TWIDLE_10_bit.v was successful.
+# Compile of M_TWIDLE_11_bit.v was successful.
+# Compile of M_TWIDLE_12_bit.v was successful.
+# Compile of M_TWIDLE_14_bit.v was successful.
+# Compile of M_TWIDLE_16_bit.v was successful.
+# Compile of MODIFY_FFT.v was successful.
+# Compile of MODIFY_RADIX2.v was successful.
+# Compile of modifying_adder.v was successful.
+# Compile of multiply.v was successful.
+# Compile of PROCESS_O_DATA.v was successful.
+# Compile of RADIX.v was successful.
+# Compile of RADIX2.v was successful.
+# Compile of RAM.v was successful.
+# Compile of seg7_data.v was successful.
+# Compile of seg7_data2.v was successful.
+# Compile of slow_clk_gen.v failed with 2 errors.
+# Compile of test_mult.v was successful.
+# Compile of top_module.v was successful.
+# Compile of TWIDLE_8_bit.v was successful.
+# Compile of TWIDLE_10_bit.v was successful.
+# Compile of TWIDLE_12_bit.v was successful.
+# Compile of TWIDLE_14_bit.v was successful.
+# Compile of TWIDLE_16_bit.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of uart_vd.v was successful.
+# 39 compiles, 1 failed with 2 errors.
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 12:42:41 on Jan 17,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.uart_rx
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL
+# Loading work.RAM
+# Loading work.M_TWIDLE_14_bit
+# Loading work.MODIFY_RADIX2
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/mem_Re \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/mem_Im
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: admin  Hostname: LAPTOP-M1UA592I  ProcessID: 15932
+#           Attempting to use alternate WLF file "./wlftkg17x5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftkg17x5
+run
+# Compile of CONTROL.v was successful.
+# Compile of MODIFY_FFT.v failed with 1 errors.
+# Compile of RAM.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of MODIFY_FFT.v was successful.
+restart
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL
+# Loading work.RAM
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of uart_vd_tb.v failed with 1 errors.
+# Compile of INVERT_ADDR.v was successful.
+# Compile of PROCESS_O_DATA.v was successful.
+# Compile of top_module.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of test.v failed with 5 errors.
+# 6 compiles, 2 failed with 6 errors.
+# Compile of uart_vd_tb.v failed with 1 errors.
+# Compile of test.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of uart_vd_tb.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.test
+# ** Warning: (vsim-3015) D:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd_tb.v(31): [PCDPC] - Port size (24) does not match connection size (1) for port 'en_o'. The port definition is at: D:/Digital chipset design/FFT_sequence_DSPA _test/test.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TEST File: D:/Digital chipset design/FFT_sequence_DSPA _test/test.v
+# Compile of test.v was successful.
+restart
+# Loading work.test
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Break key hit
+quit -sim
+# End time: 14:24:46 on Jan 17,2025, Elapsed time: 1:42:05
+# Errors: 0, Warnings: 3
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 14:24:53 on Jan 17,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.uart_rx
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL
+# Loading work.RAM
+# Loading work.MODIFY_RADIX2
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.test
+# Loading work.uart_vd
+# Compile of top_module.v was successful.
+restart
+# Loading work.top_module
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/Re_o \
+sim:/uart_vd_tb/TEST/Im_o
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: admin  Hostname: LAPTOP-M1UA592I  ProcessID: 15932
+#           Attempting to use alternate WLF file "./wlftwag1tr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftwag1tr
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/rst_n \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/mem_Re \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/mem_Im
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/signal
+restart
+run
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/data_out_temp
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/PROCESS_O_DATA/data_out_temp
+restart
+run
+# Compile of PROCESS_O_DATA.v was successful.
+restart
+# Loading work.PROCESS_O_DATA
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/done_o
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/UART_TX/data_i
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/UART_TX/tx_o
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/UART_TX/tx_done_o
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/clk
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/UART_TX/en_i
+restart
+run
+# Compile of PROCESS_O_DATA.v was successful.
+restart
+# Loading work.PROCESS_O_DATA
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/UART_RX/rx_i
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/UART_RX/data_o
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/UART_RX/start_flag
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/UART_RX/state
+restart
+run
+# Compile of top_module.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of test.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of top_module.v was successful.
+restart
+# Loading work.top_module
+# Loading work.uart_tx
+# Loading work.test
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/UART_RX/data_temp
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TEST/UART_RX/rx_bits
+restart
+run
+# Compile of PROCESS_O_DATA.v was successful.
+restart
+# Loading work.PROCESS_O_DATA
+# Warning in wave window restart: (vish-4014) No objects found matching '/uart_vd_tb/TOP_MODULE/PROCESS_O_DATA/data_out_temp'. 
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/PROCESS_O_DATA/data_out
+restart
+run
+restart
+run
+# Compile of PROCESS_O_DATA.v was successful.
+restart
+# Loading work.PROCESS_O_DATA
+run
+# Compile of PROCESS_O_DATA.v was successful.
+restart
+# Loading work.PROCESS_O_DATA
+run
+# End time: 16:28:16 on Jan 17,2025, Elapsed time: 2:03:23
+# Errors: 2, Warnings: 2
+# Closing project D:/Digital chipset design/FFT_sequence_DSPA _test/Modelsim/Test+FFT.mpf

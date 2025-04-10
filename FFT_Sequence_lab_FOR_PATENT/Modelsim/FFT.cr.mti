@@ -1,0 +1,723 @@
+{D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_8_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_8_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_13_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_13_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_13_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_13_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_13_bit
+
+Top level modules:
+	TWIDLE_13_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_15_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_15_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/test_real.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/test_real.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test_real
+
+Top level modules:
+	test_real
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_12_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_12_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CONTROL_norm.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CONTROL_norm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL_norm
+
+Top level modules:
+	CONTROL_norm
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_14_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_14_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CLASS_FFT.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CLASS_FFT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CLASS_FFT
+
+Top level modules:
+	CLASS_FFT
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CLASS_CONTROL.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CLASS_CONTROL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CLASS_CONTROL
+
+Top level modules:
+	CLASS_CONTROL
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_13_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_13_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RAM.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/config_FFT.svh} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/config_FFT.svh}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/addres_1st_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/addres_1st_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module addres_1st_generator
+
+Top level modules:
+	addres_1st_generator
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/adder.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data2
+
+Top level modules:
+	seg7_data2
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/shift_register.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/shift_register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_6_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_6_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/new_adress_genarator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/new_adress_genarator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module new_adress_genarator
+
+Top level modules:
+	new_adress_genarator
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_rx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_rx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_7_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_7_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_7_bit
+
+Top level modules:
+	TWIDLE_7_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiplexor.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiplexor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplexor
+
+Top level modules:
+	multiplexor
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_16_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_16_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/add_multiplier_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/add_multiplier_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module add_multiplier_generator
+
+Top level modules:
+	add_multiplier_generator
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_7_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_7_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_9_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_9_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_15_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_15_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/top_module.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/top_module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module
+
+Top level modules:
+	top_module
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_6_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_6_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_11_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_11_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_12_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_12_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_12_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_12_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_12_bit
+
+Top level modules:
+	TWIDLE_12_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_16_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_16_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_10_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_10_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_12_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_12_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/shift_register_with_valid.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/shift_register_with_valid.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_register_with_valid
+
+Top level modules:
+	shift_register_with_valid
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_16_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_16_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/class_tw_factor_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/class_tw_factor_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module class_tw_factor_generator
+
+Top level modules:
+	class_tw_factor_generator
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_11_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_11_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_16_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_16_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_16_bit
+
+Top level modules:
+	TWIDLE_16_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/PROCESS_O_DATA.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/PROCESS_O_DATA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PROCESS_O_DATA
+
+Top level modules:
+	PROCESS_O_DATA
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_9_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_9_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_8_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_8_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd_tb.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd_tb
+
+Top level modules:
+	uart_vd_tb
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX2
+
+Top level modules:
+	RADIX2
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_14_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_14_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_6_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_6_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_9_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_9_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_6_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_6_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_6_bit
+
+Top level modules:
+	TWIDLE_6_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_13_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_13_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_15_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_15_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/modifying_adder.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/modifying_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module modifying_adder
+
+Top level modules:
+	modifying_adder
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd
+
+Top level modules:
+	uart_vd
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_14_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_14_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/tw_factor_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/tw_factor_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tw_factor_generator
+
+Top level modules:
+	tw_factor_generator
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_10_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_10_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT
+
+Top level modules:
+	INVERT
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_11_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_11_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_11_bit
+
+Top level modules:
+	TWIDLE_11_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_13_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_13_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/test_mult.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/test_mult.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module p2d
+-- Compiling module d2p
+-- Compiling module mult
+-- Compiling module mult_tb
+
+Top level modules:
+	mult_tb
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT_ADDR.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT_ADDR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT_ADDR
+
+Top level modules:
+	INVERT_ADDR
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_15_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_15_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_15_bit
+
+Top level modules:
+	TWIDLE_15_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_7_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_7_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_8_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_8_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_6_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_6_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/MODIFY_FFT.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/MODIFY_FFT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_FFT
+
+Top level modules:
+	MODIFY_FFT
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_16_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_16_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_12_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_12_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_7_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_7_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/final_addres_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/final_addres_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module final_addres_generator
+
+Top level modules:
+	final_addres_generator
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_11_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_11_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_13_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_13_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/signed_shift_register.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/signed_shift_register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signed_shift_register
+
+Top level modules:
+	signed_shift_register
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_7_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_7_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_10_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_10_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data
+
+Top level modules:
+	seg7_data
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_9_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_9_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_9_bit
+
+Top level modules:
+	TWIDLE_9_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_10_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_10_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_10_bit
+
+Top level modules:
+	TWIDLE_10_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiply.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiply.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_9_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_9_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_14_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_14_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_14_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_14_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit
+
+Top level modules:
+	TWIDLE_14_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_15_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_15_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_6_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_6_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_14_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_14_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_16_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_16_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_10_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_10_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_15_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_15_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX
+
+Top level modules:
+	RADIX
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_11_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_11_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/MODIFY_RADIX2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/MODIFY_RADIX2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_RADIX2
+
+Top level modules:
+	MODIFY_RADIX2
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_20_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_20_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_10_B_0_20_v
+
+Top level modules:
+	M_TWIDLE_10_B_0_20_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CONTROL2.v} {2 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CONTROL2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_CONTROL
+** Warning: D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CONTROL2.v(110): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/CONTROL2.v(111): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	MODIFY_CONTROL
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_8_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_8_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_8_B_0_15_v
+
+Top level modules:
+	M_TWIDLE_8_B_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/demultiplexor.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/demultiplexor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module demultiplexor
+
+Top level modules:
+	demultiplexor
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_8_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_8_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_8_bit
+
+Top level modules:
+	TWIDLE_8_bit
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_5_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_5_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_11_B_0_5_v
+
+Top level modules:
+	M_TWIDLE_11_B_0_5_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_tx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_tx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_9_B_0_25_v
+
+Top level modules:
+	M_TWIDLE_9_B_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_7_B_0_10_v
+
+Top level modules:
+	M_TWIDLE_7_B_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/out_addres_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/out_addres_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module out_addres_generator
+
+Top level modules:
+	out_addres_generator
+
+} {} {}} {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/addres_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/addres_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module addres_generator
+
+Top level modules:
+	addres_generator
+
+} {} {}}

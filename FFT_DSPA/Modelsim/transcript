@@ -1,0 +1,33 @@
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 09:43:32 on Dec 18,2024
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.uart_rx
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL1
+# Loading work.RAM
+# Loading work.TWIDLE_14_bit
+# Loading work.RADIX
+# Loading work.RAM2
+# Loading work.CONTROL2
+# Loading work.TWIDLE_14_bit_STAGE2
+# Loading work.TWIDLE_14_bit_STAGE3
+# Loading work.TWIDLE_14_bit_STAGE3_2
+# Loading work.modify_RADIX
+# Loading work.CONTROL3
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM1/en_rd
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: admin  Hostname: LAPTOP-M1UA592I  ProcessID: 44604
+#           Attempting to use alternate WLF file "./wlft3hb8wi".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3hb8wi
+run
+quit -sim
+# End time: 09:50:12 on Dec 18,2024, Elapsed time: 0:06:40
+# Errors: 0, Warnings: 2

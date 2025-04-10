@@ -1,0 +1,75 @@
+module  RAM #(parameter N=29, DEPTH = 16, SIZE = 4)(
+    input clk,rst_n,
+    
+    input                load_data,
+    input        [SIZE:0]invert_adr,
+    input signed [N-1:0] Re_i1,
+    input signed [N-1:0] Im_i1,
+
+    input                 en_wr,
+    input        [SIZE:0] wr_ptr,
+    input signed [N-1:0]  Re_i2,
+    input signed [N-1:0]  Im_i2,
+
+    
+    input [SIZE:0] rd_ptr,
+    input          en_rd,
+    
+    output  signed [N-1:0]  Re_o1,
+    output  signed [N-1:0]  Im_o1,
+    output  signed [N-1:0]  Re_o2,
+    output  signed [N-1:0]  Im_o2,
+
+    output reg  signed [N-1:0]  Re_o,
+    output reg  signed [N-1:0]  Im_o,
+    
+    output      flag_start_FFT,
+    output reg  en_o,
+    output      done_o
+    
+ );
+
+    wire  signed [N-1:0]    x_real_i = (load_data)? Re_i1  : Re_i2;
+    wire  signed [N-1:0]    y_real_i = (load_data)? Im_i1  : Im_i2;
+    wire         [SIZE:0]   index_wr = (load_data)? invert_adr : wr_ptr;
+
+    reg signed [N-1:0]   mem_Re  [DEPTH-1:0];
+    reg signed [N-1:0]   mem_Im  [DEPTH-1:0];
+    
+    reg [1:0] rd_ptr;
+    reg [SIZE:0] count;
+
+    assign flag_start_FFT = (count==DEPTH);
+     
+    assign Re_o1  =  (rd_ptr==1)?   Re_o:Re_o1;
+    assign Im_o1  =  (rd_ptr==1)?   Im_o:Im_o1;
+    assign Re_o2  =  (rd_ptr==2)?   Re_o:Re_o2;
+    assign Im_o2  =  (rd_ptr==2)?   Im_o:Im_o2;
+    assign done_o =  (rd_ptr==2)?   1'b1:1'b0;
+
+    //------------------------handle MEM----------------------------
+        always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            en_o      <= 0;
+            rd_ptr    <= 0;
+            count     <= 0;
+        end else begin
+             if (en_wr || load_data) begin
+                mem_Re[index_wr] <= x_real_i;
+                mem_Im[index_wr] <= y_real_i;      
+                count            <= count + 1'b1;
+             end else if (en_rd) begin
+                Re_o <= mem_Re[rd_ptr];
+                Im_o <= mem_Im[rd_ptr];
+                rd_ptr   <= rd_ptr+1'd1;
+                en_o     <= 1'b1;  
+                count    <= 0;
+             end else begin
+                rd_ptr  <= 0;
+                en_o    <= 0;
+                count   <= 0;
+             end
+        end
+    end
+
+endmodule

@@ -1,0 +1,249 @@
+{D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/uart_vd_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd_tb
+
+Top level modules:
+	uart_vd_tb
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/RADIX2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/RADIX2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX2
+
+Top level modules:
+	RADIX2
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/uart_vd.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/uart_vd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd
+
+Top level modules:
+	uart_vd
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/uart_rx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/uart_rx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/modifying_adder.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/modifying_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module modifying_adder
+
+Top level modules:
+	modifying_adder
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_05_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_05_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_0_05_v
+
+Top level modules:
+	M_TWIDLE_0_05_v
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_8_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_8_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_8_bit
+
+Top level modules:
+	TWIDLE_8_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/uart_tx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/uart_tx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_10_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_10_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_10_bit
+
+Top level modules:
+	TWIDLE_10_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/seg7_data.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/seg7_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data
+
+Top level modules:
+	seg7_data
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_25_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_25_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_0_25_v
+
+Top level modules:
+	M_TWIDLE_0_25_v
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_6_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_6_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_6_bit
+
+Top level modules:
+	M_TWIDLE_6_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/multiply.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/multiply.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/CONTROL.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/CONTROL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_10_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_10_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_0_10_v
+
+Top level modules:
+	M_TWIDLE_0_10_v
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_7_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_7_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_7_bit
+
+Top level modules:
+	M_TWIDLE_7_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_12_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_12_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_12_bit
+
+Top level modules:
+	TWIDLE_12_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/INVERT_ADDR.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/INVERT_ADDR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT_ADDR
+
+Top level modules:
+	INVERT_ADDR
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_8_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_8_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_8_bit
+
+Top level modules:
+	M_TWIDLE_8_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_9_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_9_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_9_bit
+
+Top level modules:
+	M_TWIDLE_9_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_10_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_10_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_10_bit
+
+Top level modules:
+	M_TWIDLE_10_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_14_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_14_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit
+
+Top level modules:
+	TWIDLE_14_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_11_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_11_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_11_bit
+
+Top level modules:
+	M_TWIDLE_11_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_12_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_12_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_12_bit
+
+Top level modules:
+	M_TWIDLE_12_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_16_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/TWIDLE_16_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_16_bit
+
+Top level modules:
+	TWIDLE_16_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_15_v.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_0_15_v.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_0_15_v
+
+Top level modules:
+	M_TWIDLE_0_15_v
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/PROCESS_O_DATA.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/PROCESS_O_DATA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PROCESS_O_DATA
+
+Top level modules:
+	PROCESS_O_DATA
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_14_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_14_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_14_bit
+
+Top level modules:
+	M_TWIDLE_14_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/MODIFY_FFT.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/MODIFY_FFT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_FFT
+
+Top level modules:
+	MODIFY_FFT
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/adder.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/config_FFT.svh} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/config_FFT.svh}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/RADIX.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/RADIX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX
+
+Top level modules:
+	RADIX
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/RAM.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_16_bit.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/M_TWIDLE_16_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module M_TWIDLE_16_bit
+
+Top level modules:
+	M_TWIDLE_16_bit
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/MODIFY_RADIX2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/MODIFY_RADIX2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_RADIX2
+
+Top level modules:
+	MODIFY_RADIX2
+
+} {} {}} {D:/Digital chipset design/FFT_sequence_DSPA/seg7_data2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_sequence_DSPA/seg7_data2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data2
+
+Top level modules:
+	seg7_data2
+
+} {} {}}

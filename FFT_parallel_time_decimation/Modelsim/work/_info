@@ -1,0 +1,1442 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vadder
+!s110 1737534922
+!i10b 1
+!s100 VIb]LPb:KNiHbV4SBaZYJ2
+IAcHD5BUW;4S^GG5MblB9b3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Digital chipset design/FFT_parallel_time_decimation/Modelsim
+w1732717637
+8D:/Digital chipset design/FFT_parallel_time_decimation/adder.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/adder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1737534922.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vaddres_1st_generator
+Z5 !s110 1737569924
+!i10b 1
+!s100 ;A`JjT@Ng[<KJ1kQKYj9f1
+IX=[IiZCYk2jGc0BSRin2I2
+R0
+R1
+w1737569546
+8D:/Digital chipset design/FFT_parallel_time_decimation/addres_1st_generator.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/addres_1st_generator.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z6 !s108 1737569924.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/addres_1st_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/addres_1st_generator.v|
+!i113 1
+R3
+R4
+vaddres_generator
+R5
+!i10b 1
+!s100 GfEROiPfKn=XP4R?YRJg>1
+I48bW52XH[MIKZYT`n=0980
+R0
+R1
+w1737569607
+8D:/Digital chipset design/FFT_parallel_time_decimation/addres_generator.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/addres_generator.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/addres_generator.v|
+!i113 1
+R3
+R4
+vCONTROL
+!s110 1736928853
+!i10b 1
+!s100 i3>oGHE9oDl=B5>HMUFL02
+I:N@H>:1WzgGChf[ODn]Ba3
+R0
+Z7 dD:/Digital chipset design/FFT_VERSION_MODEL/Modelsim
+w1736928850
+8D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1736928853.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v|
+!i113 1
+R3
+R4
+n@c@o@n@t@r@o@l
+vCONTROL1
+Z8 !s110 1737570982
+!i10b 1
+!s100 `=25IKdIVZ9aKBUoFeAR<1
+IYL4za[U:@eEH8=cc:[6@n2
+R0
+R1
+Z9 w1737570883
+8D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL1.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/CONTROL1.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z10 !s108 1737570982.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL1.v|
+!i113 1
+R3
+R4
+n@c@o@n@t@r@o@l1
+vCONTROL2
+R8
+!i10b 1
+!s100 CHTf41clo3i?<FLV4T;M<2
+IG[R@SY63ajI[mI<caSOAC3
+R0
+R1
+R9
+8D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL2.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/CONTROL2.v
+L0 1
+R2
+r1
+!s85 0
+31
+R10
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL2.v|
+!i113 1
+R3
+R4
+n@c@o@n@t@r@o@l2
+vCONTROL_norm
+!s110 1736928339
+!i10b 1
+!s100 bZ:C5lMn_cnBbT@19i^PN2
+IE>b?7WVSK^N85T6``1b5A0
+R0
+R7
+w1736886180
+8D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1736928339.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v|
+!i113 1
+R3
+R4
+n@c@o@n@t@r@o@l_norm
+vdemultiplexor
+!s110 1741095866
+!i10b 1
+!s100 o>BY?Geih=oF?QJ5j6]=70
+IaW=XPB<I2gW415l>zGb>60
+R0
+R1
+w1739289228
+8D:/Digital chipset design/FFT_parallel_time_decimation/demultiplexor.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/demultiplexor.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1741095865.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/demultiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/demultiplexor.v|
+!i113 1
+R3
+R4
+vfinal_addres_generator
+!s110 1737571018
+!i10b 1
+!s100 J:dlj>AeO]F6J33>bec2j2
+Ih8k0>mlSPCm^l<X:S6D0S3
+R0
+R1
+w1737571015
+8D:/Digital chipset design/FFT_parallel_time_decimation/final_addres_generator.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/final_addres_generator.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1737571018.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/final_addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/final_addres_generator.v|
+!i113 1
+R3
+R4
+vFinal_RAM
+!s110 1737567642
+!i10b 1
+!s100 ]g8:?NdkHPV:W:2W7?O>D3
+ITn8X2zB9887GI1bQRKC]P3
+R0
+R1
+w1737567638
+8D:/Digital chipset design/FFT_parallel_time_decimation/Final_RAM.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Final_RAM.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z11 !s108 1737567642.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/Final_RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Final_RAM.v|
+!i113 1
+R3
+R4
+n@final_@r@a@m
+vFinal_stage
+!s110 1737571078
+!i10b 1
+!s100 Q3lSZKdP6;bM5YbW<NQ5c1
+IcWK_manI2JOmOFT`oNIH50
+R0
+R1
+w1737571076
+8D:/Digital chipset design/FFT_parallel_time_decimation/Final_stage.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Final_stage.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1737571078.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Final_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Final_stage.v|
+!i113 1
+R3
+R4
+n@final_stage
+vfirst_demultiplexor
+!s110 1737577934
+!i10b 1
+!s100 j4h[]a@F8_^zkhIQGMCcj0
+I5A3K`YJ_fIGQQO8k;d?230
+R0
+R1
+w1737577637
+8D:/Digital chipset design/FFT_parallel_time_decimation/first_demultiplexor.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/first_demultiplexor.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1737577934.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/first_demultiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/first_demultiplexor.v|
+!i113 1
+R3
+R4
+vFirst_RADIX
+!s110 1737543128
+!i10b 1
+!s100 9DR[MPQoP`87l]NML0<ik2
+Ihl?IJ58zb:hJK[L[HV6Ff0
+R0
+R1
+w1737542734
+8D:/Digital chipset design/FFT_parallel_time_decimation/First_RADIX.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/First_RADIX.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1737543127.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/First_RADIX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/First_RADIX.v|
+!i113 1
+R3
+R4
+n@first_@r@a@d@i@x
+vFirst_stage
+!s110 1737580060
+!i10b 1
+!s100 3<kJjm?AWFJ3W4S8WfR^z1
+IHoQFAG8`?CYcMX;4j>[`R3
+R0
+R1
+w1737580056
+8D:/Digital chipset design/FFT_parallel_time_decimation/First_stage.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/First_stage.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1737580060.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/First_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/First_stage.v|
+!i113 1
+R3
+R4
+n@first_stage
+vInter_stage
+R8
+!i10b 1
+!s100 9`QDQ<bV4eJR`Qh>P?m=<1
+IE;N2L8]U4T>AKhSMN:bSK1
+R0
+R1
+w1737570882
+8D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage.v
+L0 5
+R2
+r1
+!s85 0
+31
+R10
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage.v|
+!i113 1
+R3
+R4
+n@inter_stage
+vInter_stage2
+!s110 1737579480
+!i10b 1
+!s100 C4NK`HKG^2TKhNSg7[[Va2
+ILgDifWj:N]3Obd6ljHoAl3
+R0
+R1
+w1737579477
+8D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage2.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage2.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1737579480.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage2.v|
+!i113 1
+R3
+R4
+n@inter_stage2
+vInter_stage3
+Z12 !s110 1737579540
+!i10b 1
+!s100 bUlHGMUJfFJbSQ`eC5<k`0
+I7CB97Z^U@akF>mbzVnQfS3
+R0
+R1
+w1737579508
+8D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage3.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage3.v
+L0 5
+R2
+r1
+!s85 0
+31
+Z13 !s108 1737579540.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage3.v|
+!i113 1
+R3
+R4
+n@inter_stage3
+vInter_stage4
+R12
+!i10b 1
+!s100 z`84::BLn_Z:W4IKzL08Q2
+I1SX`_8Z<^fG<g<E6`m9J23
+R0
+R1
+w1737579514
+8D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage4.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage4.v
+L0 5
+R2
+r1
+!s85 0
+31
+R13
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage4.v|
+!i113 1
+R3
+R4
+n@inter_stage4
+vInter_stage5
+R12
+!i10b 1
+!s100 kCgfV3H4LDn@54CF9<R<R1
+IOH<_0b1FYNE7Za@jUb?0l3
+R0
+R1
+w1737579518
+8D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage5.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage5.v
+L0 5
+R2
+r1
+!s85 0
+31
+R13
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage5.v|
+!i113 1
+R3
+R4
+n@inter_stage5
+vInter_stage6
+R12
+!i10b 1
+!s100 _oQG;_74nP5UQYWjFY_3l1
+IU3QJB`h75BKS4hgRo[l:;0
+R0
+R1
+w1737579522
+8D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage6.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage6.v
+L0 5
+R2
+r1
+!s85 0
+31
+R13
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage6.v|
+!i113 1
+R3
+R4
+n@inter_stage6
+vInter_stage7
+R12
+!i10b 1
+!s100 DzemdDhQk??>N_fJk_IH>0
+I6iI58S9>L:?IZRf>fYkU12
+R0
+R1
+w1737579527
+8D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage7.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage7.v
+L0 5
+R2
+r1
+!s85 0
+31
+R13
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage7.v|
+!i113 1
+R3
+R4
+n@inter_stage7
+vINVERT_ADDR
+Z14 !s110 1737534923
+!i10b 1
+!s100 E3QgMG6RD=_aiccVoIJSJ1
+I0h:Xb[N?K7d6hHLhQ<`no1
+R0
+R1
+w1737281622
+8D:/Digital chipset design/FFT_parallel_time_decimation/INVERT_ADDR.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/INVERT_ADDR.v
+L0 16
+R2
+r1
+!s85 0
+31
+Z15 !s108 1737534923.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/INVERT_ADDR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/INVERT_ADDR.v|
+!i113 1
+R3
+R4
+n@i@n@v@e@r@t_@a@d@d@r
+vM_TWIDLE_0_15_v
+Z16 !s110 1736748669
+!i10b 1
+!s100 H6cmm_LEA:>CGBM7EhcdB2
+IS<DR3a5_AMP?NmlXbYmNz3
+R0
+R7
+w1736534457
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z17 !s108 1736748669.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_0_15_v
+vM_TWIDLE_10_bit
+Z18 !s110 1736748593
+!i10b 1
+!s100 oSiP@A`UI8jg698I:o=P`2
+IMbhNio[?:z;dJVIYGFGze3
+R0
+R7
+w1733669153
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z19 !s108 1736748593.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_10_bit
+vM_TWIDLE_11_bit
+R16
+!i10b 1
+!s100 DRRH;LD^EED5:o<Zz3Bz^0
+IeLA`QCSFo1ZMK>]MCek`71
+R0
+R7
+w1736521772
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_11_bit
+vM_TWIDLE_12_bit
+R18
+!i10b 1
+!s100 32QR;b2Cz2YhENM8S3ni80
+I8NA2IKhH1k^=J0_Ij^=C^1
+R0
+R7
+w1733669627
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R19
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_12_bit
+vM_TWIDLE_14_bit
+!s110 1736795433
+!i10b 1
+!s100 ?a`JaESQNCI8C=Va4@1X:1
+IK>01J@JAJJ:fHGOcVYPL73
+R0
+R7
+w1736795429
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1736795433.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_14_bit
+vM_TWIDLE_16_bit
+!s110 1737056321
+!i10b 1
+!s100 ;6fCL@kl=McCEHc6zC5C@2
+I6Q>R^7==P6;f[4;T>:HC^2
+R0
+R7
+w1737056319
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1737056321.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_16_bit
+vM_TWIDLE_6_bit
+Z20 !s110 1736748670
+!i10b 1
+!s100 IOmDRoPJVGc@dg77mdE>m0
+IWFe59zEE?K0MWlGA@FMoL3
+R0
+R7
+w1736520887
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_6_bit
+vM_TWIDLE_7_bit
+R20
+!i10b 1
+!s100 zS=^0SC`WJ4R4fcX^5_;>1
+IEbBSF1m66Vk;mc9?4Aiek3
+R0
+R7
+w1736521247
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z21 !s108 1736748670.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_7_bit
+vM_TWIDLE_8_bit
+R18
+!i10b 1
+!s100 agEfjzO^lihgHRmel]_481
+I4dWXzBzFNW[l7eSe8^>jT1
+R0
+R7
+w1736520856
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R19
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_8_bit
+vM_TWIDLE_9_bit
+R20
+!i10b 1
+!s100 K`ZlzBLj8Ode?5P5Ho]L`3
+I<U5N<1Aje`^keA6ME;H4E0
+R0
+R7
+w1736521640
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R21
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v|
+!i113 1
+R3
+R4
+n@m_@t@w@i@d@l@e_9_bit
+vMODIFY_FFT
+Z22 !s110 1737562517
+!i10b 1
+!s100 ]2PFM3Eo=CE`_hN9=>FW]3
+Ib5WoDQ0d`jNG4RTbJkQI`0
+R0
+R1
+w1737562512
+8D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_FFT.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_FFT.v
+L0 24
+R2
+r1
+!s85 0
+31
+Z23 !s108 1737562517.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_FFT.v|
+!i113 1
+R3
+R4
+n@m@o@d@i@f@y_@f@f@t
+vMODIFY_RADIX2
+!s110 1737542403
+!i10b 1
+!s100 X9?zN`hDhdbj9jH?;^2EZ1
+I6l8g0=HI3m1fL7Hd5OY0J3
+R0
+R1
+w1737542004
+8D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_RADIX2.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_RADIX2.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1737542403.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_RADIX2.v|
+!i113 1
+R3
+R4
+n@m@o@d@i@f@y_@r@a@d@i@x2
+vmodifying_adder
+R14
+!i10b 1
+!s100 L23=TO2DF=?@4SnDfTI1C0
+Ioo:46=A63H5bHBzGgOObP1
+R0
+R1
+w1737530660
+8D:/Digital chipset design/FFT_parallel_time_decimation/modifying_adder.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/modifying_adder.v
+L0 2
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/modifying_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/modifying_adder.v|
+!i113 1
+R3
+R4
+vmultiplexor
+!s110 1737576586
+!i10b 1
+!s100 K4W8jm3]l5@azNlGDln[U0
+I;zoeQCT8CJHe>lakTRMeG1
+R0
+R1
+w1737576583
+8D:/Digital chipset design/FFT_parallel_time_decimation/multiplexor.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/multiplexor.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1737576586.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/multiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/multiplexor.v|
+!i113 1
+R3
+R4
+vmultiply
+R14
+!i10b 1
+!s100 g[]1AS2ECkBh>Z:JmOI>[3
+Ic;A^hm9e2BE8j]Ecd[;F@1
+R0
+R1
+w1737529434
+8D:/Digital chipset design/FFT_parallel_time_decimation/multiply.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/multiply.v
+L0 1
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/multiply.v|
+!i113 1
+R3
+R4
+vout_addres_generator
+R14
+!i10b 1
+!s100 QlcJl_>CO6zFbMj;7E>1b2
+IQ>SWD0OzmfFd?3PR4HKVG1
+R0
+R1
+w1737127434
+8D:/Digital chipset design/FFT_parallel_time_decimation/out_addres_generator.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/out_addres_generator.v
+L0 1
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/out_addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/out_addres_generator.v|
+!i113 1
+R3
+R4
+vOut_stage
+!s110 1737543077
+!i10b 1
+!s100 3ngT:]_gF5e@Yla?W6A952
+IiPDHX=b7JG]8]l;a4GX8o1
+R0
+R1
+w1737542576
+8D:/Digital chipset design/FFT_parallel_time_decimation/Out_stage.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/Out_stage.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1737543077.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/Out_stage.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/Out_stage.v|
+!i113 1
+R3
+R4
+n@out_stage
+vPROCESS_O_DATA
+Z24 !s110 1737534924
+!i10b 1
+!s100 g[SKeW5^b:>bUIJh^ZKOl1
+InJB@Q4[a>MS5J:3Zb5c^U3
+R0
+R1
+w1737125326
+8D:/Digital chipset design/FFT_parallel_time_decimation/PROCESS_O_DATA.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/PROCESS_O_DATA.v
+L0 1
+R2
+r1
+!s85 0
+31
+R15
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/PROCESS_O_DATA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/PROCESS_O_DATA.v|
+!i113 1
+R3
+R4
+n@p@r@o@c@e@s@s_@o_@d@a@t@a
+vRADIX
+!s110 1737581006
+!i10b 1
+!s100 Yj86dRI8CE>;PO4<]gQnk1
+I<=0Z5TW]LD8zcm;ahXFhT2
+R0
+R1
+w1737581004
+8D:/Digital chipset design/FFT_parallel_time_decimation/RADIX.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RADIX.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1737581006.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RADIX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RADIX.v|
+!i113 1
+R3
+R4
+n@r@a@d@i@x
+vRADIX2
+R24
+!i10b 1
+!s100 oQnPBY0?YGS>S6E@:bFF<3
+ITA[gAkjAHgDo4dadSPDa?3
+R0
+R1
+w1733559951
+8D:/Digital chipset design/FFT_parallel_time_decimation/RADIX2.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RADIX2.v
+L0 6
+R2
+r1
+!s85 0
+31
+Z25 !s108 1737534924.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:/Digital chipset design/FFT_parallel_time_decimation/RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RADIX2.v|
+!i113 1
+R3
+R4
+n@r@a@d@i@x2
+vRAM
+R22
+!i10b 1
+!s100 o]JJTESiL4X[QY^AQIaeR2
+IdKid]^:gMM`^cgBDVc;:V2
+R0
+R1
+w1737561544
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM.v
+L0 1
+R2
+r1
+!s85 0
+31
+R23
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM.v|
+!i113 1
+R3
+R4
+n@r@a@m
+vRAM1
+Z26 !s110 1737567643
+!i10b 1
+!s100 @B:=`6bWzgoV=5XTWf59K3
+IZkkd4UBL1ROWU:_gW5>_]1
+R0
+R1
+w1737567567
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM1.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM1.v
+L0 1
+R2
+r1
+!s85 0
+31
+R11
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM1.v|
+!i113 1
+R3
+R4
+n@r@a@m1
+vRAM2
+R26
+!i10b 1
+!s100 96ki<>W=d?cc_WIYU:XGh1
+IR`30<4TXZ[J0PIiLcG0JG0
+R0
+R1
+w1737567592
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM2.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM2.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z27 !s108 1737567643.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM2.v|
+!i113 1
+R3
+R4
+n@r@a@m2
+vRAM3
+R26
+!i10b 1
+!s100 ;ALoM?6k5c?HnLa6^^@gj3
+IRL>9X;e::1eKZ42Yd`YCD3
+R0
+R1
+w1737567597
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM3.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM3.v
+L0 1
+R2
+r1
+!s85 0
+31
+R27
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM3.v|
+!i113 1
+R3
+R4
+n@r@a@m3
+vRAM4
+R26
+!i10b 1
+!s100 7I^<@i3V5X@A94zYGoc520
+I8N^5C>eeC[@]T7YJ@@NfZ2
+R0
+R1
+w1737567601
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM4.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM4.v
+L0 1
+R2
+r1
+!s85 0
+31
+R27
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM4.v|
+!i113 1
+R3
+R4
+n@r@a@m4
+vRAM5
+R26
+!i10b 1
+!s100 OQ@P2fZU7]dQW36dVgKPl1
+IE4T3Vggjd1Ta=IZaVb]k^1
+R0
+R1
+w1737567604
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM5.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM5.v
+L0 1
+R2
+r1
+!s85 0
+31
+R27
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM5.v|
+!i113 1
+R3
+R4
+n@r@a@m5
+vRAM6
+R26
+!i10b 1
+!s100 5077nPSme2`Z2f2YNfFUH1
+I4NN@jf9OG<OZ4T<`j4IJG2
+R0
+R1
+w1737567608
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM6.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM6.v
+L0 1
+R2
+r1
+!s85 0
+31
+R27
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM6.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM6.v|
+!i113 1
+R3
+R4
+n@r@a@m6
+vRAM7
+R26
+!i10b 1
+!s100 ao94<1;@=a2odbkWWR69F2
+IXkU9WZNe47[dGEO^Iajm^0
+R0
+R1
+w1737567612
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM7.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM7.v
+L0 1
+R2
+r1
+!s85 0
+31
+R27
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM7.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM7.v|
+!i113 1
+R3
+R4
+n@r@a@m7
+vRAM8
+R26
+!i10b 1
+!s100 O3hFX=H[dAhoc5hfm3zBT3
+I8l7L6EPDMHoYBhcCC_f?f2
+R0
+R1
+w1737567620
+8D:/Digital chipset design/FFT_parallel_time_decimation/RAM8.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/RAM8.v
+L0 1
+R2
+r1
+!s85 0
+31
+R27
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/RAM8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/RAM8.v|
+!i113 1
+R3
+R4
+n@r@a@m8
+vseg7_data
+R24
+!i10b 1
+!s100 A[E9;jm@WMGR1G>RJeC?i0
+I=C4lM<oUI1_U:K4:QmX=61
+R0
+R1
+w1733131615
+8D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/seg7_data.v
+Z28 L0 17
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data.v|
+!i113 1
+R3
+R4
+vseg7_data2
+R24
+!i10b 1
+!s100 [WZiXG1cNRKjS4d>Ae:]T2
+Ig?^]3D^M;NiO1DzAY;gj30
+R0
+R1
+w1733680203
+8D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data2.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/seg7_data2.v
+R28
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data2.v|
+!i113 1
+R3
+R4
+vshift_register
+R24
+!i10b 1
+!s100 VAzG:O2b5c_d47VO6CLeK0
+ID;UzRMe[ZkDcH5BWXJP?@2
+R0
+R1
+w1736845077
+8D:/Digital chipset design/FFT_parallel_time_decimation/shift_register.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/shift_register.v
+L0 1
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/shift_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/shift_register.v|
+!i113 1
+R3
+R4
+vshift_register_with_valid
+R24
+!i10b 1
+!s100 ;cdR>M_0>EbOO3G;H[KAd3
+IGWgZXlH_h1Mj3F>QkRBML2
+R0
+R1
+w1737142662
+8D:/Digital chipset design/FFT_parallel_time_decimation/shift_register_with_valid.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/shift_register_with_valid.v
+L0 3
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/shift_register_with_valid.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/shift_register_with_valid.v|
+!i113 1
+R3
+R4
+vsigned_shift_register
+R24
+!i10b 1
+!s100 ZkK_4GR3cCkIjfWClZW;93
+IE16Wj09JgDiZHmG<[W`nX3
+R0
+R1
+w1736845120
+8D:/Digital chipset design/FFT_parallel_time_decimation/signed_shift_register.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/signed_shift_register.v
+L0 1
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/signed_shift_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/signed_shift_register.v|
+!i113 1
+R3
+R4
+vtop_module
+!s110 1744225134
+!i10b 1
+!s100 YlFz<>QOR6B9_bcd4oKgn3
+IO]9m6FYj`;fo1>`8Ko`Ik0
+R0
+R1
+w1744225131
+8D:\Digital chipset design\FFT_parallel_time_decimation\top_module.v
+FD:\Digital chipset design\FFT_parallel_time_decimation\top_module.v
+L0 19
+R2
+r1
+!s85 0
+31
+!s108 1744225134.000000
+!s107 D:\Digital chipset design\FFT_parallel_time_decimation\config_FFT.svh|D:\Digital chipset design\FFT_parallel_time_decimation\top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Digital chipset design\FFT_parallel_time_decimation\top_module.v|
+!i113 1
+R3
+R4
+vTWIDLE_10_bit
+R18
+!i10b 1
+!s100 eL7WjGz7I2088=IW`>5j?2
+I44YdUI[F@>>;NSHh^YY@B1
+R0
+R7
+w1733667347
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R19
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v|
+!i113 1
+R3
+R4
+n@t@w@i@d@l@e_10_bit
+vTWIDLE_12_bit
+Z29 !s110 1736748594
+!i10b 1
+!s100 nZZnjYjB0hBbKWid_3TNe0
+I]dEdXQ>DOHYJjJ5gWZFMa2
+R0
+R7
+w1733667177
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z30 !s108 1736748594.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v|
+!i113 1
+R3
+R4
+n@t@w@i@d@l@e_12_bit
+vTWIDLE_14_bit
+R29
+!i10b 1
+!s100 RgSzcU3_MzWfCC[k:Az;Z1
+IY4M403Zak:?=W@bNGA;Ve1
+R0
+R7
+w1736524237
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R30
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v|
+!i113 1
+R3
+R4
+n@t@w@i@d@l@e_14_bit
+vTWIDLE_16_bit
+!s110 1733663003
+!i10b 1
+!s100 ?GI^gZZA7lS=G?@HaNE8V3
+ISc^42S5LlVfICEaYW5bXM3
+R0
+R7
+w1733652206
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1733663003.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v|
+!i113 1
+R3
+R4
+n@t@w@i@d@l@e_16_bit
+vTWIDLE_8_bit
+R18
+!i10b 1
+!s100 :XFzgohcWkbBje;mVRg@G3
+INFQTi^[mP<[9YhAbkRN8[3
+R0
+R7
+w1736515516
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v
+L0 1
+R2
+r1
+!s85 0
+31
+R19
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v|
+!i113 1
+R3
+R4
+n@t@w@i@d@l@e_8_bit
+vuart_rx
+R24
+!i10b 1
+!s100 Gfk>=21f5SL>oWKE8R@;70
+I1CDnZkWgKdZ>^jl1Z?U4<3
+R0
+R1
+w1737037188
+8D:/Digital chipset design/FFT_parallel_time_decimation/uart_rx.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/uart_rx.v
+L0 2
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/uart_rx.v|
+!i113 1
+R3
+R4
+vuart_tx
+R24
+!i10b 1
+!s100 oOZJWPON163B8?gcT]NTm2
+Ig_ShFSJ`_=[OoK^AT6_7P1
+R0
+R1
+w1737125613
+8D:/Digital chipset design/FFT_parallel_time_decimation/uart_tx.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/uart_tx.v
+L0 1
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/uart_tx.v|
+!i113 1
+R3
+R4
+vuart_vd
+R24
+!i10b 1
+!s100 C?4eS<<4eQ]JM7CG3?JW72
+IiC=APSA0^7YFJ4n><gV5Q1
+R0
+R1
+w1737021920
+8D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/uart_vd.v
+L0 4
+R2
+r1
+!s85 0
+31
+R25
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd.v|
+!i113 1
+R3
+R4
+vuart_vd_tb
+!s110 1744225313
+!i10b 1
+!s100 G5OYOUQd_6nlTCbiJjmd@2
+I^e0YfnYI8a5NBhS[I1AA13
+R0
+R1
+w1744225310
+8D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd_tb.v
+FD:/Digital chipset design/FFT_parallel_time_decimation/uart_vd_tb.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1744225313.000000
+!s107 D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd_tb.v|
+!i113 1
+R3
+R4

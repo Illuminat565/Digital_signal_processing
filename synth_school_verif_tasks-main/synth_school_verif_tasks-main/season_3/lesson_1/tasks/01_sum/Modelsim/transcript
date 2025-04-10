@@ -1,0 +1,15 @@
+# Compile of checker.svh failed with 1 errors.
+# Compile of sum.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 1 failed with 1 error.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 13:58:38 on Oct 12,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.sum
+# ** Error: (vsim-1) Unable to checkout verification license - testbench generation feature (randomize, randcase, randsequence, covergroup) is only supported with QuestaSim.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/Digital chipset design/synth_school_verif_tasks-main/synth_school_verif_tasks-main/season_3/lesson_1/tasks/01_sum/testbench.sv
+# Error loading design
+# End time: 13:58:39 on Oct 12,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

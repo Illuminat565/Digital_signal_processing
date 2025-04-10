@@ -1,0 +1,459 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+vadder
+!s110 1718479929
+!i10b 1
+!s100 NbM8TGJIfK:S`b7D7R1zU1
+IbbVke^zRNE9@2Fe86maRX1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dE:/Intel_FPGA_Code/FINAL_OPTIMUM5/Modelsim
+w1718479924
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/adder.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/adder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1718479929.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/adder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vCONTROL
+!s110 1718520821
+!i10b 1
+!s100 8@^K[ZE?9B;cLEmejLX_<0
+IWBHz0Lna[7ZgH`T>m3^X01
+R0
+R1
+w1718520818
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/CONTROL.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/CONTROL.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1718520821.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/CONTROL.v|
+!i113 1
+R3
+R4
+n@c@o@n@t@r@o@l
+vdata_FFT
+Z5 !s110 1718398619
+!i10b 1
+!s100 cDAX<Xo;8j<PmJWLl:89h2
+I4@M;R2KUVVIH^lZzSWB=O2
+R0
+R1
+w1712989095
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/data_FFT.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/data_FFT.v
+L0 18
+R2
+r1
+!s85 0
+31
+Z6 !s108 1718398619.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/data_FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/data_FFT.v|
+!i113 1
+R3
+R4
+ndata_@f@f@t
+vINVERT_ADDR
+Z7 !s110 1718517560
+!i10b 1
+!s100 FDOe_SU?T2?33[1UD1mDf3
+IoDHO=Chmh[KAlazZ65Ni[1
+R0
+R1
+w1718482832
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/INVERT_ADDR.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/INVERT_ADDR.v
+Z8 L0 16
+R2
+r1
+!s85 0
+31
+Z9 !s108 1718517560.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/INVERT_ADDR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/INVERT_ADDR.v|
+!i113 1
+R3
+R4
+n@i@n@v@e@r@t_@a@d@d@r
+vMODIFY_FFT2
+Z10 !s110 1718520780
+!i10b 1
+!s100 3kdRki@49@V7eK_L6c2;32
+ImZ0RzH8B<oBG2L24WP]ec1
+R0
+R1
+w1718520583
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/MODIFY_FFT2.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/MODIFY_FFT2.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z11 !s108 1718520780.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/MODIFY_FFT2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/MODIFY_FFT2.v|
+!i113 1
+R3
+R4
+n@m@o@d@i@f@y_@f@f@t2
+vmultiply
+R5
+!i10b 1
+!s100 66`Immc`g[aW:ZR`dfkm>1
+IXWD1DLN@UGIFOf9mMFNiV1
+R0
+R1
+w1718344508
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/multiply.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/multiply.v
+L0 1
+R2
+r1
+!s85 0
+31
+R6
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/multiply.v|
+!i113 1
+R3
+R4
+vRADIX2
+!s110 1718479471
+!i10b 1
+!s100 l]F2ffb@gVlci_fzOA=JY2
+I7l0oQeQ`IU?aAW6^WRM>o3
+R0
+R1
+w1718479388
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RADIX2.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/RADIX2.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1718479471.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RADIX2.v|
+!i113 1
+R3
+R4
+n@r@a@d@i@x2
+vRAM
+!s110 1718403363
+!i10b 1
+!s100 _2PT0J]T8alRo:m6QC_o92
+Ic:oha@YFE^d67?=Uk>RR73
+R0
+R1
+w1718403358
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1718403363.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM.v|
+!i113 1
+R3
+R4
+n@r@a@m
+vRAM2
+Z12 !s110 1718398620
+!i10b 1
+!s100 W[eXi5cFU16kFWk9@@4k51
+IX;cjk=JQAUST>8ELRjg3N2
+R0
+R1
+w1718380890
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM2.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM2.v
+L0 1
+R2
+r1
+!s85 0
+31
+Z13 !s108 1718398620.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM2.v|
+!i113 1
+R3
+R4
+n@r@a@m2
+vregister
+!s110 1718398840
+!i10b 1
+!s100 l`5lBV`UKi[;kD>3BQV>]1
+IQ?2UW9^=aX`D2?G<B2Fh<0
+R0
+R1
+w1718398833
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/register.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/register.v
+R8
+R2
+r1
+!s85 0
+31
+!s108 1718398839.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/register.v|
+!i113 1
+R3
+R4
+vROM_TWIDLE
+!s110 1718446184
+!i10b 1
+!s100 _MAcDcU_S5OjXe@ULEgFI1
+ID=0=^5XXDRi?B[3Uljehf0
+R0
+R1
+w1718446120
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/ROM_TWIDLE.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/ROM_TWIDLE.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1718446184.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/ROM_TWIDLE.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/ROM_TWIDLE.v|
+!i113 1
+R3
+R4
+n@r@o@m_@t@w@i@d@l@e
+vseg7_data
+!s110 1718521426
+!i10b 1
+!s100 ABW=Y@z5_Bj`@Zd5e1cd62
+I9W_=L4EmO4l[G7S<:m^jl2
+R0
+R1
+w1718521422
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data.v
+Z14 L0 17
+R2
+r1
+!s85 0
+31
+!s108 1718521426.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data.v|
+!i113 1
+R3
+R4
+vseg7_data2
+R12
+!i10b 1
+!s100 l>=QCXIi0n8GmK_Y@zD700
+IYf]nSkC_5PFAk2UgFBIXe2
+R0
+R1
+w1715853737
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data2.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data2.v
+R14
+R2
+r1
+!s85 0
+31
+R13
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data2.v|
+!i113 1
+R3
+R4
+vtop_module
+R10
+!i10b 1
+!s100 13?cF90CkJUDeTVOmLzXg3
+IBHdfD7=fLKd^MMhM05iWe3
+R0
+R1
+w1718520777
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module.v
+R8
+R2
+r1
+!s85 0
+31
+R11
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module.v|
+!i113 1
+R3
+R4
+vtop_module_models
+!s110 1718521070
+!i10b 1
+!s100 L4MX]G4==I8RQY[HE2j?l2
+I:fVPF<lKS=]P83=^@hda:2
+R0
+R1
+w1718521066
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_modul_models.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_modul_models.v
+R8
+R2
+r1
+!s85 0
+31
+!s108 1718521070.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_modul_models.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_modul_models.v|
+!i113 1
+R3
+R4
+vtop_module_tb
+!s110 1718398759
+!i10b 1
+!s100 ^Q>G0c@oD[9m7]Z8Gb[H?0
+I537``kJQ>hI1>89^haooU1
+R0
+R1
+w1718398756
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module_tb.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module_tb.v
+L0 19
+R2
+r1
+!s85 0
+31
+!s108 1718398759.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module_tb.v|
+!i113 1
+R3
+R4
+vuart_rx2
+R12
+!i10b 1
+!s100 6`C0fRb]R`[:^oOlFRK;N0
+IX6Gb1DDjgSngHUO8im2AB3
+R0
+R1
+w1716901458
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx2.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx2.v
+L0 1
+R2
+r1
+!s85 0
+31
+R13
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx2.v|
+!i113 1
+R3
+R4
+vuart_rx_model
+R12
+!i10b 1
+!s100 9_j_AEmTWz@oXX1CfA;=B1
+IR=53>F]=ZoYU]J3B?AbWd2
+R0
+R1
+w1715837922
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx_model.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx_model.v
+L0 1
+R2
+r1
+!s85 0
+31
+R13
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx_model.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx_model.v|
+!i113 1
+R3
+R4
+vuart_tx2
+R7
+!i10b 1
+!s100 :lXkjPPP^Ko6ck@H?Q8RV1
+IR[3]726RCg1<ZX_Q?eAez1
+R0
+R1
+w1718482896
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_tx2.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_tx2.v
+L0 1
+R2
+r1
+!s85 0
+31
+R9
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_tx2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_tx2.v|
+!i113 1
+R3
+R4
+vuart_vd
+!s110 1718398621
+!i10b 1
+!s100 El>J[`<5^INRYKD94QZgZ3
+IHTQ=k=3QQb>1zl8Azc>Tb2
+R0
+R1
+w1712084356
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1718398621.000000
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd.v|
+!i113 1
+R3
+R4
+vuart_vd_tb
+R5
+!i10b 1
+!s100 =LWh:CbcAea`Pfza2nXdg1
+I4@GWgk3iB3B4n8]WTh6V]1
+R0
+R1
+w1715748245
+8E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd_tb.v
+FE:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd_tb.v
+L0 4
+R2
+r1
+!s85 0
+31
+R6
+!s107 E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd_tb.v|
+!i113 1
+R3
+R4

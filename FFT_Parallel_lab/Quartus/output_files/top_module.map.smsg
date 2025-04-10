@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at top_module.v(51): object "invert_addr" differs only in case from object "INVERT_ADDR" in the same scope File: D:/Digital chipset design/FFT_Parallel_lab/top_module.v Line: 51
+Info (10281): Verilog HDL Declaration information at seg7_data2.v(51): object "max_chanel" differs only in case from object "MAX_CHANEL" in the same scope File: D:/Digital chipset design/FFT_Parallel_lab/seg7_data2.v Line: 51
+Warning (10268): Verilog HDL information at seg7_data.v(70): always construct contains both blocking and non-blocking assignments File: D:/Digital chipset design/FFT_Parallel_lab/seg7_data.v Line: 70
+Info (10281): Verilog HDL Declaration information at seg7_data.v(38): object "display" differs only in case from object "DISPLAY" in the same scope File: D:/Digital chipset design/FFT_Parallel_lab/seg7_data.v Line: 38

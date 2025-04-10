@@ -1,0 +1,140 @@
+module MODIFY_FFT2 #(parameter N=29, DEPTH = 16, SIZE = 4) 
+(
+    input clk,rst_n,
+    input en_FFT,
+    input full_data,
+
+    input signed [N-1:0] x_real_i,
+    input signed [N-1:0] y_real_i,
+    input        [SIZE:0]inx_point,
+    input  load_data,
+
+    output  signed [N-1:0] x_real_o ,
+    output  signed [N-1:0] y_real_o, 
+    output  en_rd,
+    output  done_o
+);
+
+    
+    wire  signed [N-1:0] x_i;
+    wire  signed [N-1:0] y_i;
+    wire  signed [N-1:0] x_o_temp1;
+    wire  signed [N-1:0] y_o_temp1;
+    wire  signed [N-1:0] x_o_temp2;
+    wire  signed [N-1:0] y_o_temp2;
+    wire  signed [N-1:0] x_o_temp3;
+    wire  signed [N-1:0] y_o_temp3;
+    wire  signed [N-1:0] x_o_temp4;
+    wire  signed [N-1:0] y_o_temp4;
+
+    wire signed [N-1:0] x_o_temp;
+    wire signed [N-1:0] y_o_temp;
+    wire                en_rd_temp; 
+
+    
+    wire  finish_FFT;
+    wire  [SIZE:0] index_mem_o;
+    wire  [SIZE:0] index_mem;
+    wire  en_o_butf;
+    wire  [10:0] index_angle;
+    wire  done_index;
+    wire  en_wr_mem;
+    wire  en_rd_mem;
+    wire  [3:0] stage_FFT;
+    wire  [SIZE:0] index_wr;
+    wire  [SIZE:0] index_rd;
+    wire  done_bf;
+    wire signed [15:0]  sin_data;
+    wire signed [15:0]  cos_data;
+    wire done_o_mem;
+
+    assign x_real_o = (stage_FFT == SIZE+1'b1)? x_o_temp:0;
+    assign y_real_o = (stage_FFT == SIZE+1'b1)? y_o_temp:0;
+    assign en_rd    = (stage_FFT == SIZE+1'b1)? en_rd_temp:0;
+
+//--------------------------------------------------------------------------
+    
+
+    INDEX2 #( .N(N), .DEPTH(DEPTH),.SIZE(SIZE)) INDEX(
+     .clk(clk),
+     .rst_n(rst_n),
+
+     .en_index(flag_start_FFT),
+
+     .x_buft_o1(x_o_temp2),
+     .y_buft_o1(y_o_temp2),
+     .x_buft_o2(x_o_temp4),
+     .y_buft_o2(y_o_temp4),
+
+     .back_mem(done_o_mem), 
+
+     .xout(x_i),
+     .yout(y_i),
+     .index_wr(index_wr),
+     .en_wr_mem(en_wr_mem),
+
+     .stage_FFT(stage_FFT),
+
+     .index_rd(index_rd),
+     .index_angle(index_angle),
+     
+     .finish_FFT(finish_FFT),
+     .en_o(en_rd_mem),
+     .done_o(done_o)
+ );
+
+    MEM_DATA2  #( .N(N), .DEPTH(DEPTH),.SIZE(SIZE)) MEM_DATA(
+     .clk(clk),
+     .rst_n(rst_n),
+
+     .load_data(load_data),
+     .invert_adr(inx_point),
+     .x_real_i1(x_real_i),
+     .y_real_i1(y_real_i),
+
+     .en_wr(en_wr_mem),
+     .x_real_i2(x_i),
+     .y_real_i2(y_i),
+     
+     .index_wr2(index_wr),
+     .index_rd(index_rd),
+     
+     .en_rd(en_rd_mem),
+     .x_real_o1(x_o_temp1),
+     .y_real_o1(y_o_temp1),
+     .x_real_o2(x_o_temp3),
+     .y_real_o2(y_o_temp3),
+
+     .x_real_o(x_o_temp),
+     .y_real_o(y_o_temp),
+     
+     .flag_start_FFT(flag_start_FFT),
+     .en_o(en_rd_temp),
+     .done_o(done_o_mem)
+ );
+
+   ROM_TWIDLE #(.SIZE(SIZE)) ROM_TWIDLE (
+      .stage_FFT(stage_FFT),
+      .index_angle(index_angle),
+
+      .cos_data(cos_data),
+      .sin_data(sin_data)
+ );
+
+   butterfly_modify4  #( .N(N),.SIZE(SIZE)) BUTTERFLY_MODIFY4   (
+
+   .stage_FFT(stage_FFT),
+   .sin_data(sin_data),
+   .cos_data(cos_data),
+   .data_real1  (x_o_temp1),
+   .data_image1 (y_o_temp1),
+   .data_real2  (x_o_temp3),
+   .data_imag2 (y_o_temp3),
+
+   .data_xout1(x_o_temp2),
+   .data_yout1(y_o_temp2),
+   .data_xout2(x_o_temp4),
+   .data_yout2(y_o_temp4)  
+   );
+
+endmodule

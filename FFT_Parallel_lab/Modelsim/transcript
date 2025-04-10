@@ -1,0 +1,57 @@
+# Compile of CLASS_CONTROL.v was successful.
+# Compile of top_module.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 21:52:44 on Apr 09,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.uart_rx
+# Loading work.INVERT_ADDR
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+# Loading work.MODIFY_FFT
+# Loading work.first_state
+# Loading work.addres_1st_generator
+# Loading work.shift_register
+# Loading work.RAM
+# Loading work.demultiplexor
+# Loading work.RADIX_WITH_NO_MULTIPLIER
+# Loading work.multiplexor
+# Loading work.final_state
+# Loading work.add_multiplier_generator
+# Loading work.final_addres_generator
+# Loading work.tw_factor_generator
+# Loading work.MODIFY_RADIX2
+# Loading work.multiply
+# Loading work.modifying_adder
+# Loading work.out_state
+# Loading work.out_addres_generator
+# Loading work.M_TWIDLE_14_bit
+# Loading work.inter_state
+# Loading work.addres_generator
+# Loading work.RADIX
+# Loading work.adder
+# Loading work.tw_factor_for_sec
+# Loading work.tw_factor_for_3th
+# Loading work.tw_factor_for_4th
+# Loading work.tw_factor_for_5th
+# Loading work.tw_factor_for_6th
+# Loading work.tw_factor_for_7th
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_Parallel_lab/uart_vd_tb.v(15): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_Parallel_lab/top_module.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Parallel_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'key'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Parallel_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'seg'.
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/out_state_ins/ram_data_store/mem_Re \
+sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/out_state_ins/ram_data_store/mem_Im
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: admin  Hostname: LAPTOP-M1UA592I  ProcessID: 7084
+#           Attempting to use alternate WLF file "./wlft4xmqqt".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4xmqqt
+run
+# End time: 21:54:30 on Apr 09,2025, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 5
+# Closing project D:/Digital chipset design/FFT_Parallel_lab/Modelsim/Test+FFT.mpf

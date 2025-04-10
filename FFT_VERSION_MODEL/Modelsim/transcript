@@ -1,0 +1,48 @@
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 21:38:44 on Feb 07,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.uart_rx
+# Loading work.INVERT_ADDR
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL2
+# Loading work.shift_register
+# Loading work.addres_1st_generator
+# Loading work.addres_generator
+# Loading work.final_addres_generator
+# Loading work.out_addres_generator
+# Loading work.RAM
+# Loading work.demultiplexor
+# Loading work.MODIFY_RADIX2
+# Loading work.multiplexor
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/start_flag
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: admin  Hostname: LAPTOP-M1UA592I  ProcessID: 7084
+#           Attempting to use alternate WLF file "./wlft021rw2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft021rw2
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/CONTROL/addres_final_generator/start_next_stage
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/en_wr_mem
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/uart_vd_tb/clk
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 22:36:07 on Feb 07,2025, Elapsed time: 0:57:23
+# Errors: 0, Warnings: 2

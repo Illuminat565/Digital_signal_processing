@@ -1,0 +1,228 @@
+{D:/Digital chipset design/Pipeline_FFT_DSPA/uart_vd.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/uart_vd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd
+
+Top level modules:
+	uart_vd
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/uart_rx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/uart_rx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/PROCESS_O_DATA.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/PROCESS_O_DATA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PROCESS_O_DATA
+
+Top level modules:
+	PROCESS_O_DATA
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE8_1.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE8_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE8_1
+
+Top level modules:
+	TWIDLE_14_bit_STAGE8_1
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/MODIFY_FFT.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/MODIFY_FFT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_FFT
+
+Top level modules:
+	MODIFY_FFT
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE1.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE1
+
+Top level modules:
+	TWIDLE_14_bit_STAGE1
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE8_2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE8_2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE8_2
+
+Top level modules:
+	TWIDLE_14_bit_STAGE8_2
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/seg7_data.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/seg7_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data
+
+Top level modules:
+	seg7_data
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/uart_tx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/uart_tx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/config_FFT.svh} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/config_FFT.svh}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE3.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE3
+
+Top level modules:
+	TWIDLE_14_bit_STAGE3
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/seg7_data2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/seg7_data2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data2
+
+Top level modules:
+	seg7_data2
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/INVERT_ADDR.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/INVERT_ADDR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT_ADDR
+
+Top level modules:
+	INVERT_ADDR
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/RAM2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/RAM2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM2
+
+Top level modules:
+	RAM2
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/uart_vd_tb.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/uart_vd_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd_tb
+
+Top level modules:
+	uart_vd_tb
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE4.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE4
+
+Top level modules:
+	TWIDLE_14_bit_STAGE4
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL2
+
+Top level modules:
+	CONTROL2
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE5.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE5
+
+Top level modules:
+	TWIDLE_14_bit_STAGE5
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL3.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL3
+
+Top level modules:
+	CONTROL3
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE6.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE6
+
+Top level modules:
+	TWIDLE_14_bit_STAGE6
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL4.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL4
+
+Top level modules:
+	CONTROL4
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE7.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE7
+
+Top level modules:
+	TWIDLE_14_bit_STAGE7
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL5.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL5
+
+Top level modules:
+	CONTROL5
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL6.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL6
+
+Top level modules:
+	CONTROL6
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/modify_RADIX.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/modify_RADIX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module modify_RADIX
+
+Top level modules:
+	modify_RADIX
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL7.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL7
+
+Top level modules:
+	CONTROL7
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/RAM.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE2 .v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/TWIDLE_14_bit_STAGE2 .v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module TWIDLE_14_bit_STAGE2
+
+Top level modules:
+	TWIDLE_14_bit_STAGE2
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/top_module.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/top_module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module
+
+Top level modules:
+	top_module
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/RADIX.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/RADIX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX
+
+Top level modules:
+	RADIX
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/final_RADIX.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/final_RADIX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module final_RADIX
+
+Top level modules:
+	final_RADIX
+
+} {} {}} {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL8.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/Pipeline_FFT_DSPA/CONTROL8.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL8
+
+Top level modules:
+	CONTROL8
+
+} {} {}}

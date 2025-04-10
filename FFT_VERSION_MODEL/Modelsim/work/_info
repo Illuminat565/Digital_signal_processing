@@ -1,0 +1,938 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vaddres_1st_generator
+Z0 !s110 1737137170
+!i10b 1
+!s100 V`6F4Vg;lVOMG4EdYl?`h3
+I8b44aGjQ9QN<d43LFG_Gb2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Digital chipset design/FFT_VERSION_MODEL/Modelsim
+w1737127926
+8D:/Digital chipset design/FFT_VERSION_MODEL/addres_1st_generator.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/addres_1st_generator.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1737137170.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/addres_1st_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/addres_1st_generator.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vaddres_generator
+!s110 1737281236
+!i10b 1
+!s100 X`gZYO<;hGB;4eXW6AhcV2
+IWEm9m`ERQVGB_]C7J2[DS2
+R1
+R2
+w1737281140
+8D:/Digital chipset design/FFT_VERSION_MODEL/addres_generator.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/addres_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1737281236.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/addres_generator.v|
+!i113 1
+R5
+R6
+vCONTROL
+!s110 1736928853
+!i10b 1
+!s100 i3>oGHE9oDl=B5>HMUFL02
+I:N@H>:1WzgGChf[ODn]Ba3
+R1
+R2
+w1736928850
+8D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736928853.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l
+vCONTROL2
+!s110 1738943567
+!i10b 1
+!s100 CHTf41clo3i?<FLV4T;M<2
+IodHz`BF@Dke[3Vo=?zz?Q2
+R1
+R2
+w1737532135
+8D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL2.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/CONTROL2.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1738943566.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL2.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l2
+vCONTROL_norm
+!s110 1736928339
+!i10b 1
+!s100 bZ:C5lMn_cnBbT@19i^PN2
+IE>b?7WVSK^N85T6``1b5A0
+R1
+R2
+w1736886180
+8D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736928339.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL_norm.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l_norm
+vdemultiplexor
+!s110 1737488317
+!i10b 1
+!s100 Az7W<IogLKj_M6V5kNUkI0
+INZ^?`1IGek5hCXRGB3UBI1
+R1
+R2
+w1737488167
+8D:/Digital chipset design/FFT_VERSION_MODEL/demultiplexor.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/demultiplexor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1737488317.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/demultiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/demultiplexor.v|
+!i113 1
+R5
+R6
+vfinal_addres_generator
+!s110 1736965447
+!i10b 1
+!s100 0BB3MzChmA2ak5XD7ZQBT2
+InGc1TVd2ZN<dR?Jj3AlVD3
+R1
+R2
+w1736965423
+8D:/Digital chipset design/FFT_VERSION_MODEL/final_addres_generator.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/final_addres_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736965447.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/final_addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/final_addres_generator.v|
+!i113 1
+R5
+R6
+vINVERT_ADDR
+!s110 1737482244
+!i10b 1
+!s100 E3QgMG6RD=_aiccVoIJSJ1
+IHZm=Ijo??F_MJBz09il@]3
+R1
+R2
+w1737281622
+8D:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR.v
+L0 16
+R3
+r1
+!s85 0
+31
+!s108 1737482244.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR.v|
+!i113 1
+R5
+R6
+n@i@n@v@e@r@t_@a@d@d@r
+vM_TWIDLE_0_15_v
+Z8 !s110 1736748669
+!i10b 1
+!s100 H6cmm_LEA:>CGBM7EhcdB2
+IS<DR3a5_AMP?NmlXbYmNz3
+R1
+R2
+w1736534457
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1736748669.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_0_15_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_15_v
+vM_TWIDLE_10_bit
+Z10 !s110 1736748593
+!i10b 1
+!s100 oSiP@A`UI8jg698I:o=P`2
+IMbhNio[?:z;dJVIYGFGze3
+R1
+R2
+w1733669153
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1736748593.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_10_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_10_bit
+vM_TWIDLE_11_bit
+R8
+!i10b 1
+!s100 DRRH;LD^EED5:o<Zz3Bz^0
+IeLA`QCSFo1ZMK>]MCek`71
+R1
+R2
+w1736521772
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_11_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_11_bit
+vM_TWIDLE_12_bit
+R10
+!i10b 1
+!s100 32QR;b2Cz2YhENM8S3ni80
+I8NA2IKhH1k^=J0_Ij^=C^1
+R1
+R2
+w1733669627
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_12_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_12_bit
+vM_TWIDLE_14_bit
+!s110 1736795433
+!i10b 1
+!s100 ?a`JaESQNCI8C=Va4@1X:1
+IK>01J@JAJJ:fHGOcVYPL73
+R1
+R2
+w1736795429
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736795433.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_14_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_14_bit
+vM_TWIDLE_16_bit
+!s110 1737056321
+!i10b 1
+!s100 ;6fCL@kl=McCEHc6zC5C@2
+I6Q>R^7==P6;f[4;T>:HC^2
+R1
+R2
+w1737056319
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1737056321.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_16_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_16_bit
+vM_TWIDLE_6_bit
+Z12 !s110 1736748670
+!i10b 1
+!s100 IOmDRoPJVGc@dg77mdE>m0
+IWFe59zEE?K0MWlGA@FMoL3
+R1
+R2
+w1736520887
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_6_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_6_bit
+vM_TWIDLE_7_bit
+R12
+!i10b 1
+!s100 zS=^0SC`WJ4R4fcX^5_;>1
+IEbBSF1m66Vk;mc9?4Aiek3
+R1
+R2
+w1736521247
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z13 !s108 1736748670.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_7_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_7_bit
+vM_TWIDLE_8_bit
+R10
+!i10b 1
+!s100 agEfjzO^lihgHRmel]_481
+I4dWXzBzFNW[l7eSe8^>jT1
+R1
+R2
+w1736520856
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_8_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_8_bit
+vM_TWIDLE_9_bit
+R12
+!i10b 1
+!s100 K`ZlzBLj8Ode?5P5Ho]L`3
+I<U5N<1Aje`^keA6ME;H4E0
+R1
+R2
+w1736521640
+8D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/M_TWIDLE_9_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_9_bit
+vMODIFY_FFT
+Z14 !s110 1738943566
+!i10b 1
+!s100 0RMX>iOaI64[UORjL77Xk3
+IaZQQIB9b=IMEBiWVVTMmb2
+R1
+R2
+w1737531637
+8D:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_FFT.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_FFT.v
+L0 24
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:\Digital chipset design\FFT_VERSION_MODEL\config_FFT.svh|D:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_FFT.v|
+!i113 1
+R5
+R6
+n@m@o@d@i@f@y_@f@f@t
+vMODIFY_RADIX2
+R14
+!i10b 1
+!s100 dCaPbD=zOab`@X^D1Fz5]1
+Idzgi3DTgkQDmJ89<accg;0
+R1
+R2
+w1737532451
+8D:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_RADIX2.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_RADIX2.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/MODIFY_RADIX2.v|
+!i113 1
+R5
+R6
+n@m@o@d@i@f@y_@r@a@d@i@x2
+vmodifying_adder
+R14
+!i10b 1
+!s100 L23=TO2DF=?@4SnDfTI1C0
+IdOHYi0bBmCLJBoNiN;3fB1
+R1
+R2
+w1737530660
+8D:/Digital chipset design/FFT_VERSION_MODEL/modifying_adder.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/modifying_adder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/modifying_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/modifying_adder.v|
+!i113 1
+R5
+R6
+vmultiplexor
+!s110 1736789511
+!i10b 1
+!s100 GN0PhK64ohzlVi0:`lnVM2
+IcD_fSS]S8fH:=R806BZ491
+R1
+R2
+w1736789507
+8D:/Digital chipset design/FFT_VERSION_MODEL/multiplexor.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/multiplexor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736789511.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/multiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/multiplexor.v|
+!i113 1
+R5
+R6
+vmultiply
+R14
+!i10b 1
+!s100 g[]1AS2ECkBh>Z:JmOI>[3
+IPN7A4b@^5>3ffZVzIdo[f0
+R1
+R2
+w1737529434
+8D:/Digital chipset design/FFT_VERSION_MODEL/multiply.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/multiply.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/multiply.v|
+!i113 1
+R5
+R6
+vout_addres_generator
+!s110 1737137171
+!i10b 1
+!s100 QlcJl_>CO6zFbMj;7E>1b2
+I<Zim4TZjTI^95c1W0S`;W1
+R1
+R2
+w1737127434
+8D:/Digital chipset design/FFT_VERSION_MODEL/out_addres_generator.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/out_addres_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1737137171.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/out_addres_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/out_addres_generator.v|
+!i113 1
+R5
+R6
+vPROCESS_O_DATA
+!s110 1737137168
+!i10b 1
+!s100 g[SKeW5^b:>bUIJh^ZKOl1
+IMomdjD;M_VPCH@7FT;LdK0
+R1
+R2
+w1737125326
+8D:/Digital chipset design/FFT_VERSION_MODEL/PROCESS_O_DATA.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/PROCESS_O_DATA.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1737137167.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/PROCESS_O_DATA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/PROCESS_O_DATA.v|
+!i113 1
+R5
+R6
+n@p@r@o@c@e@s@s_@o_@d@a@t@a
+vRADIX
+R10
+!i10b 1
+!s100 =jHW]Y`BM1ZdS3LFfR9hX1
+I;]fFSM_z3_?eHG3dj5zX21
+R1
+R2
+w1736524404
+8D:/Digital chipset design/FFT_VERSION_MODEL/RADIX.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/RADIX.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/RADIX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/RADIX.v|
+!i113 1
+R5
+R6
+n@r@a@d@i@x
+vRADIX2
+Z15 !s110 1733663003
+!i10b 1
+!s100 oQnPBY0?YGS>S6E@:bFF<3
+IPf4hSH06QU6a=DBd;gDGd3
+R1
+R2
+w1733559951
+8D:/Digital chipset design/FFT_VERSION_MODEL/RADIX2.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/RADIX2.v
+L0 6
+R3
+r1
+!s85 0
+31
+Z16 !s108 1733663003.000000
+!s107 D:\Digital chipset design\FFT_VERSION_MODEL\config_FFT.svh|D:/Digital chipset design/FFT_VERSION_MODEL/RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/RADIX2.v|
+!i113 1
+R5
+R6
+n@r@a@d@i@x2
+vRAM
+!s110 1737142531
+!i10b 1
+!s100 Ndz6I]9:CRjZC[dQHRQ`Z2
+Ig^T4eJ0YR0FYBZLPBn]7j1
+R1
+R2
+w1737141845
+8D:/Digital chipset design/FFT_VERSION_MODEL/RAM.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/RAM.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1737142531.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/RAM.v|
+!i113 1
+R5
+R6
+n@r@a@m
+vseg7_data
+R15
+!i10b 1
+!s100 A[E9;jm@WMGR1G>RJeC?i0
+I?oYhanX^gJQTI?HN2f_6j3
+R1
+R2
+w1733131615
+8D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v
+Z17 L0 17
+R3
+r1
+!s85 0
+31
+R16
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v|
+!i113 1
+R5
+R6
+vseg7_data2
+R10
+!i10b 1
+!s100 [WZiXG1cNRKjS4d>Ae:]T2
+IK`QFDheaX=Z0[EH];<bjS1
+R1
+R2
+w1733680203
+8D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data2.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/seg7_data2.v
+R17
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data2.v|
+!i113 1
+R5
+R6
+vshift_register
+!s110 1736845212
+!i10b 1
+!s100 VAzG:O2b5c_d47VO6CLeK0
+I6SW1YBUzmza7=zniYDk?H3
+R1
+R2
+w1736845077
+8D:/Digital chipset design/FFT_VERSION_MODEL/shift_register.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/shift_register.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736845212.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/shift_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/shift_register.v|
+!i113 1
+R5
+R6
+vshift_register_with_valid
+!s110 1737275954
+!i10b 1
+!s100 ;cdR>M_0>EbOO3G;H[KAd3
+IAHWgACEe:i_:=5?TFNg^I3
+R1
+R2
+w1737142662
+8D:/Digital chipset design/FFT_VERSION_MODEL/shift_register_with_valid.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/shift_register_with_valid.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1737275954.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/shift_register_with_valid.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/shift_register_with_valid.v|
+!i113 1
+R5
+R6
+vsigned_shift_register
+!s110 1736845233
+!i10b 1
+!s100 ZkK_4GR3cCkIjfWClZW;93
+IJPBoI]`d]zOM]WX3cfR^Y0
+R1
+R2
+w1736845120
+8D:/Digital chipset design/FFT_VERSION_MODEL/signed_shift_register.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/signed_shift_register.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1736845233.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/signed_shift_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/signed_shift_register.v|
+!i113 1
+R5
+R6
+vtop_module
+!s110 1738943893
+!i10b 1
+!s100 `9;WWUdH>[G[PTEP4RK]K0
+IUzjFO^>>gL]06GTU57l[82
+R1
+R2
+w1738943888
+8D:\Digital chipset design\FFT_VERSION_MODEL\top_module.v
+FD:\Digital chipset design\FFT_VERSION_MODEL\top_module.v
+L0 19
+R3
+r1
+!s85 0
+31
+!s108 1738943892.000000
+!s107 D:\Digital chipset design\FFT_VERSION_MODEL\config_FFT.svh|D:\Digital chipset design\FFT_VERSION_MODEL\top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Digital chipset design\FFT_VERSION_MODEL\top_module.v|
+!i113 1
+R5
+R6
+vTWIDLE_10_bit
+R10
+!i10b 1
+!s100 eL7WjGz7I2088=IW`>5j?2
+I44YdUI[F@>>;NSHh^YY@B1
+R1
+R2
+w1733667347
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_10_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_10_bit
+vTWIDLE_12_bit
+Z18 !s110 1736748594
+!i10b 1
+!s100 nZZnjYjB0hBbKWid_3TNe0
+I]dEdXQ>DOHYJjJ5gWZFMa2
+R1
+R2
+w1733667177
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z19 !s108 1736748594.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_12_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_12_bit
+vTWIDLE_14_bit
+R18
+!i10b 1
+!s100 RgSzcU3_MzWfCC[k:Az;Z1
+IY4M403Zak:?=W@bNGA;Ve1
+R1
+R2
+w1736524237
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R19
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_14_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_14_bit
+vTWIDLE_16_bit
+R15
+!i10b 1
+!s100 ?GI^gZZA7lS=G?@HaNE8V3
+ISc^42S5LlVfICEaYW5bXM3
+R1
+R2
+w1733652206
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R16
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_16_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_16_bit
+vTWIDLE_8_bit
+R10
+!i10b 1
+!s100 :XFzgohcWkbBje;mVRg@G3
+INFQTi^[mP<[9YhAbkRN8[3
+R1
+R2
+w1736515516
+8D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/TWIDLE_8_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_8_bit
+vuart_rx
+!s110 1737037192
+!i10b 1
+!s100 Gfk>=21f5SL>oWKE8R@;70
+Ik`07z4QTT^e3:d4;5e23J2
+R1
+R2
+w1737037188
+8D:/Digital chipset design/FFT_VERSION_MODEL/uart_rx.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/uart_rx.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1737037192.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/uart_rx.v|
+!i113 1
+R5
+R6
+vuart_tx
+R0
+!i10b 1
+!s100 oOZJWPON163B8?gcT]NTm2
+IzB3TzP0bWh`CNGYH^b`d32
+R1
+R2
+w1737125613
+8D:/Digital chipset design/FFT_VERSION_MODEL/uart_tx.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/uart_tx.v|
+!i113 1
+R5
+R6
+vuart_vd
+!s110 1737021922
+!i10b 1
+!s100 C?4eS<<4eQ]JM7CG3?JW72
+IdKT:jfQFZ2]`nJZlMd6mC0
+R1
+R2
+w1737021920
+8D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/uart_vd.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1737021922.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd.v|
+!i113 1
+R5
+R6
+vuart_vd_tb
+!s110 1737487218
+!i10b 1
+!s100 G5OYOUQd_6nlTCbiJjmd@2
+IOfZDa?`CV;@YVj68TVhSe3
+R1
+R2
+w1737487215
+8D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd_tb.v
+FD:/Digital chipset design/FFT_VERSION_MODEL/uart_vd_tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1737487218.000000
+!s107 D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd_tb.v|
+!i113 1
+R5
+R6

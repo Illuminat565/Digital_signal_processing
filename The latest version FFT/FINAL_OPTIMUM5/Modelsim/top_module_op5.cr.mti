@@ -1,0 +1,141 @@
+E:/Intel_FPGA_Code/FINAL_OPTIMUM5/register.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd
+
+Top level modules:
+	uart_vd
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module
+
+Top level modules:
+	top_module
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/multiply.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/multiply.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/MODIFY_FFT2.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/MODIFY_FFT2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_FFT2
+
+Top level modules:
+	MODIFY_FFT2
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/CONTROL.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/CONTROL.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL
+
+Top level modules:
+	CONTROL
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/data_FFT.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/data_FFT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_FFT
+
+Top level modules:
+	data_FFT
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/INVERT_ADDR.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/INVERT_ADDR.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT_ADDR
+
+Top level modules:
+	INVERT_ADDR
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx_model.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx_model.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx_model
+
+Top level modules:
+	uart_rx_model
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module_tb.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_module_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module_tb
+
+Top level modules:
+	top_module_tb
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/ROM_TWIDLE.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/ROM_TWIDLE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ROM_TWIDLE
+
+Top level modules:
+	ROM_TWIDLE
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_modul_models.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/top_modul_models.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module_models
+
+Top level modules:
+	top_module_models
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx2.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_rx2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx2
+
+Top level modules:
+	uart_rx2
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/adder.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data2.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/seg7_data2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data2
+
+Top level modules:
+	seg7_data2
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_tx2.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_tx2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_tx2
+
+Top level modules:
+	uart_tx2
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RADIX2.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RADIX2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX2
+
+Top level modules:
+	RADIX2
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd_tb.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/uart_vd_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd_tb
+
+Top level modules:
+	uart_vd_tb
+
+} {} {}} E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM2.v {1 {vlog -work work -stats=none E:/Intel_FPGA_Code/FINAL_OPTIMUM5/RAM2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM2
+
+Top level modules:
+	RAM2
+
+} {} {}}

@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tx_o",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST_N",
+					"strict" : false
+				},
+				{
+					"name" : "data_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

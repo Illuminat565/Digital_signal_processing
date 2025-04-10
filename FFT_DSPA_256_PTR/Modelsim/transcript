@@ -1,0 +1,93 @@
+# Compile of uart_vd_tb.v was successful.
+# Compile of config_FFT.svh was successful.
+# Compile of CONTROL.v was successful.
+# Compile of CONTROL1.v was successful.
+# Compile of CONTROL2.v was successful.
+# Compile of CONTROL3.v was successful.
+# Compile of CONTROL4.v was successful.
+# Compile of CONTROL5.v was successful.
+# Compile of CONTROL6.v was successful.
+# Compile of CONTROL7.v was successful.
+# Compile of CONTROL8.v was successful.
+# Compile of final_RADIX.v was successful.
+# Compile of INVERT_ADDR.v was successful.
+# Compile of MODIFY_FFT.v was successful.
+# Compile of modify_RADIX.v was successful.
+# Compile of PROCESS_O_DATA.v was successful.
+# Compile of RADIX.v was successful.
+# Compile of RAM.v was successful.
+# Compile of RAM2.v was successful.
+# Compile of seg7_data.v was successful.
+# Compile of seg7_data2.v was successful.
+# Compile of top_module.v was successful.
+# Compile of TWIDLE_14_bit_STAGE1.v was successful.
+# Compile of TWIDLE_14_bit_STAGE2 .v was successful.
+# Compile of TWIDLE_14_bit_STAGE3.v was successful.
+# Compile of TWIDLE_14_bit_STAGE4.v was successful.
+# Compile of TWIDLE_14_bit_STAGE5.v was successful.
+# Compile of TWIDLE_14_bit_STAGE6.v was successful.
+# Compile of TWIDLE_14_bit_STAGE7.v was successful.
+# Compile of TWIDLE_14_bit_STAGE8_1.v was successful.
+# Compile of TWIDLE_14_bit_STAGE8_2.v was successful.
+# Compile of uart_rx.v was successful.
+# Compile of uart_tx.v was successful.
+# Compile of uart_vd.v was successful.
+# 34 compiles, 0 failed with no errors.
+# reading C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project FFT_256_ptr
+# Compile of top_module.v was successful.
+# Compile of RAM.v was successful.
+# Compile of RAM2.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 19:22:30 on Dec 19,2024
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.uart_rx
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL1
+# Loading work.RAM
+# Loading work.TWIDLE_14_bit_STAGE1
+# Loading work.RADIX
+# Loading work.RAM2
+# Loading work.CONTROL2
+# Loading work.TWIDLE_14_bit_STAGE2
+# Loading work.TWIDLE_14_bit_STAGE3
+# Loading work.CONTROL3
+# Loading work.TWIDLE_14_bit_STAGE4
+# Loading work.final_RADIX
+# Loading work.CONTROL4
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_DSPA_256_PTR/MODIFY_FFT.v(360): [TFMPC] - Too few port connections. Expected 17, found 16.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE/MODIFY_FFT/CONTROL2 File: D:/Digital chipset design/FFT_DSPA_256_PTR/CONTROL2.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_DSPA_256_PTR/MODIFY_FFT.v(360): [TFMPC] - Missing connection for port 'start_stage'.
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_DSPA_256_PTR/MODIFY_FFT.v(468): [TFMPC] - Too few port connections. Expected 17, found 16.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE/MODIFY_FFT/CONTROL3 File: D:/Digital chipset design/FFT_DSPA_256_PTR/CONTROL3.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_DSPA_256_PTR/MODIFY_FFT.v(468): [TFMPC] - Missing connection for port 'start_stage'.
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_DSPA_256_PTR/MODIFY_FFT.v(547): [TFMPC] - Too few port connections. Expected 17, found 16.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE/MODIFY_FFT/CONTROL4 File: D:/Digital chipset design/FFT_DSPA_256_PTR/CONTROL4.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_DSPA_256_PTR/MODIFY_FFT.v(547): [TFMPC] - Missing connection for port 'start_stage'.
+# Compile of CONTROL2.v was successful.
+# Compile of CONTROL3.v was successful.
+# Compile of CONTROL4.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.CONTROL2
+# Loading work.CONTROL3
+# Loading work.CONTROL4
+add wave sim:/uart_vd_tb/TOP_MODULE/PROCESS_O_DATA/*
+run
+# Compile of RAM2.v was successful.
+restart
+# Loading work.RAM2
+run
+# Compile of RAM.v was successful.
+restart
+# Loading work.RAM
+run
+# End time: 20:02:44 on Dec 19,2024, Elapsed time: 0:40:14
+# Errors: 0, Warnings: 6

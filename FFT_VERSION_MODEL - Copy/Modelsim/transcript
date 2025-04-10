@@ -1,0 +1,57 @@
+# Compile of RAM.v was successful.
+# Compile of top_module.v was successful.
+# Compile of uart_tx.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 11:15:19 on Dec 04,2024
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR2
+# Loading work.uart_rx2
+# Loading work.MODIFY_FFT2
+# Loading work.CONTROL
+# Loading work.RAM
+# Loading work.ROM_TWIDLE
+# Loading work.RADIX2
+# Loading work.modifying_adder
+# Loading work.multiply
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.seg7_data2
+# Loading work.uart_vd
+# Compile of top_module.v was successful.
+restart
+# Loading work.top_module
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint sim:/uart_vd_tb/TOP_MODULE/UART_TX/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: admin  Hostname: LAPTOP-M1UA592I  ProcessID: 6788
+#           Attempting to use alternate WLF file "./wlfttvsv5t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttvsv5t
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -r /*
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of RAM.v was successful.
+# Compile of top_module.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of top_module.v was successful.
+restart
+# Loading work.top_module
+# Loading work.RAM
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 

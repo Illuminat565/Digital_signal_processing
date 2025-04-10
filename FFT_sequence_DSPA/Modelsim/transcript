@@ -1,0 +1,66 @@
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 22:02:46 on Jan 16,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.INVERT_ADDR
+# Loading work.uart_rx
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL
+# Loading work.RAM
+# Loading work.M_TWIDLE_14_bit
+# Loading work.MODIFY_RADIX2
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.seg7_data2
+# Loading work.uart_vd
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/mem_Re \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/RAM/mem_Im
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Re_i1 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Im_i1 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Re_i2 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Im_i2 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/en \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Re_o1 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Im_o1 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Re_o2 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_RADIX2/Im_o2
+restart
+run
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_TWIDLE/cos_data \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_TWIDLE/sin_data
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_TWIDLE/rd_ptr_angle \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_TWIDLE/cos_data \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_TWIDLE/sin_data
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/MODIFY_TWIDLE/en_modify
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of CONTROL.v was successful.
+restart
+# Loading work.CONTROL
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 22:35:03 on Jan 16,2025, Elapsed time: 0:32:17
+# Errors: 0, Warnings: 0

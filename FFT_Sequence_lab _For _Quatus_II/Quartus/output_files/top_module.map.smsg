@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at top_module.v(20): object "CLK" differs only in case from object "clk" in the same scope
+Info (10281): Verilog HDL Declaration information at top_module.v(21): object "RST_N" differs only in case from object "rst_n" in the same scope
+Info (10281): Verilog HDL Declaration information at top_module.v(58): object "invert_addr" differs only in case from object "INVERT_ADDR" in the same scope
+Info (10281): Verilog HDL Declaration information at seg7_data2.v(50): object "max_chanel" differs only in case from object "MAX_CHANEL" in the same scope

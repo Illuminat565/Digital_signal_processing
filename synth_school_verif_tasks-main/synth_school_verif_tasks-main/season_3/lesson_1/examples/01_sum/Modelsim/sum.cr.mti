@@ -1,0 +1,15 @@
+{D:/Digital chipset design/synth_school_verif_tasks-main/synth_school_verif_tasks-main/season_3/lesson_1/examples/01_sum/testbench.sv} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/synth_school_verif_tasks-main/synth_school_verif_tasks-main/season_3/lesson_1/examples/01_sum/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {D:/Digital chipset design/synth_school_verif_tasks-main/synth_school_verif_tasks-main/season_3/lesson_1/examples/01_sum/sum.sv} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/synth_school_verif_tasks-main/synth_school_verif_tasks-main/season_3/lesson_1/examples/01_sum/sum.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sum
+
+Top level modules:
+	sum
+
+} {} {}}

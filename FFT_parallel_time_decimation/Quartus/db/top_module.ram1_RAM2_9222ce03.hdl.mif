@@ -1,0 +1,18 @@
+-- begin_signature
+-- RAM2(bit_width
+-- 24
+-- N
+-- 8
+-- SIZE
+-- 3)
+-- end_signature
+WIDTH=14;
+DEPTH=2;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	1 :	00000000000000;
+	0 :	01000000000000;
+END;

@@ -1,0 +1,238 @@
+module  INDEX2 #(parameter N=29, DEPTH = 16, SIZE = 4)(
+    input clk,rst_n,
+
+    input en_index,
+
+    input signed [N-1:0] x_buft_o1,
+    input signed [N-1:0] y_buft_o1,
+    input signed [N-1:0] x_buft_o2,
+    input signed [N-1:0] y_buft_o2,
+
+    input                back_mem,
+
+    output reg signed [N-1:0] xout,
+    output reg signed [N-1:0] yout,
+    output reg    [SIZE:0]    index_wr,
+    output reg             en_wr_mem,
+
+    output reg  [3:0]    stage_FFT,
+
+    output      [SIZE:0] index_rd,
+    output reg  [10:0]   index_angle, 
+    
+    output reg finish_FFT,
+    output reg en_o,
+    output reg done_o
+ );
+    reg  [SIZE:0] b,i,k;
+    reg   [1:0]d;
+    reg  [SIZE:0] index_rd1;
+    reg  [SIZE:0] index_rd2;
+    wire flag_1 = (k < 1<<(stage_FFT-1));
+    wire flag_2 = (i < 1<<(SIZE+1'b1-stage_FFT));
+    wire flag_count = (b == DEPTH);
+   
+ //-----------------------------------------------------------
+    reg [5:0] cur_state;
+    reg [5:0] next_state;
+ //--------------------------------------------------------------
+    localparam 
+         IDLE        = 6'b000_001,
+         READ        = 6'b000_010,
+         READ1       = 6'b000_011,
+         WAIT        = 6'b000_100,
+         WRITE_MEM1   = 6'b000_111,
+         WRITE_MEM2   = 6'b001_111,
+         COUNT_STATE = 6'b001_000,
+         READ2       = 6'b010_000,
+         DONE        = 6'b100_000;
+
+    assign index_rd  = (cur_state == READ)? index_rd1 : index_rd2;
+ //--------------------------------------------------------------------        
+
+ // 1st always blocks, sequentail state transition
+     always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            cur_state <= IDLE;
+        end else begin
+            cur_state <= next_state;
+        end
+     end
+    
+
+ // 2st always block, combination condition judgement
+    always @(*) begin
+        case (cur_state)
+				IDLE:
+                       if (en_index) next_state = READ;
+                       else next_state = IDLE;
+                READ:   next_state = READ1;
+                READ1:  next_state = WAIT;       
+                WAIT:   if (back_mem) next_state = WRITE_MEM1;     
+                        else next_state = WAIT;      
+                WRITE_MEM1: next_state = WRITE_MEM2;
+                WRITE_MEM2: if (flag_count) next_state = COUNT_STATE; 
+                            else next_state = READ;
+                COUNT_STATE: if (stage_FFT == SIZE+1'b1) next_state = READ2;
+                             else next_state = READ;
+				READ2: if (index_rd2 == DEPTH-1 ) next_state = DONE;
+                       else next_state = READ2;
+                DONE:  next_state = IDLE;
+            default:   next_state = IDLE;
+        endcase
+    end
+
+    // 3st always block, the sequential FSM output
+    always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            reset_task;
+        end else begin
+            case (next_state)
+                IDLE:
+                    idle_task;
+				READ:
+                    read_task;
+                READ1:
+                    read_task1;
+                WAIT:
+                    wait_task;
+                WRITE_MEM1:
+                    write_mem_task1;
+                WRITE_MEM2:
+                    write_mem_task2;
+                COUNT_STATE:
+                    count_state;
+                READ2:
+                    read_task2;
+                DONE:
+                    done_task;
+                default:
+                    idle_task;
+            endcase
+        end
+    end
+//---------------reset_task-----------------------------------------
+task reset_task;
+        begin
+                        b<=0;
+                        d<=0;
+                        k<=0;
+                        i<=0;   
+                        en_o    <= 0;
+               //         index_rd   <= 0;
+                        index_angle <= 0;
+                        done_o  <= 0;
+                        stage_FFT     <=1;
+                        finish_FFT <=0;
+                        en_wr_mem     <= 1'b0;
+        end
+endtask
+//-------------------------idle task-------------------------------
+
+task idle_task;
+                     begin
+                        b<=0;
+                        d<=0;
+                        k<=0;
+                        i<=0;    
+                        en_o    <= 0;
+               //         index_rd   <= 0;
+                        index_angle <= 0;
+                        done_o  <= 0;
+                        finish_FFT<=0;
+                         stage_FFT <= 1;
+                         en_wr_mem     <= 1'b0;
+                      end
+endtask
+
+//-------------------------read_task-------------------------------
+task read_task;
+                   begin
+                            index_rd1    <= (i<<(stage_FFT-1'b1))+k;
+                            index_angle  <= k<<(10-stage_FFT);  // 10 PHU THUOC SO LUONG DU LIEU TINH CORDIC 
+                            en_o         <= 1'b1;          
+                            en_wr_mem <= 0;
+    
+                    end
+endtask
+//-------------------------read_task-------------------------------
+task read_task1;
+                   begin
+                            index_rd2    <= index_rd1 + (1<<(stage_FFT-1'b1));
+                            en_o         <= 1'b1;    
+
+                            
+                    end
+endtask
+
+//-------------------------read_task-------------------------------
+task wait_task;
+                   begin
+                           
+                            en_o         <= 1'b0;    
+                            
+                    end
+endtask
+//-------------------------write_mem_task-----------------------------------
+task write_mem_task1;
+                    begin   
+                        en_o         <= 1'b0;        
+                        index_wr   <= index_rd1;
+                        xout       <= x_buft_o1;  
+                        yout       <= y_buft_o1; 
+                        en_wr_mem     <= 1'b1;
+
+                        if (flag_1) begin       
+                                k <= k + 1'b1; 
+                                b <= b+2'd2; 
+                        end         
+                    end
+endtask
+//-------------------------write_mem_task-----------------------------------
+task write_mem_task2;
+                    begin         
+                        index_wr   <= index_rd2; 
+                        xout       <= x_buft_o2;  
+                        yout       <= y_buft_o2; 
+                        en_wr_mem     <= 1'b1;
+
+                        if (!flag_1) begin
+                                k <=0;
+                                if (flag_2) i<=i+2'd2;
+                                else i<=0;                   
+                            end 
+                    end
+endtask
+//-------------------------count state-----------------------------------
+task count_state;
+                    begin
+                        stage_FFT <= stage_FFT + 1'b1;
+                        index_rd2 <= 12'b1111_1111_1111;
+                        en_wr_mem     <= 1'b0;
+                        b         <=0;
+                        k         <=0;
+                        i         <=0;  
+                    end
+endtask
+//-------------------------read_task-------------------------------
+task read_task2;
+                   begin
+                        finish_FFT  <= 1'b1; 
+                        en_o        <= 1'b1;
+                        index_angle <= 0; 
+                        index_rd2   <= index_rd2 + 1'b1;              
+                    end
+endtask
+//-------------------------done task-------------------------------
+
+task done_task;
+                   begin
+                    finish_FFT  <= 1'b0; 
+                    en_o   <= 1'b0;
+                    done_o <= 1'b1;   
+                     en_wr_mem     <= 1'b0;
+                   
+                    end
+endtask
+
+endmodule

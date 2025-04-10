@@ -1,0 +1,897 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vadder
+Z0 !s110 1737106938
+!i10b 1
+!s100 VIb]LPb:KNiHbV4SBaZYJ2
+Ii8`d2iX7Q;D:GhP<E>NS41
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Digital chipset design/FFT_sequence_DSPA _test/Modelsim
+w1732717637
+8D:/Digital chipset design/FFT_sequence_DSPA _test/adder.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1737106938.000000
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vCONTROL
+Z7 !s110 1737108397
+!i10b 1
+!s100 9QYfCg;?IaALTKBMUij^k1
+I]W0O@JjI:GX]JoNBUJho?3
+R1
+R2
+w1737108385
+8D:/Digital chipset design/FFT_sequence_DSPA _test/CONTROL.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/CONTROL.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1737108397.000000
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/CONTROL.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/CONTROL.v|
+!i113 1
+R5
+R6
+n@c@o@n@t@r@o@l
+vd2p
+Z9 !s110 1737106940
+!i10b 1
+!s100 6GE29j0@>[lM;T6ZTl5c23
+I6@Q>UQa`>HOUOYG`S<oTJ0
+R1
+R2
+Z10 w1733413911
+Z11 8D:/Digital chipset design/FFT_sequence_DSPA _test/test_mult.v
+Z12 FD:/Digital chipset design/FFT_sequence_DSPA _test/test_mult.v
+L0 13
+R3
+r1
+!s85 0
+31
+Z13 !s108 1737106940.000000
+Z14 !s107 D:/Digital chipset design/FFT_sequence_DSPA _test/test_mult.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/test_mult.v|
+!i113 1
+R5
+R6
+vINVERT_ADDR
+!s110 1737112952
+!i10b 1
+!s100 CNnNj_[L@h8lYNlA3X=oW0
+IE_J7>CKR<C<RSHi88nnoG0
+R1
+R2
+w1737111475
+8D:/Digital chipset design/FFT_sequence_DSPA _test/INVERT_ADDR.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/INVERT_ADDR.v
+L0 16
+R3
+r1
+!s85 0
+31
+!s108 1737112952.000000
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/INVERT_ADDR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/INVERT_ADDR.v|
+!i113 1
+R5
+R6
+n@i@n@v@e@r@t_@a@d@d@r
+vM_TWIDLE_0_05_v
+R0
+!i10b 1
+!s100 9@7ZZYDg57Nk^gUc3Z^Jj0
+IFW28X_Y6@oHmEAbcED8UT3
+R1
+R2
+w1736532961
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_05_v.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_05_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_05_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_05_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_05_v
+vM_TWIDLE_0_10_v
+R0
+!i10b 1
+!s100 lL5lU1_FIc3k>JTKea?H72
+ITm^7bJbM7JE>a<c^TY`Sg3
+R1
+R2
+w1733725352
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_10_v.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_10_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_10_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_10_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_10_v
+vM_TWIDLE_0_15_v
+R0
+!i10b 1
+!s100 H6cmm_LEA:>CGBM7EhcdB2
+IM0eCgY6ij2=9:Y3IfdVzX1
+R1
+R2
+w1736534457
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_15_v.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_15_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_15_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_15_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_15_v
+vM_TWIDLE_0_25_v
+R0
+!i10b 1
+!s100 eY]9X@SN6_gK`^W92V:a@2
+I@ej=]81=O7i]f8UjZMO7C2
+R1
+R2
+w1733726097
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_25_v.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_25_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_25_v.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_0_25_v.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_0_25_v
+vM_TWIDLE_10_bit
+Z16 !s110 1737106939
+!i10b 1
+!s100 oSiP@A`UI8jg698I:o=P`2
+Iga17i1JC5BB3nH5SAe?J13
+R1
+R2
+w1733669153
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_10_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z17 !s108 1737106939.000000
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_10_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_10_bit
+vM_TWIDLE_11_bit
+R16
+!i10b 1
+!s100 DRRH;LD^EED5:o<Zz3Bz^0
+IS]1l5b]GR>zWE22=HZn`N2
+R1
+R2
+w1736521772
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_11_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_11_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_11_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_11_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_11_bit
+vM_TWIDLE_12_bit
+R16
+!i10b 1
+!s100 32QR;b2Cz2YhENM8S3ni80
+IZG98OZgS56MTZG^na:on:1
+R1
+R2
+w1733669627
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_12_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_12_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_12_bit
+vM_TWIDLE_14_bit
+R16
+!i10b 1
+!s100 @bkHA=do_TMUnQ0g8=AFW0
+INVC6K4mOF=8ZOZZ43U67n2
+R1
+R2
+w1733724322
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_14_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_14_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_14_bit
+vM_TWIDLE_16_bit
+R16
+!i10b 1
+!s100 ;6fCL@kl=McCEHc6zC5C@2
+IcFz<?oN0J1NmO4^EcE8Q@1
+R1
+R2
+w1733652084
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_16_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_16_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_16_bit
+vM_TWIDLE_6_bit
+R0
+!i10b 1
+!s100 IOmDRoPJVGc@dg77mdE>m0
+IR=kcef3gh=@TZPbkMQ09E2
+R1
+R2
+w1736520887
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_6_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_6_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_6_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_6_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_6_bit
+vM_TWIDLE_7_bit
+R0
+!i10b 1
+!s100 zS=^0SC`WJ4R4fcX^5_;>1
+IzdM_:A9FSJeXlMJg3___93
+R1
+R2
+w1736521247
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_7_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_7_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_7_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_7_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_7_bit
+vM_TWIDLE_8_bit
+R16
+!i10b 1
+!s100 agEfjzO^lihgHRmel]_481
+IKFWziJ]oHRYo9AWe2D=6C1
+R1
+R2
+w1736520856
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_8_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_8_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_8_bit
+vM_TWIDLE_9_bit
+R16
+!i10b 1
+!s100 K`ZlzBLj8Ode?5P5Ho]L`3
+IDh]^DZ4;e6UP9ehEJbXk>2
+R1
+R2
+w1736521640
+8D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_9_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_9_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_9_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/M_TWIDLE_9_bit.v|
+!i113 1
+R5
+R6
+n@m_@t@w@i@d@l@e_9_bit
+vMODIFY_FFT
+!s110 1737108416
+!i10b 1
+!s100 6[PWk^cJlZ?i[:jFn4?0A0
+IYzHQ]nMa36WRk?<beWFj33
+R1
+R2
+w1737108415
+8D:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_FFT.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_FFT.v
+L0 11
+R3
+r1
+!s85 0
+31
+!s108 1737108416.000000
+!s107 D:\Digital chipset design\FFT_sequence_DSPA _test\config_FFT.svh|D:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_FFT.v|
+!i113 1
+R5
+R6
+n@m@o@d@i@f@y_@f@f@t
+vMODIFY_RADIX2
+R16
+!i10b 1
+!s100 dJ@:YCSciU^BYFSQmoLh<1
+I?UTJ:aJd?MShZMYm76NfC1
+R1
+R2
+w1733683457
+8D:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_RADIX2.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_RADIX2.v
+L0 2
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/MODIFY_RADIX2.v|
+!i113 1
+R5
+R6
+n@m@o@d@i@f@y_@r@a@d@i@x2
+vmodifying_adder
+R16
+!i10b 1
+!s100 542mh]nGLMn5NoSWkH1hj0
+Ikgz9>5M0=I9[^QVdII@zV1
+R1
+R2
+w1733503965
+8D:/Digital chipset design/FFT_sequence_DSPA _test/modifying_adder.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/modifying_adder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/modifying_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/modifying_adder.v|
+!i113 1
+R5
+R6
+vmult
+R9
+!i10b 1
+!s100 HPVD]cAzjPfm_kW2HoXaH0
+IRJI<VK7lNldf]7YUKDFVg0
+R1
+R2
+R10
+R11
+R12
+L0 24
+R3
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R5
+R6
+vmult_tb
+R9
+!i10b 1
+!s100 h4?YRn7Hg5dNG=0cQnfUS3
+IB@VIEHeDznM`DooN7P2Zl2
+R1
+R2
+R10
+R11
+R12
+L0 50
+R3
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R5
+R6
+vmultiply
+R16
+!i10b 1
+!s100 PUOBTA4U3HD;U:D::LV<<0
+Il97j?HQcTB85OKdddHTG83
+R1
+R2
+w1733503875
+8D:/Digital chipset design/FFT_sequence_DSPA _test/multiply.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/multiply.v
+L0 1
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/multiply.v|
+!i113 1
+R5
+R6
+vp2d
+R9
+!i10b 1
+!s100 ``OjOHlgA?hZ;VfU1[iXX0
+IkVKLO2@>ThP9Yib=fKLR`2
+R1
+R2
+R10
+R11
+R12
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R5
+R6
+vPROCESS_O_DATA
+!s110 1737119889
+!i10b 1
+!s100 0f0_mIn57Z=2aoD@zoTDP0
+IVcX<j8JlAYb@F<L6OBYzP3
+R1
+R2
+w1737119884
+8D:/Digital chipset design/FFT_sequence_DSPA _test/PROCESS_O_DATA.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/PROCESS_O_DATA.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1737119889.000000
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/PROCESS_O_DATA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/PROCESS_O_DATA.v|
+!i113 1
+R5
+R6
+n@p@r@o@c@e@s@s_@o_@d@a@t@a
+vRADIX
+R16
+!i10b 1
+!s100 =jHW]Y`BM1ZdS3LFfR9hX1
+I1k[I7jVmfd8=kPYl]I?Df3
+R1
+R2
+w1736524404
+8D:/Digital chipset design/FFT_sequence_DSPA _test/RADIX.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/RADIX.v
+L0 3
+R3
+r1
+!s85 0
+31
+R17
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/RADIX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/RADIX.v|
+!i113 1
+R5
+R6
+n@r@a@d@i@x
+vRADIX2
+R9
+!i10b 1
+!s100 oQnPBY0?YGS>S6E@:bFF<3
+I99[^TZjd@Oz_aJGIf4Pj?3
+R1
+R2
+w1733559951
+8D:/Digital chipset design/FFT_sequence_DSPA _test/RADIX2.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/RADIX2.v
+L0 6
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:\Digital chipset design\FFT_sequence_DSPA _test\config_FFT.svh|D:/Digital chipset design/FFT_sequence_DSPA _test/RADIX2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/RADIX2.v|
+!i113 1
+R5
+R6
+n@r@a@d@i@x2
+vRAM
+R7
+!i10b 1
+!s100 ;b_dF9PFk4P_E=fT3UEB<0
+IBi]1H9i5NoI^OJCG1OUlJ1
+R1
+R2
+w1737108001
+8D:/Digital chipset design/FFT_sequence_DSPA _test/RAM.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/RAM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/RAM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/RAM.v|
+!i113 1
+R5
+R6
+n@r@a@m
+vseg7_data
+R9
+!i10b 1
+!s100 A[E9;jm@WMGR1G>RJeC?i0
+IA85[2d71<2UM5IAQR4DJn3
+R1
+R2
+w1733131615
+8D:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data.v
+Z18 L0 17
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data.v|
+!i113 1
+R5
+R6
+vseg7_data2
+R9
+!i10b 1
+!s100 [WZiXG1cNRKjS4d>Ae:]T2
+I9SQ0X^U0[kS5c9:gTEXV:3
+R1
+R2
+w1733680203
+8D:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data2.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data2.v
+R18
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/seg7_data2.v|
+!i113 1
+R5
+R6
+vtest
+Z19 !s110 1737115600
+!i10b 1
+!s100 55T;TnXYo@j[THza6Fi9^0
+IDSPn0zh@PGi9?@PXc>=bl0
+R1
+R2
+w1737114575
+8D:/Digital chipset design/FFT_sequence_DSPA _test/test.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/test.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z20 !s108 1737115600.000000
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/test.v|
+!i113 1
+R5
+R6
+vtop_module
+!s110 1737115612
+!i10b 1
+!s100 4Wm`_DBFl@^Klg9TYD_a?2
+I0P?I9e4Q?6n0nCNd70iFC0
+R1
+R2
+w1737115608
+8D:/Digital chipset design/FFT_sequence_DSPA _test/top_module.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/top_module.v
+L0 20
+R3
+r1
+!s85 0
+31
+!s108 1737115612.000000
+!s107 D:\Digital chipset design\FFT_sequence_DSPA _test\config_FFT.svh|D:/Digital chipset design/FFT_sequence_DSPA _test/top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/top_module.v|
+!i113 1
+R5
+R6
+vTWIDLE_10_bit
+R9
+!i10b 1
+!s100 eL7WjGz7I2088=IW`>5j?2
+I9W[BVh6TJZ=Jc>HTTd5Oj3
+R1
+R2
+w1733667347
+8D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_10_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_10_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_10_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_10_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_10_bit
+vTWIDLE_12_bit
+R9
+!i10b 1
+!s100 nZZnjYjB0hBbKWid_3TNe0
+Id>FfcjGK@]5TjZ91A?]o30
+R1
+R2
+w1733667177
+8D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_12_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_12_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_12_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_12_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_12_bit
+vTWIDLE_14_bit
+R9
+!i10b 1
+!s100 RgSzcU3_MzWfCC[k:Az;Z1
+IVf_cXczOI@aX[Kzokd6:?2
+R1
+R2
+w1736524237
+8D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_14_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_14_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_14_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_14_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_14_bit
+vTWIDLE_16_bit
+R9
+!i10b 1
+!s100 ?GI^gZZA7lS=G?@HaNE8V3
+ImE>a_N8RCY9D1Hg29RHO82
+R1
+R2
+w1733652206
+8D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_16_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_16_bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_16_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_16_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_16_bit
+vTWIDLE_8_bit
+R9
+!i10b 1
+!s100 :XFzgohcWkbBje;mVRg@G3
+IT=l3kK]fG^A^oezLlaN991
+R1
+R2
+w1736515516
+8D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_8_bit.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_8_bit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_8_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/TWIDLE_8_bit.v|
+!i113 1
+R5
+R6
+n@t@w@i@d@l@e_8_bit
+vuart_rx
+R9
+!i10b 1
+!s100 PNX:8adzY_cUn89ZMReVP3
+IXf_8PD>3Xbl<eA2a=?QnI2
+R1
+R2
+w1733321156
+8D:/Digital chipset design/FFT_sequence_DSPA _test/uart_rx.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/uart_rx.v
+L0 2
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/uart_rx.v|
+!i113 1
+R5
+R6
+vuart_tx
+R19
+!i10b 1
+!s100 ]X?0@XG^=2oPf:OLE16Kj3
+I>UaXzmBNm8XOZmnFI^F3@3
+R1
+R2
+w1737115595
+8D:/Digital chipset design/FFT_sequence_DSPA _test/uart_tx.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R20
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/uart_tx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/uart_tx.v|
+!i113 1
+R5
+R6
+vuart_vd
+!s110 1737106941
+!i10b 1
+!s100 KUYJ^9^??cK:WS@L?2h@P0
+IcC9Jl]?k@nLaiARWGzUAh1
+R1
+R2
+w1733074347
+8D:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd.v
+L0 4
+R3
+r1
+!s85 0
+31
+R13
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd.v|
+!i113 1
+R5
+R6
+vuart_vd_tb
+!s110 1737113038
+!i10b 1
+!s100 AhoNmg8=6lLlNURZ_0d0N3
+IIZg[P_bEcd0<7Zk6Ac8<E1
+R1
+R2
+w1737113033
+8D:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd_tb.v
+FD:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd_tb.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1737113037.000000
+!s107 D:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_sequence_DSPA _test/uart_vd_tb.v|
+!i113 1
+R5
+R6

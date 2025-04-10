@@ -1,0 +1,6 @@
+Info (10281): Verilog HDL Declaration information at CONTROL2.v(47): object "delay" differs only in case from object "DELAY" in the same scope File: D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL2.v Line: 47
+Info (10281): Verilog HDL Declaration information at top_module.v(25): object "CLK" differs only in case from object "clk" in the same scope File: D:/Digital chipset design/FFT_VERSION_MODEL/top_module.v Line: 25
+Info (10281): Verilog HDL Declaration information at top_module.v(26): object "RST_N" differs only in case from object "rst_n" in the same scope File: D:/Digital chipset design/FFT_VERSION_MODEL/top_module.v Line: 26
+Info (10281): Verilog HDL Declaration information at seg7_data2.v(32): object "count" differs only in case from object "COUNT" in the same scope File: D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data2.v Line: 32
+Warning (10268): Verilog HDL information at seg7_data.v(70): always construct contains both blocking and non-blocking assignments File: D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v Line: 70
+Info (10281): Verilog HDL Declaration information at seg7_data.v(38): object "display" differs only in case from object "DISPLAY" in the same scope File: D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v Line: 38

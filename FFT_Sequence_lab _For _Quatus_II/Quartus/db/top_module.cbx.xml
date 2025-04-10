@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="top_module">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply1|lpm_mult:Mult2" CBX_FILE_NAME="mult_k1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply2|lpm_mult:Mult1" CBX_FILE_NAME="mult_65t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|RAM:ram_data_store|altsyncram:mem_Re_rtl_0" CBX_FILE_NAME="altsyncram_aod1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply1|lpm_mult:Mult3" CBX_FILE_NAME="mult_k1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply2|lpm_mult:Mult2" CBX_FILE_NAME="mult_65t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply1|lpm_mult:Mult0" CBX_FILE_NAME="mult_k1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply2|lpm_mult:Mult3" CBX_FILE_NAME="mult_65t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|shift_register:shift_reg_inst|altshift_taps:data_rtl_0" CBX_FILE_NAME="shift_taps_d0m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|tw_factor_generator:tw_factor_gen_inst|M_TWIDLE_14_B_0_20_v:M_TWIDLE_14_B_0_20_v_inst|altsyncram:cos_rtl_0" CBX_FILE_NAME="altsyncram_eu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|tw_factor_generator:tw_factor_gen_inst|M_TWIDLE_14_B_0_20_v:M_TWIDLE_14_B_0_20_v_inst|altsyncram:m_cos_rtl_0" CBX_FILE_NAME="altsyncram_gu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply1|lpm_mult:Mult1" CBX_FILE_NAME="mult_k1t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|MODIFY_RADIX2:modify_radix2_inst|multiply:multiply2|lpm_mult:Mult0" CBX_FILE_NAME="mult_65t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|RAM:ram_data_store|altsyncram:mem_Im_rtl_0" CBX_FILE_NAME="altsyncram_aod1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|tw_factor_generator:tw_factor_gen_inst|M_TWIDLE_14_B_0_20_v:M_TWIDLE_14_B_0_20_v_inst|altsyncram:m_sin_rtl_0" CBX_FILE_NAME="altsyncram_fu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top_module|MODIFY_FFT:MODIFY_FFT|tw_factor_generator:tw_factor_gen_inst|M_TWIDLE_14_B_0_20_v:M_TWIDLE_14_B_0_20_v_inst|altsyncram:sin_rtl_0" CBX_FILE_NAME="altsyncram_du81.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

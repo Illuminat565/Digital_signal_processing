@@ -1,0 +1,340 @@
+{D:/Digital chipset design/FFT_parallel_time_decimation/modifying_adder.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/modifying_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module modifying_adder
+
+Top level modules:
+	modifying_adder
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd
+
+Top level modules:
+	uart_vd
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/first_demultiplexor.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/first_demultiplexor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module first_demultiplexor
+
+Top level modules:
+	first_demultiplexor
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/PROCESS_O_DATA.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/PROCESS_O_DATA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PROCESS_O_DATA
+
+Top level modules:
+	PROCESS_O_DATA
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data
+
+Top level modules:
+	seg7_data
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/addres_1st_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/addres_1st_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module addres_1st_generator
+
+Top level modules:
+	addres_1st_generator
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/config_FFT.svh} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/config_FFT.svh}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage4.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Inter_stage4
+
+Top level modules:
+	Inter_stage4
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL1.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL1
+
+Top level modules:
+	CONTROL1
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RADIX2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RADIX2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX2
+
+Top level modules:
+	RADIX2
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Out_stage.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Out_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Out_stage
+
+Top level modules:
+	Out_stage
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM4.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM4
+
+Top level modules:
+	RAM4
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/multiply.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/multiply.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM8.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM8.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM8
+
+Top level modules:
+	RAM8
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/multiplexor.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/multiplexor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplexor
+
+Top level modules:
+	multiplexor
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM1.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM1
+
+Top level modules:
+	RAM1
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/seg7_data2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data2
+
+Top level modules:
+	seg7_data2
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage5.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Inter_stage5
+
+Top level modules:
+	Inter_stage5
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/final_addres_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/final_addres_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module final_addres_generator
+
+Top level modules:
+	final_addres_generator
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/CONTROL2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL2
+
+Top level modules:
+	CONTROL2
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM5.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM5
+
+Top level modules:
+	RAM5
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/First_RADIX.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/First_RADIX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module First_RADIX
+
+Top level modules:
+	First_RADIX
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/addres_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/addres_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module addres_generator
+
+Top level modules:
+	addres_generator
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/First_stage.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/First_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module First_stage
+
+Top level modules:
+	First_stage
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/signed_shift_register.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/signed_shift_register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signed_shift_register
+
+Top level modules:
+	signed_shift_register
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Inter_stage
+
+Top level modules:
+	Inter_stage
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Inter_stage2
+
+Top level modules:
+	Inter_stage2
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/uart_tx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/uart_tx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd_tb.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/uart_vd_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd_tb
+
+Top level modules:
+	uart_vd_tb
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/INVERT_ADDR.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/INVERT_ADDR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT_ADDR
+
+Top level modules:
+	INVERT_ADDR
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM2
+
+Top level modules:
+	RAM2
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage6.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Inter_stage6
+
+Top level modules:
+	Inter_stage6
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/shift_register_with_valid.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/shift_register_with_valid.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_register_with_valid
+
+Top level modules:
+	shift_register_with_valid
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM6.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM6.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM6
+
+Top level modules:
+	RAM6
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RADIX.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RADIX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX
+
+Top level modules:
+	RADIX
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_RADIX2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_RADIX2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_RADIX2
+
+Top level modules:
+	MODIFY_RADIX2
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Final_stage.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Final_stage.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Final_stage
+
+Top level modules:
+	Final_stage
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/uart_rx.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/uart_rx.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/demultiplexor.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/demultiplexor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module demultiplexor
+
+Top level modules:
+	demultiplexor
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_FFT.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/MODIFY_FFT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MODIFY_FFT
+
+Top level modules:
+	MODIFY_FFT
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage3.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Inter_stage3
+
+Top level modules:
+	Inter_stage3
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/shift_register.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/shift_register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM3.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM3
+
+Top level modules:
+	RAM3
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage7.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Inter_stage7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Inter_stage7
+
+Top level modules:
+	Inter_stage7
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/RAM7.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/RAM7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM7
+
+Top level modules:
+	RAM7
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/out_addres_generator.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/out_addres_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module out_addres_generator
+
+Top level modules:
+	out_addres_generator
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/adder.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {D:/Digital chipset design/FFT_parallel_time_decimation/Final_RAM.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_parallel_time_decimation/Final_RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Final_RAM
+
+Top level modules:
+	Final_RAM
+
+} {} {}}

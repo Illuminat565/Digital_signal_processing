@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : -32.839
+TNS   : -3590.057
+
+Type  : Slow 1200mV 85C Model Setup 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : -32.050
+TNS   : -4072.105
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -7.297
+TNS   : -3544.447
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : 1.258
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : 1.434
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -1278.675
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : 0.408
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : -30.586
+TNS   : -3347.341
+
+Type  : Slow 1200mV 0C Model Setup 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : -29.796
+TNS   : -3777.593
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -6.729
+TNS   : -3272.164
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.253
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : 1.115
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : 1.293
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.201
+TNS   : -1278.675
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : -14.087
+TNS   : -1523.166
+
+Type  : Fast 1200mV 0C Model Setup 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : -13.486
+TNS   : -1593.719
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -2.553
+TNS   : -1095.461
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : 0.287
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -1073.308
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MODIFY_FFT2:MODIFY_FFT|RAM:RAM|point'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|delay'
+Slack : 0.296
+TNS   : 0.000
+
+------------------------------------------------------------

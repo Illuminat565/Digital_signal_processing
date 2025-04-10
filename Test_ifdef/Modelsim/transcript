@@ -1,0 +1,63 @@
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 11:12:05 on Oct 29,2024
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.my_design
+# Loading work.and_and
+# WARNING: No extended dataflow license exists
+add wave sim:/tb/*
+run
+# ** Note: $stop    : D:/Digital chipset design/Test_ifdef/tb.sv(29)
+#    Time: 179 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Digital chipset design/Test_ifdef/tb.sv line 29
+add wave -position insertpoint  \
+sim:/tb/u0/jsahfcj/a \
+sim:/tb/u0/jsahfcj/b \
+sim:/tb/u0/jsahfcj/c
+restart
+run
+# ** Note: $stop    : D:/Digital chipset design/Test_ifdef/tb.sv(29)
+#    Time: 179 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Digital chipset design/Test_ifdef/tb.sv line 29
+# Compile of my_design.sv failed with 1 errors.
+# Compile of my_design.sv failed with 1 errors.
+# Compile of tb.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of my_design.sv failed with 1 errors.
+# Compile of tb.sv was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of my_design.sv was successful.
+# Compile of my_design.sv was successful.
+# Compile of tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.tb
+# Loading work.my_design
+# Loading work.and_and
+run
+# ** Note: $stop    : D:/Digital chipset design/Test_ifdef/tb.sv(29)
+#    Time: 179 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Digital chipset design/Test_ifdef/tb.sv line 29
+# Compile of tb.sv was successful.
+restart
+# Loading work.tb
+# ** Error: (vsim-3389) D:/Digital chipset design/Test_ifdef/tb.sv(7): Port 'rstn' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0 File: D:/Digital chipset design/Test_ifdef/my_design.sv
+# ** Fatal: (vsim-3365) D:/Digital chipset design/Test_ifdef/tb.sv(7): Too many port connections. Expected 4, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0 File: D:/Digital chipset design/Test_ifdef/my_design.sv
+# FATAL ERROR while loading design
+# Compile of my_design.sv was successful.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 11:12:05 on Oct 29,2024
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.my_design
+# Loading work.and_and
+run
+# ** Note: $stop    : D:/Digital chipset design/Test_ifdef/tb.sv(29)
+#    Time: 179 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at D:/Digital chipset design/Test_ifdef/tb.sv line 29
+# End time: 11:21:02 on Oct 29,2024, Elapsed time: 0:08:57
+# Errors: 2, Warnings: 1

@@ -1,0 +1,16 @@
+{D:/Digital chipset design/Test_ifdef/tb.sv} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/Test_ifdef/tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {D:/Digital chipset design/Test_ifdef/my_design.sv} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/Test_ifdef/my_design.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module and_and
+-- Compiling module my_design
+
+Top level modules:
+	my_design
+
+} {} {}}

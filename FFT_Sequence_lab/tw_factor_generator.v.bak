@@ -1,0 +1,620 @@
+module tw_factor_generator #(parameter word_length_tw = 8, STAGGER = 20) (
+        input                       clk,
+        input                       en_rd, 
+        input  [10:              0] rd_ptr_angle,
+        input                       en_modify_tw, 
+
+        output [word_length_tw-1:0] cos_data,
+        output [word_length_tw-1:0] sin_data
+);
+
+generate
+if (word_length_tw == 6) && STAGGER == 5 begin
+M_TWIDLE_6_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_6_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 6) && STAGGER == 10 begin
+M_TWIDLE_6_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_6_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 6) && STAGGER == 15 begin
+M_TWIDLE_6_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_6_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 6) && STAGGER == 20 begin
+M_TWIDLE_6_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_6_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 6) && STAGGER == 25 begin
+M_TWIDLE_6_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_6_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 7) && STAGGER == 5 begin
+M_TWIDLE_7_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_7_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 7) && STAGGER == 10 begin
+M_TWIDLE_7_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_7_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 7) && STAGGER == 15 begin
+M_TWIDLE_7_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_7_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 7) && STAGGER == 20 begin
+M_TWIDLE_7_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_7_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 7) && STAGGER == 25 begin
+M_TWIDLE_7_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_7_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 8) && STAGGER == 5 begin
+M_TWIDLE_8_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_8_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 8) && STAGGER == 10 begin
+M_TWIDLE_8_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_8_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 8) && STAGGER == 15 begin
+M_TWIDLE_8_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_8_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 8) && STAGGER == 20 begin
+M_TWIDLE_8_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_8_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 8) && STAGGER == 25 begin
+M_TWIDLE_8_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_8_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 9) && STAGGER == 5 begin
+M_TWIDLE_9_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_9_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 9) && STAGGER == 10 begin
+M_TWIDLE_9_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_9_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 9) && STAGGER == 15 begin
+M_TWIDLE_9_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_9_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 9) && STAGGER == 20 begin
+M_TWIDLE_9_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_9_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 9) && STAGGER == 25 begin
+M_TWIDLE_9_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_9_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 10) && STAGGER == 5 begin
+M_TWIDLE_10_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_10_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 10) && STAGGER == 10 begin
+M_TWIDLE_10_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_10_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 10) && STAGGER == 15 begin
+M_TWIDLE_10_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_10_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 10) && STAGGER == 20 begin
+M_TWIDLE_10_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_10_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 10) && STAGGER == 25 begin
+M_TWIDLE_10_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_10_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 11) && STAGGER == 5 begin
+M_TWIDLE_11_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_11_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 11) && STAGGER == 10 begin
+M_TWIDLE_11_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_11_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 11) && STAGGER == 15 begin
+M_TWIDLE_11_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_11_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 11) && STAGGER == 20 begin
+M_TWIDLE_11_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_11_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 11) && STAGGER == 25 begin
+M_TWIDLE_11_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_11_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 12) && STAGGER == 5 begin
+M_TWIDLE_12_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_12_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 12) && STAGGER == 10 begin
+M_TWIDLE_12_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_12_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 12) && STAGGER == 15 begin
+M_TWIDLE_12_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_12_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 12) && STAGGER == 20 begin
+M_TWIDLE_12_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_12_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 12) && STAGGER == 25 begin
+M_TWIDLE_12_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_12_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 13) && STAGGER == 5 begin
+M_TWIDLE_13_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_13_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 13) && STAGGER == 10 begin
+M_TWIDLE_13_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_13_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 13) && STAGGER == 15 begin
+M_TWIDLE_13_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_13_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 13) && STAGGER == 20 begin
+M_TWIDLE_13_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_13_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 13) && STAGGER == 25 begin
+M_TWIDLE_13_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_13_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 14) && STAGGER == 5 begin
+M_TWIDLE_14_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_14_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 14) && STAGGER == 10 begin
+M_TWIDLE_14_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_14_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 14) && STAGGER == 15 begin
+M_TWIDLE_14_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_14_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 14) && STAGGER == 20 begin
+M_TWIDLE_14_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_14_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 14) && STAGGER == 25 begin
+M_TWIDLE_14_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_14_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 15) && STAGGER == 5 begin
+M_TWIDLE_15_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_15_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 15) && STAGGER == 10 begin
+M_TWIDLE_15_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_15_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 15) && STAGGER == 15 begin
+M_TWIDLE_15_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_15_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 15) && STAGGER == 20 begin
+M_TWIDLE_15_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_15_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 15) && STAGGER == 25 begin
+M_TWIDLE_15_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_15_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 16) && STAGGER == 5 begin
+M_TWIDLE_16_B_0_5_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_16_B_0_5_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 16) && STAGGER == 10 begin
+M_TWIDLE_16_B_0_10_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_16_B_0_10_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 16) && STAGGER == 15 begin
+M_TWIDLE_16_B_0_15_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_16_B_0_15_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 16) && STAGGER == 20 begin
+M_TWIDLE_16_B_0_20_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_16_B_0_20_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+else if (word_length_tw == 16) && STAGGER == 25 begin
+M_TWIDLE_16_B_0_25_v #( .SIZE(10),.word_length_tw(word_length_tw))
+M_TWIDLE_16_B_0_25_v_inst (
+.clk(clk),
+.en_rd(en_rd),
+.rd_ptr_angle(rd_ptr_angle),
+.en_modf(en_modify_tw), 
+.cos_data(cos_data),
+.sin_data(sin_data)
+)
+end
+
+endgenerate
+
+endmodule

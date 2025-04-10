@@ -1,0 +1,53 @@
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 12:08:35 on Jan 09,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.uart_rx
+# Loading work.INVERT_ADDR
+# Loading work.MODIFY_FFT
+# Loading work.CONTROL1
+# Loading work.RAM
+# Loading work.TWIDLE_14_bit_STAGE1
+# Loading work.RADIX
+# Loading work.RAM2
+# Loading work.CONTROL2
+# Loading work.TWIDLE_14_bit_STAGE2
+# Loading work.TWIDLE_14_bit_STAGE3
+# Loading work.CONTROL3
+# Loading work.TWIDLE_14_bit_STAGE4
+# Loading work.modify_RADIX
+# Loading work.CONTROL4
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/Real_o1 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/Imag_o1 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/Real_o2 \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/Imag_o2
+run
+# Compile of INVERT_ADDR.v was successful.
+restart
+# Loading work.INVERT_ADDR
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of PROCESS_O_DATA.v was successful.
+restart
+# Loading work.PROCESS_O_DATA
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/PROCESS_O_DATA/data_out
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 15:42:42 on Jan 09,2025, Elapsed time: 3:34:07
+# Errors: 0, Warnings: 0

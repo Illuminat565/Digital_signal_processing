@@ -1,0 +1,81 @@
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 09:37:16 on Mar 31,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.uart_rx
+# Loading work.INVERT_ADDR
+# Loading work.INVERT
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.seg7_data2
+# Loading work.uart_vd
+# Loading work.MODIFY_FFT
+# Loading work.add_multiplier_generator
+# Loading work.MODIFY_CONTROL
+# Loading work.shift_register
+# Loading work.addres_1st_generator
+# Loading work.final_addres_generator
+# Loading work.out_addres_generator
+# Loading work.RAM
+# Loading work.tw_factor_generator
+# Loading work.demultiplexor
+# Loading work.MODIFY_RADIX2
+# Loading work.multiply
+# Loading work.modifying_adder
+# Loading work.multiplexor
+# Loading work.addres_generator
+# Loading work.M_TWIDLE_14_B_0_25_v
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Too few port connections. Expected 8, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_Sequence_lab/top_module.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'key'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'dig'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'seg'.
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/ram_data_store/mem_Re \
+sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/ram_data_store/mem_Im
+run
+add wave -position insertpoint  \
+{sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/control_unit/genblk1/gen_address_generator[3]/i}
+restart
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Too few port connections. Expected 8, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_Sequence_lab/top_module.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'key'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'dig'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'seg'.
+run
+add wave -position insertpoint  \
+{sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/control_unit/genblk1/gen_address_generator[2]/u0/i}
+restart
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Too few port connections. Expected 8, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_Sequence_lab/top_module.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'key'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'dig'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'seg'.
+run
+add wave -position insertpoint  \
+{sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/control_unit/genblk1/gen_address_generator[3]/u0/i}
+restart
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Too few port connections. Expected 8, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_Sequence_lab/top_module.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'key'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'dig'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'seg'.
+run
+add wave -position insertpoint  \
+{sim:/uart_vd_tb/TOP_MODULE/genblk1/MODIFY_FFT/control_unit/genblk1/gen_address_generator[3]/u0/rd_ptr}
+restart
+# ** Warning: (vsim-3017) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Too few port connections. Expected 8, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /uart_vd_tb/TOP_MODULE File: D:/Digital chipset design/FFT_Sequence_lab/top_module.v
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'key'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'dig'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'led'.
+# ** Warning: (vsim-3722) D:/Digital chipset design/FFT_Sequence_lab/uart_vd_tb.v(15): [TFMPC] - Missing connection for port 'seg'.
+run
+quit -sim
+# End time: 12:08:06 on Mar 31,2025, Elapsed time: 2:30:50
+# Errors: 0, Warnings: 25

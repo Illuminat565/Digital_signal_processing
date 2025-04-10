@@ -1,0 +1,16 @@
+# End time: 13:03:55 on Oct 12,2024, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 1
+# Compile of mux.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 13:04:08 on Oct 12,2024
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.mux
+# WARNING: No extended dataflow license exists
+add wave sim:/testbench/*
+run
+# End time: 13:46:22 on Oct 12,2024, Elapsed time: 0:42:14
+# Errors: 0, Warnings: 1

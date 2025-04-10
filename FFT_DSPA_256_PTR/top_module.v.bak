@@ -1,0 +1,106 @@
+ ///////////////////////////////////////////////////////////////////////////////////
+// University     : Ryazan State Radio Engineering University 
+// Engineer       : TRINH NGOC HIEU
+// Create Date    : 2024.22.02
+// Design Name    : 
+// Module name    : top_module
+// Project_name   : FPGA FFT
+// Target Device  : 
+// Tool versions  :
+// Description    : 
+//
+// Revision       : V1.0
+// Additional Comments    :
+///////////////////////////////////////////////////////////////////////////////////
+//----------------------------------------------------------------------
+module top_module #(
+    parameter N=32, DEPTH = 1024, SIZE = 10
+) (
+    input  clk,
+    input  rst_n,
+    input  data_in,
+
+    output  tx_o,
+    output  [3:0] dig,
+    output  [7:0] seg  
+);
+
+        wire signed [N-1:0] x_o, y_o;
+        wire en_FFT;
+        wire full_data;
+        wire done_FFT;
+        wire tx_done_o,en_tx;
+        wire signed [N-1:0] real_o_data;
+        wire signed [N-1:0] image_o_data; 
+        wire        [ SIZE:0] inx_point;
+        wire en_wr;
+
+     register2  #( .N(N), .DEPTH(DEPTH),.SIZE(SIZE)) REGISTER(
+        .clk(clk),
+        .rst_n(rst_n),
+
+        .data_in(data_in),
+
+        .real_o_data(real_o_data),
+        .image_o_data(image_o_data),
+        .inx_point(inx_point),
+        
+        .full_o(en_FFT),
+        .en_o(en_wr),
+        .empty_o(full_data)
+        );  
+
+     MODIFY_FFT  #( .N(N), .DEPTH(DEPTH),.SIZE(SIZE)) MODIFY_FFT(
+         .clk(clk),
+         .rst_n(rst_n),    
+         .en_FFT(en_FFT),
+         .full_data(full_data),
+         
+         .en_wr(en_wr),
+         .x_real_i(real_o_data),
+         .y_real_i(image_o_data),
+         .inx_point(inx_point),
+
+         .x_real_o(x_o),
+         .y_real_o(y_o),
+
+         .en_rd(en_tx),
+         .done_o(done_FFT)
+    );  
+    
+
+    uart_tx2 #( .N(N), .DEPTH(DEPTH),.SIZE(SIZE)) UART_TX(
+        .clk(clk),
+        .rst_n(rst_n),  
+        .en_i(en_tx),
+        .data_re_i(x_o),
+        .data_im_i(y_o),
+        
+        .tx_o(tx_o),
+        .tx_done_o(tx_done_o)  
+);  
+    
+  /*   seg7_data #( .N(N), .DEPTH(DEPTH),.SIZE(SIZE)) SEG7_DATA (
+     .clk(clk),
+     .rst_n(rst_n),
+
+     .en_seg7(en_tx),
+     .x_in(x_o),
+     .y_in(y_o),
+     
+     .dig(dig),
+     .seg(seg)  
+);    */
+
+    seg7_data2  SEG7_DATA2 (
+     .clk(clk),
+     .rst_n(rst_n),
+
+     .en_FFT(en_FFT),
+     .done_FFT(done_FFT),
+     
+     .dig(dig),
+     .seg(seg)  
+); 
+
+endmodule

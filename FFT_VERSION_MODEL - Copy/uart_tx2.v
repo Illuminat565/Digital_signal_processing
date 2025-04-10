@@ -1,0 +1,197 @@
+//`define  SIMULATION
+module uart_tx2 #(parameter bit_width = 28, N = 32, SIZE = 5, 
+                            t_1_bit = 16'd5207)  (
+    input clk, 
+    input rst_n,
+    input en_i,
+    input [bit_width-1:0] data_re_i,
+    input [bit_width-1:0] data_im_i,
+    output  reg tx_o,
+    output  reg tx_done_o
+);
+//----------------------------------------------------------------
+localparam s_idle   = 8'b0000_0001,
+           READ     = 8'b0000_0010,
+           READ2    = 8'b0000_0100,
+           READ3    = 8'b0000_0110,
+           READ4    = 8'b0000_1100,
+           s_start1 = 8'b0000_1000,
+           s_start2 = 8'b0001_0000,
+           s_wr     = 8'b0010_0000,
+           s_stop   = 8'b0100_0000,
+           s_done   = 8'b1000_0000;
+/*
+`ifdef SIMULATION
+//This is for simulation
+ localparam t_1_bit =9; // from 0 to 9, it is 10;
+ `else 
+ // localparagram BPS_CNT = CLK_FREQUENCE/BAUD_RATE-1,  (50_000_000/9600)-1=5207;
+ localparam t_1_bit = 16'd5207;
+ `endif
+*/
+reg en_cnt;
+reg[15:0] cnt;
+reg[7:0]  state;
+reg[7:0]  data_r;
+reg[3:0]  tx_bits;
+
+reg [7:0] data_re1 [N-1:0];
+reg [7:0] data_re2 [N-1:0];
+reg [7:0] data_im1 [N-1:0];
+reg [7:0] data_im2 [N-1:0];
+reg [SIZE:0] wr_ptr;
+reg [SIZE:0] rd_ptr;
+reg [SIZE:0] rd_ptr2;
+reg [SIZE:0] rd_ptr3;
+reg [SIZE:0] rd_ptr4;
+        
+reg [SIZE+2:0] cnt_point;
+
+//--------------------------------------------------------------
+always @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+        cnt <=16'd0;
+    end else  if ((en_cnt == 0)||(cnt == t_1_bit))
+        cnt <=16'd0;
+        else  cnt <= cnt + 16'd1;
+end
+
+//------------------------------------------------------------
+always @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+        state <= s_idle;
+        tx_o  <= 1'b0;
+        data_r <= 8'b0;
+        en_cnt <= 1'b0;
+        tx_bits <= 4'd0;
+        tx_done_o <= 1'b0;
+        rd_ptr  <= 0;
+        rd_ptr2  <= 0;
+        rd_ptr3  <= 0;
+        rd_ptr4  <= 0;
+        wr_ptr  <= 0;
+        cnt_point <= 0;
+    end else begin
+        case (state)
+            s_idle:
+                  begin
+                    tx_bits <= 4'd0;
+                    tx_done_o <= 1'b0;
+                    
+                    if (en_i == 1'b1) begin
+
+                   /*     if (data_re_i[bit_width-1]==1'b1 && data_re_i[15:0] !=16'd0 ) data_temp1 [wr_ptr] = data_re_i[23:16] + 1'b1 ;
+                        else  data_temp1 [wr_ptr] = data_re_i[23:16];
+
+                        if (data_im_i[bit_width-1]==1'b1 && data_im_i[15:0] !=16'd0 ) data_temp2 [wr_ptr] = data_im_i[23:16] + 1'b1 ;
+                        else  data_temp2 [wr_ptr] = data_im_i[23:16];   */
+
+                        data_re1 [wr_ptr] <= data_re_i[13:6];
+                        data_re2 [wr_ptr] <= data_re_i[21:14];
+                        data_im1 [wr_ptr] <= data_im_i[13:6];
+                        data_im2 [wr_ptr] <= data_im_i[21:14];
+
+                        wr_ptr <= wr_ptr +1'd1;
+
+                    end
+                    
+                    if (wr_ptr == N) begin
+                        state  <= READ;
+                    end else begin
+                        en_cnt <= 1'b0;
+                        state  <= s_idle;
+                    end
+                  end 
+            READ:   
+                   begin
+                    if (cnt_point < N) begin
+                        data_r <= data_re1 [rd_ptr];
+                        en_cnt <= 1'b1;
+                        state  <= s_start1;
+                        rd_ptr <= rd_ptr +1'd1;
+                        cnt_point    <= cnt_point + 1'b1;
+                    end else state   <= READ2;
+                   end
+            READ2:   
+                   begin
+                    if (cnt_point < N<<1) begin
+                        data_r <= data_re2 [rd_ptr2];
+                        en_cnt <= 1'b1;
+                        state  <= s_start1;
+                        rd_ptr2 <= rd_ptr2 +1'd1;
+                        cnt_point    <= cnt_point + 1'b1;
+                    end else state   <= READ3;
+                   end  
+            READ3:   
+                   begin
+                    if (cnt_point < (N<<1)+N) begin
+                        data_r <= data_im1 [rd_ptr3];
+                        en_cnt <= 1'b1;
+                        state  <= s_start1;
+                        rd_ptr3 <= rd_ptr3 +1'd1;
+                        cnt_point    <= cnt_point + 1'b1;
+                    end else state   <= READ4;
+                   end
+            READ4:   
+                   begin
+                        data_r <= data_im2 [rd_ptr4];
+                        en_cnt <= 1'b1;
+                        state  <= s_start1;
+                        rd_ptr4 <= rd_ptr4 +1'd1;
+                        cnt_point    <= cnt_point + 1'b1;
+                   end     
+            s_start1: 
+                  if(cnt == t_1_bit) begin
+                    state <= s_start2;
+                  end else begin
+                    tx_o <= 1'b1;
+                    state <= s_start1;
+                  end
+            s_start2: 
+                  if(cnt == t_1_bit) begin
+                    state <= s_wr;
+                  end else begin
+                    tx_o <= 1'b0;
+                    state <= s_start2;
+                  end
+            s_wr:
+                 if (cnt == t_1_bit) begin
+                    if (tx_bits == 4'd7) begin
+                        state <= s_stop;
+                    end else begin
+                        tx_bits <= tx_bits + 4'd1;
+                        state <= s_wr;
+                    end
+                 end else begin
+                    tx_o <= data_r [tx_bits];
+                    state <= s_wr;
+                 end  
+            s_stop:
+                     if (cnt == t_1_bit) begin
+                       state <= s_done;
+                     end else 
+                     begin
+                        tx_o <= 1'b1;
+                        state <= s_stop;
+                     end   
+            s_done:
+              if (cnt == t_1_bit)     begin
+                        en_cnt <= 1'b0;
+                        tx_done_o <= 1'b1;
+                        state   <= s_idle;
+                        if (cnt_point == N<<2) begin 
+                          cnt_point <= 0;
+                          rd_ptr <= 0;
+                          rd_ptr2 <= 0;
+                          rd_ptr3 <= 0;
+                          rd_ptr4 <= 0;
+                          wr_ptr <= 0;
+                          tx_o <= 1'b0;
+                        end
+                    end
+            default: state <= s_idle;
+        endcase
+    end
+end
+
+endmodule

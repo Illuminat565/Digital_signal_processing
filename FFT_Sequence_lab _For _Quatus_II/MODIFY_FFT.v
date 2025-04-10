@@ -1,0 +1,184 @@
+///////////////////////////////////////////////////////////////////////////////////
+// Университет       : Рязанский государственный радиотехнический университет имени В.Ф. Уткина
+// Инженер           : ЧИНЬ НГОК ХИЕУ - аспирант кафедры РТС (РГРТУ)
+// Mail              : ngochieu.radioscientist@mail.ru 
+// Дата создания     : 13.02.2025
+// Название модуля   : MODIFY_FFT 
+// Название проекта  : FPGA - sequential architecture of the modified FFT algorithm
+// Описание          : Mодуль вычисления модифицированного алгоритма БПФ 
+//                     последовательной архитектуры модифицированного алгоритма БПФ на FPGA
+///////////////////////////////////////////////////////////////////////////////////
+module MODIFY_FFT
+  #(parameter word_length_tw = 14,               // Разрядность данных коэффициентов вращения (значения sin/cos)
+    stagger = 15,                                // Процент рассогласования 
+    t_1_bit = 5207,                              // Временной интервал передачи одного бита для UART
+    bit_width = 24, N = 16, SIZE = 4)            // Параметры FFT: Разрядность данных, Количество выборок (размер БПФ) и ширина адреса
+(
+    input                            clk,        // Тактовый сигнал
+    input                            rst_n,      // Сброс (активный низкий уровень)
+    input                            start_flag, // Флаг начала выполнения FFT
+    input                            load_data,  // Флаг загрузки данных
+    input    signed  [bit_width-1:0] Re_i,       // Действительная часть входных данных FFT
+    input    signed  [bit_width-1:0] Im_i,       // Мнимая часть входных данных FFT
+    input            [SIZE-1     :0] invert_addr,// Адрес для перестановки данных в памяти
+    input                            en_out,     // Разрешение вывода данных
+
+    output   signed  [bit_width-1:0] Re_o,       // Действительная часть выходных данных после FFT
+    output   signed  [bit_width-1:0] Im_o,       // Мнимая часть выходных данных после FFT
+    output                           en_o,       // Флаг разрешения вывода данных
+    output                           finish_FFT, // Сигнал завершения работы FFT
+    output                           done_o      // Флаг окончания обработки данных
+);
+
+    // Внутренние сигналы для хранения промежуточных данных FFT
+    wire  signed [bit_width-1:0] Re_temp1, Im_temp1, Re_temp2, Im_temp2;
+    wire  signed [bit_width-1:0] Re_temp3, Im_temp3, Re_temp4, Im_temp4;
+    wire  signed [bit_width-1:0] Re_temp5, Im_temp5, Re_temp6, Im_temp6;
+
+    // Управляющие сигналы для управления потоками данных и этапами обработки
+    wire en_o_temp, en_wr, en_rd, en_add, en_modify;
+    wire out_valid, en_radix, en_mul;
+
+    // Адресные указатели для чтения и записи в память
+    wire [10:0] rd_ptr_angle;   // Указатель угла для коэффициентов вращения
+    wire [SIZE:0] wr_ptr, rd_ptr; // Указатели чтения и записи
+
+    // Выходные сигналы демультиплексора для разделения потоков данных
+    wire signed [bit_width-1:0] Re_demul, Im_demul;
+
+    // Данные коэффициентов вращения (значения sin и cos)
+    wire signed [word_length_tw-1:0] sin_data2, cos_data2;
+    wire signed [word_length_tw-1:0] sin_data_radix, cos_data_radix;
+    wire signed [word_length_tw-1:0] sin_data, cos_data;
+
+    //----------------------------------------------------------------------  
+    // Генератор множителей: создает значения допольнительной множителей на основе степени вобуляции периодла повторения импулсьов  
+    // вращения (sin и cos), которые используются при вычислении FFT.  
+    add_multiplier_generator #(.word_length_tw(word_length_tw), .STAGGER(stagger)) multiplier_gen_inst (
+        .sin_data2(sin_data2),
+        .cos_data2(cos_data2)
+    );
+
+    //----------------------------------------------------------------------  
+    // Модуль управления: управляет сигналами управления FFT, такими как запуск,  
+    // разрешение вывода, управление указателями чтения/записи.  
+    MODIFY_CONTROL #( .t_1_bit(t_1_bit), .bit_width(bit_width), .N(N), .SIZE(SIZE)) control_unit (
+        .clk(clk),
+        .rst_n(rst_n),
+        .flag_start_FFT(start_flag),
+        .en_out(en_out),
+        .en_modify(en_modify),
+        .en_modify_tw(en_modify_tw),
+        .rd_ptr(rd_ptr),
+        .rd_ptr_angle(rd_ptr_angle),
+        .en_rd(en_rd),
+        .finish_FFT(finish_FFT),
+        .out_valid(out_valid),
+        .done_o(done_o)
+    );
+
+    //----------------------------------------------------------------------  
+    // Сдвиговый регистр: обеспечивает сдвиг указателя чтения в указатель записи  
+    // в процессе выполнения FFT.  
+    shift_register #(.width(SIZE+1), .depth(5)) shift_reg_inst (
+        .clk(clk),
+        .rst_n(rst_n),
+        .in_data(rd_ptr),
+        .out_data(wr_ptr)
+    );
+
+    //----------------------------------------------------------------------  
+    // Модуль памяти RAM: используется для хранения входных данных FFT,  
+    // промежуточных вычислений и управления операциями чтения/записи.  
+    RAM #( .bit_width(bit_width), .N(N), .SIZE(SIZE)) ram_data_store (
+        .clk(clk),
+        .rst_n(rst_n),
+        .load_data(load_data),
+        .invert_adr(invert_addr),
+        .Re_i1(Re_i),
+        .Im_i1(Im_i),
+        .en_wr(en_wr),
+        .Re_i2(Re_temp1),
+        .Im_i2(Im_temp1),
+        .out_valid(out_valid),
+        .wr_ptr(wr_ptr),
+        .rd_ptr(rd_ptr),
+        .en_rd(en_rd),
+        .Re_o(Re_o),
+        .Im_o(Im_o),
+        .en_radix(en_radix),
+        .out_valid_data(en_o)
+    );
+
+    //----------------------------------------------------------------------  
+    // Генератор коэффициентов вращения: формирует значения sin и cos  
+    // для использования в вычислениях FFT на основе углового указателя.  
+    tw_factor_generator #(.word_length_tw(word_length_tw), .STAGGER(stagger)) tw_factor_gen_inst (
+        .clk(clk),
+        .en_rd(en_rd),
+        .rd_ptr_angle(rd_ptr_angle),
+        .en_modify_tw(en_modify_tw),
+        .cos_data(cos_data),
+        .sin_data(sin_data)
+    );
+
+    //----------------------------------------------------------------------  
+    // Демультиплексор: разделяет входные данные на несколько потоков  
+    // для параллельной обработки во время выполнения FFT.  
+    demultiplexor #(.bit_width(bit_width), .word_length_tw(word_length_tw)) demux_inst (
+        .clk(clk),
+        .rst_n(rst_n),
+        .Re_i(Re_o),
+        .Im_i(Im_o),
+        .cos_data(cos_data),
+        .sin_data(sin_data),
+        .in_valid(en_radix),
+        .Re_o1(Re_temp2),
+        .Im_o1(Im_temp2),
+        .Re_o2(Re_temp4),
+        .Im_o2(Im_temp4),
+        .o_cos_data(cos_data_radix),
+        .o_sin_data(sin_data_radix),
+        .out_valid(en_add)
+    );
+
+    //----------------------------------------------------------------------  
+    // Модификация FFT (Modified Radix-2):С допольнительным умножением 
+    // FFT по алгоритмам Modified Radix-2 и Radix-2.  
+    MODIFY_RADIX2 #( .bit_width(bit_width), .word_length_tw(word_length_tw)) modify_radix2_inst (
+        .clk(clk),
+        .rst_n(rst_n),
+        .en_modify(en_modify),
+        .sin_data(sin_data_radix),
+        .cos_data(cos_data_radix),
+        .sin_data2(sin_data2),
+        .cos_data2(cos_data2),
+        .Re_i1(Re_temp2),
+        .Im_i1(Im_temp2),
+        .Re_i2(Re_temp4),
+        .Im_i2(Im_temp4),
+        .en(en_add),
+        .Re_o1(Re_temp3),
+        .Im_o1(Im_temp3),
+        .Re_o2(Re_temp5),
+        .Im_o2(Im_temp5),
+        .out_valid(en_mul)
+    );
+
+    //----------------------------------------------------------------------  
+    // Мультиплексор: выбирает корректный промежуточный результат  
+    // для обратного поступления в RAM.  
+    multiplexor #(.bit_width(bit_width)) mux_inst (
+        .clk(clk),
+        .rst_n(rst_n),
+        .Re_i_1(Re_temp3),
+        .Im_i_1(Im_temp3),
+        .Re_i_2(Re_temp5),
+        .Im_i_2(Im_temp5),
+        .in_valid(en_mul),
+        .Re_o(Re_temp1),
+        .Im_o(Im_temp1),
+        .out_valid(en_wr)
+    );
+
+endmodule

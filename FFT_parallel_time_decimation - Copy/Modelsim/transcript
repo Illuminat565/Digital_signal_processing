@@ -1,0 +1,53 @@
+vsim -gui work.uart_vd_tb
+# vsim -gui work.uart_vd_tb 
+# Start time: 21:54:50 on Apr 09,2025
+# Loading work.uart_vd_tb
+# Loading work.top_module
+# Loading work.uart_rx
+# Loading work.INVERT_ADDR
+# Loading work.MODIFY_FFT
+# Loading work.First_stage
+# Loading work.addres_1st_generator
+# Loading work.RAM1
+# Loading work.first_demultiplexor
+# Loading work.First_RADIX
+# Loading work.multiplexor
+# Loading work.shift_register
+# Loading work.Inter_stage2
+# Loading work.addres_generator
+# Loading work.RAM2
+# Loading work.demultiplexor
+# Loading work.RADIX
+# Loading work.Inter_stage3
+# Loading work.RAM3
+# Loading work.Inter_stage4
+# Loading work.RAM4
+# Loading work.Inter_stage5
+# Loading work.RAM5
+# Loading work.Inter_stage6
+# Loading work.RAM6
+# Loading work.Inter_stage7
+# Loading work.RAM7
+# Loading work.Final_stage
+# Loading work.final_addres_generator
+# Loading work.RAM8
+# Loading work.MODIFY_RADIX2
+# Loading work.Out_stage
+# Loading work.out_addres_generator
+# Loading work.Final_RAM
+# Loading work.PROCESS_O_DATA
+# Loading work.uart_tx
+# Loading work.uart_vd
+add wave -position insertpoint  \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/Out_stage/Final_RAM/mem_Re \
+sim:/uart_vd_tb/TOP_MODULE/MODIFY_FFT/Out_stage/Final_RAM/mem_Im
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: admin  Hostname: LAPTOP-M1UA592I  ProcessID: 7084
+#           Attempting to use alternate WLF file "./wlft1yex2n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1yex2n
+run
+# Break key hit
+quit -sim
+# End time: 21:58:09 on Apr 09,2025, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 2

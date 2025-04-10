@@ -1,0 +1,1 @@
+create_clock -period "200.0 MHz" [get_ports CLK]

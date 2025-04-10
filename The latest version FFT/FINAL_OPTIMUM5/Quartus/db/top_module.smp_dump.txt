@@ -1,0 +1,50 @@
+
+State Machine - |top_module|seg7_data:SEG7_DATA|cur_state
+Name cur_state.PREPARE cur_state.DISPLAY cur_state.DATA_PROC cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 
+cur_state.DATA_PROC 0 0 1 1 
+cur_state.DISPLAY 0 1 0 1 
+cur_state.PREPARE 1 0 0 1 
+
+State Machine - |top_module|uart_tx2:UART_TX|state
+Name state.READ4 state.s_start1 state.READ3 state.READ2 state.READ state.s_done state.s_stop state.s_wr state.s_start2 state.s_idle 
+state.s_idle 0 0 0 0 0 0 0 0 0 0 
+state.READ 0 0 0 0 1 0 0 0 0 1 
+state.READ2 0 0 0 1 0 0 0 0 0 1 
+state.READ3 0 0 1 0 0 0 0 0 0 1 
+state.s_start1 0 1 0 0 0 0 0 0 0 1 
+state.READ4 1 0 0 0 0 0 0 0 0 1 
+state.s_start2 0 0 0 0 0 0 0 0 1 1 
+state.s_wr 0 0 0 0 0 0 0 1 0 1 
+state.s_stop 0 0 0 0 0 0 1 0 0 1 
+state.s_done 0 0 0 0 0 1 0 0 0 1 
+
+State Machine - |top_module|MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT2:MODIFY_FFT|CONTROL:CONTROL|cur_state
+Name cur_state.DELAY2 cur_state.READ2 cur_state.DELAY cur_state.DONE cur_state.STAGE cur_state.READ1 cur_state.READ cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 0 0 0 0 
+cur_state.READ 0 0 0 0 0 0 1 1 
+cur_state.READ1 0 0 0 0 0 1 0 1 
+cur_state.STAGE 0 0 0 0 1 0 0 1 
+cur_state.DELAY 0 0 1 0 0 0 0 1 
+cur_state.READ2 0 1 0 0 0 0 0 1 
+cur_state.DELAY2 1 0 0 0 0 0 0 1 
+cur_state.DONE 0 0 0 1 0 0 0 1 
+
+State Machine - |top_module|INVERT_ADDR:INVERT_ADDR|cur_state
+Name cur_state.EMPTY cur_state.READ cur_state.WRITE cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 
+cur_state.WRITE 0 0 1 1 
+cur_state.READ 0 1 0 1 
+cur_state.EMPTY 1 0 0 1 
+
+State Machine - |top_module|INVERT_ADDR:INVERT_ADDR|uart_rx2:UART_RX2|state
+Name state.s_done state.s_rd state.s_start state.s_idle 
+state.s_idle 0 0 0 0 
+state.s_start 0 0 1 1 
+state.s_rd 0 1 0 1 
+state.s_done 1 0 0 1 

@@ -1,0 +1,71 @@
+module  RAM2 #(parameter N=29, DEPTH = 16, SIZE = 4)(
+    input clk,rst_n,
+
+    input                 en_wr,
+    input        [SIZE:0] wr_ptr,
+    input signed [N-1:0]  Re_i,
+    input signed [N-1:0]  Im_i,
+
+    
+    input [SIZE:0] rd_ptr,
+    input          en_rd,
+    
+    output  signed [N-1:0]  Re_o1,
+    output  signed [N-1:0]  Im_o1,
+    output  signed [N-1:0]  Re_o2,
+    output  signed [N-1:0]  Im_o2,
+
+    output reg  signed [N-1:0]  Re_o,
+    output reg  signed [N-1:0]  Im_o,
+    
+    output reg  en_o,
+    output      done_o
+    
+ );
+
+    reg signed [N-1:0]   mem_Re  [DEPTH-1:0];
+    reg signed [N-1:0]   mem_Im  [DEPTH-1:0];
+    
+    reg [1:0]    point;
+    reg [SIZE:0] count;
+
+    assign flag_start_FFT = (count==DEPTH);
+     
+    assign Re_o1  =  (point==1)?   Re_o:Re_o1;
+    assign Im_o1  =  (point==1)?   Im_o:Im_o1;
+    assign Re_o2  =  (point==2)?   Re_o:Re_o2;
+    assign Im_o2  =  (point==2)?   Im_o:Im_o2;
+    assign done_o =  (point==2)?   1'b1:1'b0;
+
+    //------------------------handle read from MEM----------------------------
+        always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            en_o      <= 0;
+            point     <= 0;
+        end else begin
+            if (en_rd) begin
+                Re_o <= mem_Re[rd_ptr];
+                Im_o <= mem_Im[rd_ptr];
+                point    <= point+1'd1;
+                en_o     <= 1'b1;  
+             end else begin
+                point   <= 0;
+                en_o    <= 0;
+             end
+        end
+    end
+
+        //------------------------handle write to MEM----------------------------
+        always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            count     <= 0;
+        end else begin
+             if (en_wr) begin
+                mem_Re[wr_ptr] <= Re_i;
+                mem_Im[wr_ptr] <= Im_i;      
+                count            <= count + 1'b1;
+             end else count      <= 0;
+        end
+    end
+
+endmodule

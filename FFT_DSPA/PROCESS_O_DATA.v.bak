@@ -1,0 +1,179 @@
+module PROCESS_O_DATA # (parameter bit_width = 28, N = 16, SIZE = 4)(
+  input                        clk,
+  input                        rst_n, 
+  
+  input                        finish_fft,
+  input                        en_wr,
+  input                        en_rd,
+
+  input          [SIZE-1:     0]     wr_ptr1,
+  input          [SIZE-1:     0]     wr_ptr2,
+
+  input   signed [bit_width-1:0]     data_re_i1,
+  input   signed [bit_width-1:0]     data_im_i1,
+  input   signed [bit_width-1:0]     data_re_i2,
+  input   signed [bit_width-1:0]     data_im_i2,
+                
+  output  reg [7:0] data_out,
+  output  reg   en_o,
+  output  reg   done_o);
+
+  localparam 
+          IDLE      = 6'b000001,
+          WRITE     = 6'b000010,
+          TAKE_DATA = 6'b000100,
+          WAIT      = 6'b001000,
+          READ      = 6'b010000,
+          DONE      = 6'b100000;
+
+  reg [5:0] cur_state;
+  reg [5:0] next_state;
+  reg [7:0] data_out_temp [3:0];
+  reg [2:0] rd_ptr;
+
+  reg en_wr_mem;
+
+  reg  signed    [bit_width-1:0]     data_re_i;
+  reg  signed    [bit_width-1:0]     data_im_i;
+  reg  signed    [bit_width-1:0]     x_i;
+  reg  signed    [bit_width-1:0]     y_i;
+
+  reg            [SIZE-1:     0]     wr_ptr_mem;
+  reg            [SIZE:       0]     rd_ptr_mem;
+
+  reg  signed          [bit_width-1:0]     mem_Re [N-1:0];
+  reg  signed          [bit_width-1:0]     mem_Im [N-1:0];
+  //------------------------------------------------------------------------------------
+
+      reg [1:0] state_wr;
+
+     localparam
+          FIRST_IN   = 2'b01,
+          SECOND_IN  = 2'b10;      
+     //------------------------handle load initial data to MEM--------------------------
+        always @(posedge clk or negedge rst_n) begin
+            if (!rst_n) begin
+                state_wr           <= FIRST_IN;
+            end else begin
+                case (state_wr)
+                  FIRST_IN  : begin
+                    if (en_wr) begin
+                        state_wr   <= SECOND_IN;
+                    end 
+                    end
+                  SECOND_IN :state_wr   <= FIRST_IN;
+                    default: state_wr   <= FIRST_IN;
+                endcase
+            end
+        end            
+    //----------------------------------------------------------------------
+    always @(*) begin
+        if (state_wr == FIRST_IN && en_wr) begin
+            x_i         <= data_re_i1;  
+            y_i         <= data_im_i1;
+            en_wr_mem   <= 1'b1;
+            wr_ptr_mem  <= wr_ptr1;
+        end else if (state_wr == SECOND_IN )begin
+            en_wr_mem   <= 1'b1;
+            x_i         <= data_re_i2;
+            y_i         <= data_im_i2;
+            wr_ptr_mem  <= wr_ptr2;
+        end else en_wr_mem <= 1'b0;
+    end   
+
+
+always @(posedge clk ) begin
+          if (en_wr_mem) begin
+                  mem_Re[wr_ptr_mem]      <= x_i;
+                  mem_Im[wr_ptr_mem]      <= y_i;   
+          end
+     
+end
+
+//----------------state machin----------------
+  always @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+        cur_state <= IDLE;
+    end else cur_state <= next_state;
+  end
+
+//-------------combination logic---------------
+
+always @(*) begin
+    case (cur_state)
+        IDLE: if (finish_fft)  next_state     <=  TAKE_DATA;
+              else        next_state     <=  IDLE;
+        TAKE_DATA: if (rd_ptr_mem == N)     
+                          next_state     <=  IDLE;
+                    else  next_state     <=  WRITE;
+        WRITE:            next_state     <=  READ;
+        WAIT: if (!en_rd) next_state     <=  WAIT;
+              else if (rd_ptr == 4) 
+                          next_state     <=  DONE; 
+              else        next_state     <=  READ;            
+        READ:             next_state     <=  WAIT;
+        DONE:             next_state     <=  TAKE_DATA; 
+        default:          next_state     <=  IDLE;
+    endcase
+end
+
+always @(posedge clk or negedge rst_n) begin
+    if (!rst_n) begin
+            data_out_temp [0]  <= 0;
+            data_out_temp [1]  <= 0;
+            data_out_temp [2]  <= 0;
+            data_out_temp [3]  <= 0;    
+            rd_ptr_mem         <= 0;
+            rd_ptr             <= 0;
+            en_o               <= 1'b0;
+            done_o             <= 1'b0;       
+    end else case (cur_state)
+       IDLE : begin
+            data_out_temp [0]  <= 0;
+            data_out_temp [1]  <= 0;
+            data_out_temp [2]  <= 0;
+            data_out_temp [3]  <= 0; 
+            rd_ptr             <= 0;
+            en_o               <= 1'b0;
+            rd_ptr_mem         <= 0;
+       end
+
+       TAKE_DATA: begin
+             data_re_i         <= mem_Re[rd_ptr_mem];
+             data_im_i         <= mem_Im[rd_ptr_mem];    
+       end
+
+       WRITE: begin
+            data_out_temp [0]  <= data_re_i[13:6];
+            data_out_temp [1]  <= data_im_i[13:6];
+            data_out_temp [2]  <= data_re_i[21:14];
+            data_out_temp [3]  <= data_im_i[21:14];
+       end
+
+       WAIT: begin
+            en_o               <= 0;    
+       end
+
+       READ: begin
+            en_o               <= 1;
+            data_out           <= data_out_temp [rd_ptr];
+            rd_ptr             <= rd_ptr + 1'b1;
+       end
+
+       DONE:begin
+            rd_ptr_mem         <= rd_ptr_mem + 1;
+            rd_ptr             <= 0;
+            en_o               <= 1'b0;
+       end
+        default: begin
+            data_out_temp [0]  <= 0;
+            data_out_temp [1]  <= 0;
+            data_out_temp [2]  <= 0;
+            data_out_temp [3]  <= 0; 
+            rd_ptr             <= 0;
+            en_o               <= 1'b0;
+       end
+    endcase
+end
+    
+endmodule

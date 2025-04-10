@@ -1,0 +1,144 @@
+{D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd
+
+Top level modules:
+	uart_vd
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/register.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/seg7_data.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7_data
+
+Top level modules:
+	seg7_data
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/multiply.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/multiply.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/data_FFT.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/data_FFT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_FFT
+
+Top level modules:
+	data_FFT
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT_ADDR
+
+Top level modules:
+	INVERT_ADDR
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/INVERT_ADDR2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module INVERT_ADDR2
+
+Top level modules:
+	INVERT_ADDR2
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/top_module_tb.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/top_module_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module_tb
+
+Top level modules:
+	top_module_tb
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/uart_rx_model.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/uart_rx_model.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx_model
+
+Top level modules:
+	uart_rx_model
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/ROM_TWIDLE.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/ROM_TWIDLE.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ROM_TWIDLE
+
+Top level modules:
+	ROM_TWIDLE
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/top_modul_models.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/top_modul_models.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module_models
+
+Top level modules:
+	top_module_models
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/PROCESS_O_DATA.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/PROCESS_O_DATA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PROCESS_O_DATA
+
+Top level modules:
+	PROCESS_O_DATA
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/uart_rx2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/uart_rx2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_rx2
+
+Top level modules:
+	uart_rx2
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/config_FFT.svh} {1 {vlog -work work -sv -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/config_FFT.svh}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/adder.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/uart_tx2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/uart_tx2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_tx2
+
+Top level modules:
+	uart_tx2
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/RAM2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/RAM2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RAM2
+
+Top level modules:
+	RAM2
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/RADIX2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/RADIX2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RADIX2
+
+Top level modules:
+	RADIX2
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd_tb.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/uart_vd_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module uart_vd_tb
+
+Top level modules:
+	uart_vd_tb
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/CLASS_TWIDLE_ROM.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/CLASS_TWIDLE_ROM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CLASS_TWIDLE_ROM
+
+Top level modules:
+	CLASS_TWIDLE_ROM
+
+} {} {}} {D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL2.v} {1 {vlog -work work -stats=none {D:/Digital chipset design/FFT_VERSION_MODEL/CONTROL2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CONTROL2
+
+Top level modules:
+	CONTROL2
+
+} {} {}}

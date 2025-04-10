@@ -1,0 +1,91 @@
+
+State Machine - |top_module|uart_tx:UART_TX|state
+Name state.s_done state.s_stop state.s_wr state.s_start2 state.s_start1 state.s_idle 
+state.s_idle 0 0 0 0 0 0 
+state.s_start1 0 0 0 0 1 1 
+state.s_start2 0 0 0 1 0 1 
+state.s_wr 0 0 1 0 0 1 
+state.s_stop 0 1 0 0 0 1 
+state.s_done 1 0 0 0 0 1 
+
+State Machine - |top_module|PROCESS_O_DATA:PROCESS_O_DATA|cur_state
+Name cur_state.DONE cur_state.INVERT cur_state.COUNT cur_state.READ cur_state.WAIT cur_state.TAKE_DATA cur_state.WRITE cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 0 0 0 0 
+cur_state.WRITE 0 0 0 0 0 0 1 1 
+cur_state.TAKE_DATA 0 0 0 0 0 1 0 1 
+cur_state.WAIT 0 0 0 0 1 0 0 1 
+cur_state.READ 0 0 0 1 0 0 0 1 
+cur_state.COUNT 0 0 1 0 0 0 0 1 
+cur_state.INVERT 0 1 0 0 0 0 0 1 
+cur_state.DONE 1 0 0 0 0 0 0 1 
+
+State Machine - |top_module|PROCESS_O_DATA:PROCESS_O_DATA|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|CONTROL3:CONTROL3|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|CONTROL3:CONTROL3|cur_state
+Name cur_state.DONE_stage1 cur_state.READ1 cur_state.READ cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ 0 0 1 1 
+cur_state.READ1 0 1 0 1 
+cur_state.DONE_stage1 1 0 0 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|RAM2:RAM3|state_rd
+Name state_rd.SEC_OUT 
+state_rd.FIRST_OUT 0 
+state_rd.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|CONTROL2:CONTROL2|state
+Name state.WRITE2 
+state.WRITE1 0 
+state.WRITE2 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|CONTROL2:CONTROL2|cur_state
+Name cur_state.DONE_stage1 cur_state.READ1 cur_state.READ cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ 0 0 1 1 
+cur_state.READ1 0 1 0 1 
+cur_state.DONE_stage1 1 0 0 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|RAM2:RAM2|state_rd
+Name state_rd.SEC_OUT 
+state_rd.FIRST_OUT 0 
+state_rd.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|RAM:RAM1|state_rd
+Name state_rd.SEC_OUT 
+state_rd.FIRST_OUT 0 
+state_rd.SEC_OUT 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|CONTROL1:CONTROL1|initial_state
+Name initial_state.WAIT initial_state.WRITE_TO_MEM initial_state.IDLE 
+initial_state.IDLE 0 0 0 
+initial_state.WRITE_TO_MEM 0 1 1 
+initial_state.WAIT 1 0 1 
+
+State Machine - |top_module|MODIFY_FFT:MODIFY_FFT|CONTROL1:CONTROL1|cur_state
+Name cur_state.DONE_stage1 cur_state.READ1 cur_state.READ cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 
+cur_state.READ 0 0 1 1 
+cur_state.READ1 0 1 0 1 
+cur_state.DONE_stage1 1 0 0 1 
+
+State Machine - |top_module|INVERT_ADDR:INVERT_ADDR|cur_state
+Name cur_state.READ cur_state.WRITE2 cur_state.WRITE1 cur_state.IDLE 
+cur_state.IDLE 0 0 0 0 
+cur_state.WRITE1 0 0 1 1 
+cur_state.WRITE2 0 1 0 1 
+cur_state.READ 1 0 0 1 
+
+State Machine - |top_module|INVERT_ADDR:INVERT_ADDR|uart_rx:UART_RX|state
+Name state.s_done state.s_rd state.s_start state.s_idle 
+state.s_idle 0 0 0 0 
+state.s_start 0 0 1 1 
+state.s_rd 0 1 0 1 
+state.s_done 1 0 0 1 
