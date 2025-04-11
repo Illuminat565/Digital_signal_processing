@@ -1,0 +1,369 @@
+[1mdiff --git a/FFT_Sequence_frequency_decimation/INVERT.v b/FFT_Sequence_frequency_decimation/INVERT.v[m
+[1mindex 46f7ec4..2fa84eb 100644[m
+[1m--- a/FFT_Sequence_frequency_decimation/INVERT.v[m
+[1m+++ b/FFT_Sequence_frequency_decimation/INVERT.v[m
+[36m@@ -26,18 +26,7 @@[m [mmodule INVERT #(parameter  N            = 16,[m
+     output reg                         en_o[m
+ );[m
+ [m
+[31m-   reg [SIZE-1   : 0] rd_ptr;[m
+[31m-   reg [SIZE-1   : 0] delay_rd_ptr;[m
+[31m-[m
+[31m-  //----------------------------------------------------------------[m
+[31m-[m
+[31m-generate[m
+[31m-    genvar j;[m
+[31m-    for (j = 0; j < SIZE; j = j + 1) begin : bit_reversal[m
+[31m-        assign invert_addr[j] = delay_rd_ptr[SIZE - 1 - j];[m
+[31m-    end[m
+[31m-endgenerate[m
+[31m-[m
+[32m+[m[32mreg [SIZE-1   : 0] rd_ptr;[m
+ [m
+ always @(posedge clk ) begin[m
+     if (!rst_n) begin[m
+[36m@@ -45,12 +34,12 @@[m [malways @(posedge clk ) begin[m
+     end[m
+     if (en_invert) begin[m
+         rd_ptr        <= rd_ptr +1'd1;[m
+[31m-        delay_rd_ptr  <= rd_ptr;[m
+[32m+[m[32m        invert_addr   <= rd_ptr;[m
+         en_o          <= 1'b1;[m
+     end else begin[m
+         en_o          <= 1'b0;[m
+[31m-    if (delay_rd_ptr == N-1) begin[m
+[31m-        delay_rd_ptr  <= 0;[m
+[32m+[m[32m    if (invert_addr == N-1) begin[m
+[32m+[m[32m        invert_addr  <= 0;[m
+     end[m
+     end[m
+ end[m
+[1mdiff --git a/FFT_Sequence_frequency_decimation/MODIFY_RADIX2.v b/FFT_Sequence_frequency_decimation/MODIFY_RADIX2.v[m
+[1mindex 6ccbf3b..93697fc 100644[m
+[1m--- a/FFT_Sequence_frequency_decimation/MODIFY_RADIX2.v[m
+[1m+++ b/FFT_Sequence_frequency_decimation/MODIFY_RADIX2.v[m
+[36m@@ -32,74 +32,29 @@[m [mmodule MODIFY_RADIX2[m
+     wire signed [bit_width-1: 0] Re_temp3, Im_temp3;   [m
+ [m
+     wire valid_input;[m
+[31m-/*[m
+[31m-   always @(*) [m
+[31m-    if (en) begin[m
+[31m-                Re_temp1  = (Re_i2*cos_data  - Im_i2*sin_data)>>>(word_length_tw-2);[m
+[31m-                Im_temp1  = (Im_i2*cos_data  + Re_i2*sin_data)>>>(word_length_tw-2);[m
+[31m-                    [m
+[31m-                Re_temp3  = Re_temp1[bit_width-1:0];[m
+[31m-                Im_temp3  = Im_temp1[bit_width-1:0];[m
+[31m- [m
+[31m-                Re_temp2  = (Re_temp3*cos_data2 - Im_temp3*sin_data2)>>>(word_length_tw-2);[m
+[31m-                Im_temp2  = (Im_temp3*cos_data2 + Re_temp3*sin_data2)>>>(word_length_tw-2);[m
+[31m-                [m
+ [m
+[31m-                Re_o1     = Re_i1 + Re_temp3;[m
+[31m-                Im_o1     = Im_i1 + Im_temp3;[m
+[31m-                [m
+[31m-             if (en_modify) begin[m
+[31m-                Re_o2   =  Re_i1 + Re_temp2[bit_width-1:0];[m
+[31m-                Im_o2   =  Im_i1 + Im_temp2[bit_width-1:0]; [m
+[31m-             end  else begin[m
+[31m-                Re_o2   =  Re_i1 - Re_temp1[bit_width-1:0];[m
+[31m-                Im_o2   =  Im_i1 - Im_temp1[bit_width-1:0];[m
+[31m-             end  [m
+[31m-            [m
+[31m-            out_valid   <= 1'b1;[m
+[31m-              [m
+[31m-    end else out_valid <= 1'b0;*/[m
+     [m
+[31m-//------------------------------First multiply----------------------------------[m
+[31m-[m
+[31m-    multiply #(.bit_width(bit_width), .word_length_tw(word_length_tw))multiply1 ([m
+[31m-            .sin_data(sin_data),[m
+[31m-            .cos_data(cos_data),          [m
+[31m-            .Re_i(Re_i2),[m
+[31m-            .Im_i(Im_i2),[m
+[31m-[m
+[31m-            .Re_o(Re_temp1),[m
+[31m-            .Im_o(Im_temp1)[m
+[31m-       ); [m
+[31m-//------------------------------second multiply----------------------------------[m
+[32m+[m[32m   always @(*) begin[m
+[32m+[m[32m     begin[m
+[32m+[m[32m        if (en) begin[m
+[32m+[m[41m            [m
+[32m+[m[32m            Re_o1_temp_1  =  Re_i1 + Re_o1_temp[bit_width-1:0];[m
+[32m+[m[32m            Im_o1_temp_1  =  Im_i1 + Im_o1_temp[bit_width-1:0];[m
+ [m
+[31m-       multiply #(.bit_width(bit_width), .word_length_tw(word_length_tw))multiply2 ([m
+[31m-            .sin_data(sin_data2),[m
+[31m-            .cos_data(cos_data2),          [m
+[31m-            .Re_i(Re_temp1[bit_width-1:0]),[m
+[31m-            .Im_i(Im_temp1[bit_width-1:0]),[m
+ [m
+[31m-            .Re_o(Re_temp2),[m
+[31m-            .Im_o(Im_temp2)[m
+[31m-       ); [m
+[32m+[m[32m            Re_o1_temp  =  (Re_i2*cos_data - Im_i2*sin_data) >>> (bit_width_tw_factor - 2);[m
+[32m+[m[32m            Im_o1_temp  =  (Re_i2*sin_data + Im_i2*cos_data) >>> (bit_width_tw_factor - 2);[m
+ [m
+[31m-       [m
+[31m- modifying_adder #(. bit_width(bit_width),.word_length_tw(word_length_tw))modifying_adder([m
+[31m-    .en(en),[m
+[31m-    .en_modify(en_modify),[m
+[31m-    .Re_i1(Re_i1),[m
+[31m-    .Im_i1(Im_i1),[m
+[31m-	.Re_i2(Re_temp2[bit_width-1:0]),[m
+[31m-	.Im_i2(Im_temp2[bit_width-1:0]),[m
+[31m-    .Re_i3(Re_temp1[bit_width-1:0]),[m
+[31m-	.Im_i3(Im_temp1[bit_width-1:0]),[m
+[32m+[m[32m            Re_o1       =  Re_i1 + Re_o1_temp[bit_width-1:0];[m
+[32m+[m[32m            Im_o1       =  Im_i1 + Im_o1_temp[bit_width-1:0];[m
+ [m
+[31m-    .Re_o1(Re_o1),[m
+[31m-	.Im_o1(Im_o1),[m
+[31m-    .Re_o2(Re_o2),[m
+[31m-	.Im_o2(Im_o2),[m
+[31m-    .out_valid(out_valid)[m
+[31m-   ); [m
+[32m+[m[32m            Re_o2_temp  =  (Re_i2*cos_data2 - Im_i2*sin_data2) >>> (bit_width_tw_factor - 2);[m
+[32m+[m[32m            Im_o2_temp  =  (Re_i2*sin_data2 + Im_i2*cos_data2) >>> (bit_width_tw_factor - 2) ;[m[41m   [m
+ [m
+[32m+[m[32m            Re_o2       =  Re_i1 - Re_o2_temp[bit_width-1:0];[m
+[32m+[m[32m            Im_o2       =  Im_i1 - Im_o2_temp[bit_width-1:0];[m[41m [m
+[32m+[m[32m        end[m[41m [m
+[32m+[m[32m    end[m
+[32m+[m[32m   end[m[41m  [m
+ [m
+   endmodule[m
+\ No newline at end of file[m
+[1mdiff --git a/FFT_Sequence_frequency_decimation/RADIX.v b/FFT_Sequence_frequency_decimation/RADIX.v[m
+[1mdeleted file mode 100644[m
+[1mindex f9766f8..0000000[m
+[1m--- a/FFT_Sequence_frequency_decimation/RADIX.v[m
+[1m+++ /dev/null[m
+[36m@@ -1,73 +0,0 @@[m
+[31m-[m
+[31m-[m
+[31m-module RADIX[m
+[31m-	#(parameter bit_width=16, word_length_tw = 8)[m
+[31m-    ([m
+[31m- [m
+[31m- [m
+[31m-    input       signed [word_length_tw-1: 0]  sin_data,[m
+[31m-    input       signed [word_length_tw-1: 0]  cos_data,[m
+[31m-[m
+[31m-[m
+[31m-	input       signed [bit_width-1:0]  Re_i1,[m
+[31m-	input       signed [bit_width-1:0]  Im_i1,[m
+[31m-    input       signed [bit_width-1:0]  Re_i2,[m
+[31m-	input       signed [bit_width-1:0]  Im_i2,[m
+[31m-    input                               en,[m
+[31m-[m
+[31m-	output      signed [bit_width-1:0]  Re_o1,[m
+[31m-	output      signed [bit_width-1:0]  Im_o1,[m
+[31m-    output      signed [bit_width-1:0]  Re_o2,[m
+[31m-	output      signed [bit_width-1:0]  Im_o2,[m
+[31m-    output                              out_valid[m
+[31m-   );[m
+[31m-[m
+[31m-    wire signed [bit_width + word_length_tw:0] Re_temp2, Im_temp2;[m
+[31m-[m
+[31m- /*  always @(*) begin[m
+[31m-     begin[m
+[31m-        if (en) begin[m
+[31m-                Re_temp1  = (Re_i2*cos_data  - Im_i2*sin_data)>>>(word_length_tw-2);[m
+[31m-                Im_temp1  = (Im_i2*cos_data  + Re_i2*sin_data)>>>(word_length_tw-2);[m
+[31m-[m
+[31m-                Re_temp3  = Re_temp1[bit_width-1:0];[m
+[31m-                Im_temp3  = Im_temp1[bit_width-1:0];[m
+[31m-[m
+[31m-                Re_o1     = Re_i1 + Re_temp3;[m
+[31m-                Im_o1     = Im_i1 + Im_temp3;[m
+[31m-[m
+[31m-                Re_o2   =  Re_i1 - Re_temp3;[m
+[31m-                Im_o2   =  Im_i1 - Im_temp3;[m
+[31m-[m
+[31m-                out_valid = 1'b1;[m
+[31m-        end else out_valid = 1'b0;[m
+[31m-     end  [m
+[31m-   end   */[m
+[31m-[m
+[31m-   multiply #(.bit_width(bit_width), .word_length_tw(word_length_tw))multiply_inst ([m
+[31m-            .sin_data(sin_data),[m
+[31m-            .cos_data(cos_data),          [m
+[31m-            .Re_i(Re_i2),[m
+[31m-            .Im_i(Im_i2),[m
+[31m-[m
+[31m-            .Re_o(Re_temp2),[m
+[31m-            .Im_o(Im_temp2)[m
+[31m-       ); [m
+[31m-//--------------------------------------------------------------------[m
+[31m-[m
+[31m-[m
+[31m- adder #(. bit_width(bit_width),.word_length_tw(word_length_tw)) adder_inst([m
+[31m-    .en(en),[m
+[31m-    .Re_i1(Re_i1),[m
+[31m-    .Im_i1(Im_i1),[m
+[31m-	.Re_i2(Re_temp2[bit_width-1:0]),[m
+[31m-	.Im_i2(Im_temp2[bit_width-1:0]),[m
+[31m-[m
+[31m-    .Re_o1(Re_o1),[m
+[31m-	.Im_o1(Im_o1),[m
+[31m-    .Re_o2(Re_o2),[m
+[31m-	.Im_o2(Im_o2),[m
+[31m-    .out_valid(out_valid)[m
+[31m-   ); [m
+[31m-[m
+[31m-endmodule[m
+[1mdiff --git a/FFT_Sequence_frequency_decimation/RADIX2.v b/FFT_Sequence_frequency_decimation/RADIX2.v[m
+[1mdeleted file mode 100644[m
+[1mindex 80ffe53..0000000[m
+[1m--- a/FFT_Sequence_frequency_decimation/RADIX2.v[m
+[1m+++ /dev/null[m
+[36m@@ -1,117 +0,0 @@[m
+[31m-[m
+[31m-`define MODIFY_FFT[m
+[31m-[m
+[31m-`include "config_FFT.svh"[m
+[31m-[m
+[31m-module RADIX2[m
+[31m-	#(parameter bit_width=16, SIZE = 4)[m
+[31m-    ([m
+[31m- [m
+[31m-    input                  en_modify,[m
+[31m- [m
+[31m-    input   signed [15:0]  sin_data,[m
+[31m-    input   signed [15:0]  cos_data,[m
+[31m-[m
+[31m-	input   signed [bit_width-1:0] Re_i1,[m
+[31m-	input   signed [bit_width-1:0] Im_i1,[m
+[31m-    input   signed [bit_width-1:0] Re_i2,[m
+[31m-	input   signed [bit_width-1:0] Im_i2,[m
+[31m-    input   en,[m
+[31m-[m
+[31m-	output  signed [bit_width-1:0]  Re_o1,[m
+[31m-	output  signed [bit_width-1:0]  Im_o1,[m
+[31m-    output  signed [bit_width-1:0]  Re_o2,[m
+[31m-	output  signed [bit_width-1:0]  Im_o2[m
+[31m-   );[m
+[31m-[m
+[31m-    wire signed [bit_width-1:0] Re_temp1, Im_temp1;[m
+[31m-    wire signed [bit_width-1:0] Re_temp2, Im_temp2;[m
+[31m-[m
+[31m-    wire signed [15:0]  sin_data2;[m
+[31m-    wire signed [15:0]  cos_data2;[m
+[31m-   [m
+[31m-    assign sin_data2 = 16'b1101_1010_0110_0010; [m
+[31m-    assign cos_data2 = 16'b1100_1100_0011_1001; [m
+[31m-[m
+[31m-  //    assign sin_data2 = 16'b0000_0000_0000_0000;     //0pi/512[m
+[31m-  //    assign cos_data2 = 16'b0100_0000_0000_0000;     //0pi/512[m
+[31m-   [m
+[31m- /* modifying_adder2 #(.bit_width(bit_width), .SIZE(SIZE)) MODIFYING_ADDER_BLOCK([m
+[31m-        .en_modify(en_modify),[m
+[31m-    [m
+[31m-        .xin1(Re_i1),[m
+[31m-        .yin1(Im_i1),[m
+[31m-	    .xin2(Re_i2),[m
+[31m-	    .yin2(Im_i2),[m
+[31m-        .sin_data(sin_data),[m
+[31m-	    .cos_data(cos_data),[m
+[31m-        .en(en),[m
+[31m-[m
+[31m-        .xout1(Re_o1),[m
+[31m-	    .yout1(Im_o1),[m
+[31m-        .xout2(Re_o2),[m
+[31m-        .yout2(Im_o2)[m
+[31m-   ); */[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m- `ifdef MODIFYING_ADDER[m
+[31m-    modifying_adder #(.bit_width(bit_width), .SIZE(SIZE)) MODIFYING_ADDER_BLOCK([m
+[31m-        .en_modify(en_modify),[m
+[31m-    [m
+[31m-        .xin1(Re_i1),[m
+[31m-        .yin1(Im_i1),[m
+[31m-	    .xin2(Re_temp1),[m
+[31m-	    .yin2(Im_temp1),[m
+[31m-        .xin3(Re_temp2),[m
+[31m-	    .yin3(Im_temp2),[m
+[31m-        .en(en),[m
+[31m-[m
+[31m-        .xout1(Re_o1),[m
+[31m-	    .yout1(Im_o1),[m
+[31m-        .xout2(Re_o2),[m
+[31m-        .yout2(Im_o2)[m
+[31m-   );[m
+[31m-   `else[m
+[31m-    adder #(.bit_width(bit_width)) CLASS_ADDER_BLOCK([m
+[31m-[m
+[31m-        .xin1(Re_i1),[m
+[31m-        .yin1(Im_i1),[m
+[31m-	    .xin2(Re_temp1),[m
+[31m-	    .yin2(Im_temp1),[m
+[31m-[m
+[31m-        .en(en),[m
+[31m-[m
+[31m-        .xout1(Re_o1),[m
+[31m-	    .yout1(Im_o1),[m
+[31m-        .xout2(Re_o2),[m
+[31m-        .yout2(Im_o2)[m
+[31m-   );[m
+[31m-   `endif[m
+[31m-       [m
+[31m-[m
+[31m-        multiply #(.bit_width(bit_width)) MULTIPLY1([m
+[31m-                .sin_data(sin_data),[m
+[31m-                .cos_data(cos_data),[m
+[31m-                .xin(Re_i2),[m
+[31m-                .yin(Im_i2),[m
+[31m-[m
+[31m-                .x_out(Re_temp1),[m
+[31m-                .y_out(Im_temp1)[m
+[31m-        );[m
+[31m-[m
+[31m-    `ifdef Additional_Multiplier[m
+[31m-       multiply #(.bit_width(bit_width)) MULTIPLY2([m
+[31m-            .sin_data(sin_data2),[m
+[31m-            .cos_data(cos_data2),[m
+[31m-            .xin(Re_temp1),[m
+[31m-            .yin(Im_temp1),[m
+[31m-[m
+[31m-            .x_out(Re_temp2),[m
+[31m-            .y_out(Im_temp2)[m
+[31m-       );[m
+[31m-    `endif   [m
+[31m-[m
+[31m-[m
+[31m-endmodule[m
+\ No newline at end of file[m
+[1mdiff --git a/FFT_Sequence_frequency_decimation/new_adress_genarator.v b/FFT_Sequence_frequency_decimation/new_adress_genarator.v[m
+[1mindex ad515d2..b57847f 100644[m
+[1m--- a/FFT_Sequence_frequency_decimation/new_adress_genarator.v[m
+[1m+++ b/FFT_Sequence_frequency_decimation/new_adress_genarator.v[m
+[36m@@ -130,9 +130,9 @@[m [mendtask[m
+ [m
+ always @(posedge clk ) begin[m
+     if(next_state == READ) begin[m
+[31m-        rd_ptr_1           <= (i<<(stage_FFT-1)) + k;[m
+[31m-        rd_ptr_2           <= ((i+1)<<(stage_FFT-1)) + k;[m
+[31m-        rd_ptr_angle       <= (k << (10-stage_FFT));  [m
+[32m+[m[32m        rd_ptr_1           <= (i<<(SIZE-stage_FFT)) + k;[m
+[32m+[m[32m        rd_ptr_2           <= ((i+1)<<(SIZE-stage_FFT)) + k;[m
+[32m+[m[32m        rd_ptr_angle       <= (k << (9-(SIZE-stage_FFT)));[m[41m  [m
+     end[m
+ end[m
+ [m
+[1mdiff --git a/ce2020labs b/ce2020labs[m
+[1m--- a/ce2020labs[m
+[1m+++ b/ce2020labs[m
+[36m@@ -1 +1 @@[m
+[31m-Subproject commit d9c1864f1df7a853342ed4406b56cfa91d31652a[m
+[32m+[m[32mSubproject commit d9c1864f1df7a853342ed4406b56cfa91d31652a-dirty[m
+[1mdiff --git a/systemverilog-homework b/systemverilog-homework[m
+[1m--- a/systemverilog-homework[m
+[1m+++ b/systemverilog-homework[m
+[36m@@ -1 +1 @@[m
+[31m-Subproject commit f52ffb5ccf8162f4de031e3de0af442dad3edd62[m
+[32m+[m[32mSubproject commit f52ffb5ccf8162f4de031e3de0af442dad3edd62-dirty[m

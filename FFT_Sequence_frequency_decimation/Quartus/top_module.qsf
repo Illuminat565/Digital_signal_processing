@@ -113,6 +113,9 @@ set_location_assignment PIN_133 -to dig[0]
 set_location_assignment PIN_135 -to dig[1]
 set_location_assignment PIN_136 -to dig[2]
 set_location_assignment PIN_137 -to dig[3]
+set_global_assignment -name VERILOG_FILE ../sub_M_RADIX2.v
+set_global_assignment -name VERILOG_FILE ../TWIDLE_14_bit_final_STAGE_2.v
+set_global_assignment -name VERILOG_FILE ../TWIDLE_14_bit_final_STAGE_1.v
 set_global_assignment -name VERILOG_FILE ../new_adress_genarator.v
 set_global_assignment -name VERILOG_FILE ../INVERT.v
 set_global_assignment -name VERILOG_FILE ../tw_factor_generator.v

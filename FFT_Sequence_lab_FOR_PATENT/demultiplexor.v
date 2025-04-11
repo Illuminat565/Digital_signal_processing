@@ -93,7 +93,7 @@ end
                 out_valid <= 1'b0; 
             end else out_valid     <= 1'b1; // После второго байта данные готовы
             selector <= ~selector; // Переключение выходного сигнала
-        end
+        end else selector       <= 1'b0;
     end
 
        always @(posedge clk ) begin

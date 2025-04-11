@@ -62,3 +62,6 @@ run
 restart
 # Loading work.uart_vd_tb
 run
+quit -sim
+# End time: 14:37:01 on Apr 10,2025, Elapsed time: 16:37:58
+# Errors: 0, Warnings: 2

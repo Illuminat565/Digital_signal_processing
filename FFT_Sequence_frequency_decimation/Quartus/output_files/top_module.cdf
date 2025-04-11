@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE6E22) Path("D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/Quartus/output_files/") File("top_module.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE6E22) Path("D:/Digital chipset design/FFT_Sequence_frequency_decimation/Quartus/output_files/") File("top_module.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

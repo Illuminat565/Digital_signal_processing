@@ -8,6 +8,7 @@ module  MODIFY_CONTROL #(parameter t_1_bit = 5207, bit_width=29, N = 16, SIZE = 
     output reg       [SIZE-1:0]          rd_ptr,
     output           [SIZE-1:0]        invert_adr, 
     output           [10  :0]          rd_ptr_angle, 
+    output           [10  :0]          rd_ptr_angle_final, 
     
     output          [SIZE-1:0]           wr_ptr,
     output                             en_modify,
@@ -77,6 +78,7 @@ module  MODIFY_CONTROL #(parameter t_1_bit = 5207, bit_width=29, N = 16, SIZE = 
       .en_rd(en_rd_temp[0]),  
       .rd_ptr(rd_ptr_temp[0]),
       .rd_ptr_angle(rd_ptr_angle), 
+      .rd_ptr_angle_final(rd_ptr_angle_final), 
       .done_o(start_read_stage)
  );
  //-----------------------------OUTPUT data

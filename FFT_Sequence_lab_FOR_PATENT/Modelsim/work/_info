@@ -201,13 +201,13 @@ Z16 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FF
 R5
 R6
 vdemultiplexor
-!s110 1743539246
+Z17 !s110 1744296043
 !i10b 1
-!s100 m6f_DnY9P8=dB@fIPFmA]2
-Ia9Rzni]hA>ZBAIC_7b[G61
+!s100 2TJIQ4Z6_F>1QzMkJ0cQU0
+I[:UmJ[g<YV77c<;<VCLdS0
 R2
 R0
-w1743539178
+w1743543390
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/demultiplexor.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/demultiplexor.v
 L0 1
@@ -215,7 +215,7 @@ R3
 r1
 !s85 0
 31
-!s108 1743539246.000000
+Z18 !s108 1744296043.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/demultiplexor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/demultiplexor.v|
 !i113 1
@@ -252,7 +252,7 @@ R0
 w1743424729
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT.v
-Z17 L0 16
+Z19 L0 16
 R3
 r1
 !s85 0
@@ -274,7 +274,7 @@ R0
 w1743426208
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT_ADDR.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/INVERT_ADDR.v
-R17
+R19
 R3
 r1
 !s85 0
@@ -287,13 +287,13 @@ R5
 R6
 n@i@n@v@e@r@t_@a@d@d@r
 vM_TWIDLE_10_B_0_10_v
-Z18 !s110 1743412225
+Z20 !s110 1743412225
 !i10b 1
 !s100 ^`[H?>4=BEU:R>X8dzlog2
 I82W5>0hF4FF9_khU79NI@2
 R2
 R0
-Z19 w1739899957
+Z21 w1739899957
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_10_v.v
 L0 1
@@ -301,7 +301,7 @@ R3
 r1
 !s85 0
 31
-Z20 !s108 1743412225.000000
+Z22 !s108 1743412225.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_10_v.v|
 !i113 1
@@ -309,13 +309,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_10_@b_0_10_v
 vM_TWIDLE_10_B_0_15_v
-R18
+R20
 !i10b 1
 !s100 CCE9z;W8_Be`LYo6Sg7VZ0
 I<A:LN87onQ2NPO?SVBOki2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_15_v.v
 L0 1
@@ -323,7 +323,7 @@ R3
 r1
 !s85 0
 31
-R20
+R22
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_15_v.v|
 !i113 1
@@ -331,7 +331,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_10_@b_0_15_v
 vM_TWIDLE_10_B_0_20_v
-R18
+R20
 !i10b 1
 !s100 kglcHN?HG_AQ0DgoNWiML3
 IHiXG9V2]2>;oC7>fT[ABQ1
@@ -345,7 +345,7 @@ R3
 r1
 !s85 0
 31
-R20
+R22
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_20_v.v|
 !i113 1
@@ -353,13 +353,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_10_@b_0_20_v
 vM_TWIDLE_10_B_0_25_v
-R18
+R20
 !i10b 1
 !s100 7gn7fL@<1[I2Y[c_8SInN3
 I`ZZCK:mj0N2ci8bgbNfbk2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_25_v.v
 L0 1
@@ -367,7 +367,7 @@ R3
 r1
 !s85 0
 31
-R20
+R22
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_25_v.v|
 !i113 1
@@ -375,13 +375,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_10_@b_0_25_v
 vM_TWIDLE_10_B_0_5_v
-R18
+R20
 !i10b 1
 !s100 Q`FRgOXf0oh?[LX^AjYO10
 IJ>;BOIDZNn8k]eDV;HEda1
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_5_v.v
 L0 1
@@ -389,7 +389,7 @@ R3
 r1
 !s85 0
 31
-R20
+R22
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_10_B_0_5_v.v|
 !i113 1
@@ -397,13 +397,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_10_@b_0_5_v
 vM_TWIDLE_11_B_0_10_v
-Z21 !s110 1743412226
+Z23 !s110 1743412226
 !i10b 1
 !s100 :;Jm@eDKlMkoKV`I9U:TE0
 IVh@YJoRZZV@=A@FkE5<Ja0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_10_v.v
 L0 1
@@ -411,7 +411,7 @@ R3
 r1
 !s85 0
 31
-Z22 !s108 1743412226.000000
+Z24 !s108 1743412226.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_10_v.v|
 !i113 1
@@ -419,13 +419,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_11_@b_0_10_v
 vM_TWIDLE_11_B_0_15_v
-R21
+R23
 !i10b 1
 !s100 QK3f_XGS_HYTE7[HH>:0B3
 IoG1oaF^1T_]?_NX_O^3El0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_15_v.v
 L0 1
@@ -433,7 +433,7 @@ R3
 r1
 !s85 0
 31
-R22
+R24
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_15_v.v|
 !i113 1
@@ -441,7 +441,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_11_@b_0_15_v
 vM_TWIDLE_11_B_0_20_v
-R21
+R23
 !i10b 1
 !s100 W6@Saf<SKjQLJ>l`kL7J13
 IgXKBig7Ga5;k7U3U21^<J3
@@ -455,7 +455,7 @@ R3
 r1
 !s85 0
 31
-R22
+R24
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_20_v.v|
 !i113 1
@@ -463,7 +463,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_11_@b_0_20_v
 vM_TWIDLE_11_B_0_25_v
-R21
+R23
 !i10b 1
 !s100 ;f7m050g2mKKNOJf1JAP:3
 IT@kJO]a6LUFz;8EPZKoe80
@@ -477,7 +477,7 @@ R3
 r1
 !s85 0
 31
-R22
+R24
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_25_v.v|
 !i113 1
@@ -485,13 +485,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_11_@b_0_25_v
 vM_TWIDLE_11_B_0_5_v
-R21
+R23
 !i10b 1
 !s100 NcL@=DXm<DHI[Kjzf3G4d2
 I5`VHQnU`nScYh;1<1:<m81
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_5_v.v
 L0 1
@@ -499,7 +499,7 @@ R3
 r1
 !s85 0
 31
-R20
+R22
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_11_B_0_5_v.v|
 !i113 1
@@ -507,13 +507,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_11_@b_0_5_v
 vM_TWIDLE_12_B_0_10_v
-Z23 !s110 1743412227
+Z25 !s110 1743412227
 !i10b 1
 !s100 lnz3YYFjV[N2>Qaimh5`>3
 IoR`Noac6>Ch^HoA8aoNkz0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_10_v.v
 L0 1
@@ -521,7 +521,7 @@ R3
 r1
 !s85 0
 31
-Z24 !s108 1743412227.000000
+Z26 !s108 1743412227.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_10_v.v|
 !i113 1
@@ -529,13 +529,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_12_@b_0_10_v
 vM_TWIDLE_12_B_0_15_v
-R23
+R25
 !i10b 1
 !s100 ^ZhBR?IPlaed__hK4OG1L3
 II``MoN30QfDZkOl>E`0Io3
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_15_v.v
 L0 1
@@ -543,7 +543,7 @@ R3
 r1
 !s85 0
 31
-R24
+R26
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_15_v.v|
 !i113 1
@@ -551,13 +551,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_12_@b_0_15_v
 vM_TWIDLE_12_B_0_25_v
-R23
+R25
 !i10b 1
 !s100 LcRz`@^;CTh?m[F<QZ95B0
 IW9U6eU>7LYWiT]52[jKMQ2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_25_v.v
 L0 1
@@ -565,7 +565,7 @@ R3
 r1
 !s85 0
 31
-R24
+R26
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_25_v.v|
 !i113 1
@@ -573,13 +573,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_12_@b_0_25_v
 vM_TWIDLE_12_B_0_5_v
-R23
+R25
 !i10b 1
 !s100 lZ`ET:DoHMzDY2F`XH3[00
 I<m_;eB`hlKFDnG@dEi6Ob1
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_5_v.v
 L0 1
@@ -587,7 +587,7 @@ R3
 r1
 !s85 0
 31
-R22
+R24
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_12_B_0_5_v.v|
 !i113 1
@@ -595,13 +595,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_12_@b_0_5_v
 vM_TWIDLE_13_B_0_10_v
-R23
+R25
 !i10b 1
 !s100 ]L3P;2dkVPM??=OnCXbV@2
 I_hceG^EWKLLJOm?j8DlS?2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_10_v.v
 L0 1
@@ -609,7 +609,7 @@ R3
 r1
 !s85 0
 31
-R24
+R26
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_10_v.v|
 !i113 1
@@ -617,13 +617,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_13_@b_0_10_v
 vM_TWIDLE_13_B_0_15_v
-Z25 !s110 1743412228
+Z27 !s110 1743412228
 !i10b 1
 !s100 V9RgzB]CEmb^nUNiARUch2
 IWFZz8L]ISHgEeVWY<7_MX0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_15_v.v
 L0 1
@@ -631,7 +631,7 @@ R3
 r1
 !s85 0
 31
-R24
+R26
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_15_v.v|
 !i113 1
@@ -639,13 +639,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_13_@b_0_15_v
 vM_TWIDLE_13_B_0_20_v
-R25
+R27
 !i10b 1
 !s100 [La5gOdoU@bUW3Z3nQgiI3
 I3`L@B`Q<lmM9>i4ZAzHC@0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_20_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_20_v.v
 L0 1
@@ -653,7 +653,7 @@ R3
 r1
 !s85 0
 31
-Z26 !s108 1743412228.000000
+Z28 !s108 1743412228.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_20_v.v|
 !i113 1
@@ -661,13 +661,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_13_@b_0_20_v
 vM_TWIDLE_13_B_0_25_v
-R25
+R27
 !i10b 1
 !s100 XS__=A>5iUK:mXF_m^65T1
 I7kfXzP6g3LVK;;XUF=lzZ3
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_25_v.v
 L0 1
@@ -675,7 +675,7 @@ R3
 r1
 !s85 0
 31
-R26
+R28
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_25_v.v|
 !i113 1
@@ -683,13 +683,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_13_@b_0_25_v
 vM_TWIDLE_13_B_0_5_v
-R23
+R25
 !i10b 1
 !s100 TG6z=];4HZKS?:m59g[F]3
 IH]oEcUc>VPcWn?_DZ6HSf1
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_5_v.v
 L0 1
@@ -697,7 +697,7 @@ R3
 r1
 !s85 0
 31
-R24
+R26
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_13_B_0_5_v.v|
 !i113 1
@@ -705,7 +705,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_13_@b_0_5_v
 vM_TWIDLE_14_B_0_10_v
-R25
+R27
 !i10b 1
 !s100 Bb=@ZfjegWO6RI7WoAMb[0
 IWnQH5`m_4SbdOiFck]i263
@@ -719,7 +719,7 @@ R3
 r1
 !s85 0
 31
-R26
+R28
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_10_v.v|
 !i113 1
@@ -727,7 +727,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_14_@b_0_10_v
 vM_TWIDLE_14_B_0_15_v
-R25
+R27
 !i10b 1
 !s100 @jAO7HM>i^3UUS5S`aZb10
 INMV2WdST38JeENQ5^:;5K3
@@ -741,7 +741,7 @@ R3
 r1
 !s85 0
 31
-R26
+R28
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_15_v.v|
 !i113 1
@@ -749,7 +749,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_14_@b_0_15_v
 vM_TWIDLE_14_B_0_20_v
-R25
+R27
 !i10b 1
 !s100 [^B4lb1<^l6h4EY`U4[@61
 IDJ[SBGKYP_U^D;MHb3]^?2
@@ -763,7 +763,7 @@ R3
 r1
 !s85 0
 31
-R26
+R28
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_20_v.v|
 !i113 1
@@ -771,13 +771,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_14_@b_0_20_v
 vM_TWIDLE_14_B_0_25_v
-!s110 1743533856
+R17
 !i10b 1
 !s100 bOXk4H[I4?2MPU@W]GO0G2
 I:Vk9@hMGfBb>LWf?P6i0Q0
 R2
 R0
-w1743515017
+w1743580812
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_25_v.v
 L0 1
@@ -785,7 +785,7 @@ R3
 r1
 !s85 0
 31
-!s108 1743533856.000000
+R18
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_25_v.v|
 !i113 1
@@ -793,7 +793,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_14_@b_0_25_v
 vM_TWIDLE_14_B_0_5_v
-R25
+R27
 !i10b 1
 !s100 LlHCSSUAz1J4Bo^>Xl>M;3
 IY0861KERNfBUWKSD[R;J_1
@@ -807,7 +807,7 @@ R3
 r1
 !s85 0
 31
-R26
+R28
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_14_B_0_5_v.v|
 !i113 1
@@ -815,13 +815,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_14_@b_0_5_v
 vM_TWIDLE_15_B_0_10_v
-Z27 !s110 1743412229
+Z29 !s110 1743412229
 !i10b 1
 !s100 UQHYNJhzHk[cXV[H7Yng:0
 IX3giiD3k3G=8^D766Cz<23
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_10_v.v
 L0 1
@@ -829,7 +829,7 @@ R3
 r1
 !s85 0
 31
-Z28 !s108 1743412229.000000
+Z30 !s108 1743412229.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_10_v.v|
 !i113 1
@@ -837,13 +837,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_15_@b_0_10_v
 vM_TWIDLE_15_B_0_15_v
-R27
+R29
 !i10b 1
 !s100 :1i[4f:PIbdNFY`GTR1^X1
 I[G4Y=jhc[CGUzO:mg6QEO1
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_15_v.v
 L0 1
@@ -851,7 +851,7 @@ R3
 r1
 !s85 0
 31
-R28
+R30
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_15_v.v|
 !i113 1
@@ -859,13 +859,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_15_@b_0_15_v
 vM_TWIDLE_15_B_0_20_v
-R27
+R29
 !i10b 1
 !s100 gSB6Qbe;jbV:^Y=DQ_;@12
 ID1fmab_PO`ZHDGS6^kf2F2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_20_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_20_v.v
 L0 1
@@ -873,7 +873,7 @@ R3
 r1
 !s85 0
 31
-R28
+R30
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_20_v.v|
 !i113 1
@@ -881,13 +881,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_15_@b_0_20_v
 vM_TWIDLE_15_B_0_25_v
-R27
+R29
 !i10b 1
 !s100 kZ=EUegQfgoUUZCd`8GlD1
 IMKKNKe<Lffod:Ej=485202
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_25_v.v
 L0 1
@@ -895,7 +895,7 @@ R3
 r1
 !s85 0
 31
-R28
+R30
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_25_v.v|
 !i113 1
@@ -903,13 +903,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_15_@b_0_25_v
 vM_TWIDLE_15_B_0_5_v
-R27
+R29
 !i10b 1
 !s100 D4=gNjHc5k2d7U=`1km580
 Id^nHg2`dCJ5K0_:<MOYmo0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_5_v.v
 L0 1
@@ -917,7 +917,7 @@ R3
 r1
 !s85 0
 31
-R28
+R30
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_15_B_0_5_v.v|
 !i113 1
@@ -925,13 +925,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_15_@b_0_5_v
 vM_TWIDLE_16_B_0_10_v
-Z29 !s110 1743412230
+Z31 !s110 1743412230
 !i10b 1
 !s100 b;UANkJ9LT7TR:KZ]`Gj52
 ISdUF3^nW5bLTgZa>l50Am2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_10_v.v
 L0 1
@@ -939,7 +939,7 @@ R3
 r1
 !s85 0
 31
-Z30 !s108 1743412230.000000
+Z32 !s108 1743412230.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_10_v.v|
 !i113 1
@@ -947,13 +947,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_16_@b_0_10_v
 vM_TWIDLE_16_B_0_15_v
-R29
+R31
 !i10b 1
 !s100 ]n9[B5BiXf[BjjQHRkMoB2
 IUM>4UKfCF[;SSeomE@_`63
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_15_v.v
 L0 1
@@ -961,7 +961,7 @@ R3
 r1
 !s85 0
 31
-R30
+R32
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_15_v.v|
 !i113 1
@@ -969,13 +969,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_16_@b_0_15_v
 vM_TWIDLE_16_B_0_20_v
-R29
+R31
 !i10b 1
 !s100 ^FhFfREX9Mo;L3SLjzi]i3
 ICUmK@CMjgJn>Al8gYG:C03
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_20_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_20_v.v
 L0 1
@@ -983,7 +983,7 @@ R3
 r1
 !s85 0
 31
-R30
+R32
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_20_v.v|
 !i113 1
@@ -991,13 +991,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_16_@b_0_20_v
 vM_TWIDLE_16_B_0_25_v
-R29
+R31
 !i10b 1
 !s100 ?dFF>1DQ<]QL4:PoDV8bK2
 I<9[?LL_CN383<S[3B08Y;1
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_25_v.v
 L0 1
@@ -1005,7 +1005,7 @@ R3
 r1
 !s85 0
 31
-R30
+R32
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_25_v.v|
 !i113 1
@@ -1013,13 +1013,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_16_@b_0_25_v
 vM_TWIDLE_16_B_0_5_v
-R29
+R31
 !i10b 1
 !s100 0Y;=WFk6eji8QhRk38gza3
 IRK_`=0NPE0Lkle28TiQaD2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_5_v.v
 L0 1
@@ -1027,7 +1027,7 @@ R3
 r1
 !s85 0
 31
-R28
+R30
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_16_B_0_5_v.v|
 !i113 1
@@ -1035,13 +1035,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_16_@b_0_5_v
 vM_TWIDLE_6_B_0_10_v
-Z31 !s110 1743412222
+Z33 !s110 1743412222
 !i10b 1
 !s100 kTni^E8J=C2jAU@AKHP6@0
 IZc12PgABQ=^^Xb1;15;KW0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_10_v.v
 L0 1
@@ -1049,7 +1049,7 @@ R3
 r1
 !s85 0
 31
-Z32 !s108 1743412222.000000
+Z34 !s108 1743412222.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_10_v.v|
 !i113 1
@@ -1057,13 +1057,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_6_@b_0_10_v
 vM_TWIDLE_6_B_0_15_v
-R31
+R33
 !i10b 1
 !s100 Sajfoz0QChFQ5fKBTFl4n1
 IA5?o^ko1=7ncZOFb[aUCW3
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_15_v.v
 L0 1
@@ -1071,7 +1071,7 @@ R3
 r1
 !s85 0
 31
-R32
+R34
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_15_v.v|
 !i113 1
@@ -1079,7 +1079,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_6_@b_0_15_v
 vM_TWIDLE_6_B_0_20_v
-R31
+R33
 !i10b 1
 !s100 jcO1h3NiD>V`:Zk0?bDXO2
 IXh]KghCEVzjkC4h[:BPik0
@@ -1093,7 +1093,7 @@ R3
 r1
 !s85 0
 31
-R32
+R34
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_20_v.v|
 !i113 1
@@ -1101,13 +1101,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_6_@b_0_20_v
 vM_TWIDLE_6_B_0_25_v
-R31
+R33
 !i10b 1
 !s100 3;4mjZT<N;;1S[<K^gZS;1
 I>MV7Tz3D7<c9G37WkcEHe2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_25_v.v
 L0 1
@@ -1115,7 +1115,7 @@ R3
 r1
 !s85 0
 31
-R32
+R34
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_6_B_0_25_v.v|
 !i113 1
@@ -1123,7 +1123,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_6_@b_0_25_v
 vM_TWIDLE_6_B_0_5_v
-R31
+R33
 !i10b 1
 !s100 U8A:j569E0fSLPHXzWjVc1
 I6J2RdYj18Q^aWYWEzjUnA0
@@ -1145,13 +1145,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_6_@b_0_5_v
 vM_TWIDLE_7_B_0_10_v
-Z33 !s110 1743412223
+Z35 !s110 1743412223
 !i10b 1
 !s100 9MjK9m7ZHV]6VT`AoeX@g2
 IPFzVZ?Jl_aL7iE1oOKfl71
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_10_v.v
 L0 1
@@ -1159,7 +1159,7 @@ R3
 r1
 !s85 0
 31
-R32
+R34
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_10_v.v|
 !i113 1
@@ -1167,13 +1167,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_7_@b_0_10_v
 vM_TWIDLE_7_B_0_15_v
-R33
+R35
 !i10b 1
 !s100 DCdRmi46gRckQSaHR?CUe2
 IddE313eRjhQi?jR:TMB][0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_15_v.v
 L0 1
@@ -1181,7 +1181,7 @@ R3
 r1
 !s85 0
 31
-Z34 !s108 1743412223.000000
+Z36 !s108 1743412223.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_15_v.v|
 !i113 1
@@ -1189,13 +1189,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_7_@b_0_15_v
 vM_TWIDLE_7_B_0_20_v
-R33
+R35
 !i10b 1
 !s100 @MAI5l]JUd0leF^;@7XDQ0
 I1;kng[;@@zjQ^;RSmZb_?2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_20_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_20_v.v
 L0 1
@@ -1203,7 +1203,7 @@ R3
 r1
 !s85 0
 31
-R34
+R36
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_20_v.v|
 !i113 1
@@ -1211,13 +1211,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_7_@b_0_20_v
 vM_TWIDLE_7_B_0_25_v
-R33
+R35
 !i10b 1
 !s100 kG`mozO97]F=E]TM1VEa@1
 Ia=im:W@1EA>722@RXg9^l0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_25_v.v
 L0 1
@@ -1225,7 +1225,7 @@ R3
 r1
 !s85 0
 31
-R34
+R36
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_25_v.v|
 !i113 1
@@ -1233,13 +1233,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_7_@b_0_25_v
 vM_TWIDLE_7_B_0_5_v
-R31
+R33
 !i10b 1
 !s100 gga5n:HbjXV2RVnllCLUc1
 INM]_Oz:NemJUkmJWlSc]h2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_5_v.v
 L0 1
@@ -1247,7 +1247,7 @@ R3
 r1
 !s85 0
 31
-R32
+R34
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_7_B_0_5_v.v|
 !i113 1
@@ -1255,13 +1255,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_7_@b_0_5_v
 vM_TWIDLE_8_B_0_10_v
-R33
+R35
 !i10b 1
 !s100 >4kak:A4iKbbz;LC8;me20
 IP0k@:3z4G3TzR;2f6eMhe2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_10_v.v
 L0 1
@@ -1269,7 +1269,7 @@ R3
 r1
 !s85 0
 31
-R34
+R36
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_10_v.v|
 !i113 1
@@ -1277,13 +1277,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_8_@b_0_10_v
 vM_TWIDLE_8_B_0_15_v
-R33
+R35
 !i10b 1
 !s100 k7>CYCLmZG9m>5LVR8Jl10
 I4=G@XG2JcNKX3WngYBH]P3
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_15_v.v
 L0 1
@@ -1291,7 +1291,7 @@ R3
 r1
 !s85 0
 31
-R34
+R36
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_15_v.v|
 !i113 1
@@ -1299,13 +1299,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_8_@b_0_15_v
 vM_TWIDLE_8_B_0_20_v
-Z35 !s110 1743412224
+Z37 !s110 1743412224
 !i10b 1
 !s100 Cc6OM1o]@^[^]W[YdkWn41
 IWnRZOa^?FE5doNlj=E?cM3
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_20_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_20_v.v
 L0 1
@@ -1313,7 +1313,7 @@ R3
 r1
 !s85 0
 31
-Z36 !s108 1743412224.000000
+Z38 !s108 1743412224.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_20_v.v|
 !i113 1
@@ -1321,13 +1321,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_8_@b_0_20_v
 vM_TWIDLE_8_B_0_25_v
-R35
+R37
 !i10b 1
 !s100 g_doUifQ@k:GL9W8YEYZB0
 I<5Glozko4V=C=HTzPR=N03
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_25_v.v
 L0 1
@@ -1335,7 +1335,7 @@ R3
 r1
 !s85 0
 31
-R36
+R38
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_25_v.v|
 !i113 1
@@ -1343,13 +1343,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_8_@b_0_25_v
 vM_TWIDLE_8_B_0_5_v
-R33
+R35
 !i10b 1
 !s100 n@2>7f?ZMAZOnYCV:>5D51
 I59l_D[`E9iT;=EFS`lX302
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_5_v.v
 L0 1
@@ -1357,7 +1357,7 @@ R3
 r1
 !s85 0
 31
-R34
+R36
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_8_B_0_5_v.v|
 !i113 1
@@ -1365,13 +1365,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_8_@b_0_5_v
 vM_TWIDLE_9_B_0_10_v
-R35
+R37
 !i10b 1
 !s100 :6G;jgIEiTUWZ3Vo;@L^b2
 IigUl1TPONAmzV3d?LUI1k2
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_10_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_10_v.v
 L0 1
@@ -1379,7 +1379,7 @@ R3
 r1
 !s85 0
 31
-R36
+R38
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_10_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_10_v.v|
 !i113 1
@@ -1387,13 +1387,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_9_@b_0_10_v
 vM_TWIDLE_9_B_0_15_v
-R35
+R37
 !i10b 1
 !s100 RUhL9`<h1_8L[jCDFjz3D1
 I0HmgUcT0j<hQf55[g6TE52
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_15_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_15_v.v
 L0 1
@@ -1401,7 +1401,7 @@ R3
 r1
 !s85 0
 31
-R36
+R38
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_15_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_15_v.v|
 !i113 1
@@ -1409,7 +1409,7 @@ R5
 R6
 n@m_@t@w@i@d@l@e_9_@b_0_15_v
 vM_TWIDLE_9_B_0_20_v
-R35
+R37
 !i10b 1
 !s100 ^fcO?MgBGOX[LI4DAoB6g3
 IKIbzGP3DC]3VMXolkP:5Q2
@@ -1423,7 +1423,7 @@ R3
 r1
 !s85 0
 31
-R36
+R38
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_20_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_20_v.v|
 !i113 1
@@ -1431,13 +1431,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_9_@b_0_20_v
 vM_TWIDLE_9_B_0_25_v
-R18
+R20
 !i10b 1
 !s100 cfGh0RkSZgYECgCohDoHk2
 IijLEA;f@dh4NVHic@@4HO0
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_25_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_25_v.v
 L0 1
@@ -1445,7 +1445,7 @@ R3
 r1
 !s85 0
 31
-R36
+R38
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_25_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_25_v.v|
 !i113 1
@@ -1453,13 +1453,13 @@ R5
 R6
 n@m_@t@w@i@d@l@e_9_@b_0_25_v
 vM_TWIDLE_9_B_0_5_v
-R35
+R37
 !i10b 1
 !s100 GzXKF[]>cagdd^HFjKCGX1
 IM@IQjEdOQ:W;NEW@XG_@V3
 R2
 R0
-R19
+R21
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_5_v.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_5_v.v
 L0 1
@@ -1467,7 +1467,7 @@ R3
 r1
 !s85 0
 31
-R36
+R38
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_5_v.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/M_TWIDLE_9_B_0_5_v.v|
 !i113 1
@@ -1519,7 +1519,7 @@ R5
 R6
 n@m@o@d@i@f@y_@f@f@t
 vMODIFY_RADIX2
-Z37 !s110 1743534636
+Z39 !s110 1743534636
 !i10b 1
 !s100 `2[>zR:X6YjWOQYRQO?222
 IGRVO6P`fzoRzk>E8gl9Im1
@@ -1533,7 +1533,7 @@ R3
 r1
 !s85 0
 31
-Z38 !s108 1743534636.000000
+Z40 !s108 1743534636.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/MODIFY_RADIX2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/MODIFY_RADIX2.v|
 !i113 1
@@ -1541,7 +1541,7 @@ R5
 R6
 n@m@o@d@i@f@y_@r@a@d@i@x2
 vmodifying_adder
-R37
+R39
 !i10b 1
 !s100 5h2QHfBToS:J;2W@Ob5FP0
 I_9139GWZF4mMcecl4[VRo1
@@ -1555,7 +1555,7 @@ R3
 r1
 !s85 0
 31
-R38
+R40
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/modifying_adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/modifying_adder.v|
 !i113 1
@@ -1604,13 +1604,13 @@ R16
 R5
 R6
 vmultiplexor
-!s110 1743536110
+Z41 !s110 1744296044
 !i10b 1
-!s100 GN0PhK64ohzlVi0:`lnVM2
-I[VAng7:GH@zEI`J:`28B70
+!s100 `j^5]9i3_z[1o2:eO_fa[0
+IE@jEPH8`2Hn=FbYi_b73G3
 R2
 R0
-w1743536104
+w1743573549
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiplexor.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiplexor.v
 L0 1
@@ -1618,14 +1618,14 @@ R3
 r1
 !s85 0
 31
-!s108 1743536110.000000
+Z42 !s108 1744296044.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiplexor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiplexor.v|
 !i113 1
 R5
 R6
 vmultiply
-Z39 !s110 1743412231
+Z43 !s110 1743412231
 !i10b 1
 !s100 DRFY?>`kNU[Om4c_`jU`W1
 I96czgn0>5X@];_mC]gzcQ2
@@ -1639,7 +1639,7 @@ R3
 r1
 !s85 0
 31
-Z40 !s108 1743412231.000000
+Z44 !s108 1743412231.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiply.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/multiply.v|
 !i113 1
@@ -1667,7 +1667,7 @@ r1
 R5
 R6
 vout_addres_generator
-R39
+R43
 !i10b 1
 !s100 QlcJl_>CO6zFbMj;7E>1b2
 I36_:3]KSZU0O[;0lYhViX3
@@ -1681,7 +1681,7 @@ R3
 r1
 !s85 0
 31
-R40
+R44
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/out_addres_generator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/out_addres_generator.v|
 !i113 1
@@ -1709,7 +1709,7 @@ R16
 R5
 R6
 vPROCESS_O_DATA
-R39
+R43
 !i10b 1
 !s100 g[SKeW5^b:>bUIJh^ZKOl1
 IeICV5?<Y0YM9h:SaINS=[2
@@ -1723,7 +1723,7 @@ R3
 r1
 !s85 0
 31
-R40
+R44
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/PROCESS_O_DATA.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/PROCESS_O_DATA.v|
 !i113 1
@@ -1731,7 +1731,7 @@ R5
 R6
 n@p@r@o@c@e@s@s_@o_@d@a@t@a
 vRADIX
-R39
+R43
 !i10b 1
 !s100 L^mZZ;dZK=K7K[YDmZG=c0
 IH5bTc>eJPVSfnk=?kZPOT3
@@ -1745,7 +1745,7 @@ R3
 r1
 !s85 0
 31
-R40
+R44
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX.v|
 !i113 1
@@ -1753,7 +1753,7 @@ R5
 R6
 n@r@a@d@i@x
 vRADIX2
-R39
+R43
 !i10b 1
 !s100 oQnPBY0?YGS>S6E@:bFF<3
 I^Dm<CdI::i8W1^mL9kZD[1
@@ -1767,7 +1767,7 @@ R3
 r1
 !s85 0
 31
-R40
+R44
 !s107 D:\Digital chipset design\FFT_Sequence_lab_FOR_PATENT\config_FFT.svh|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/RADIX2.v|
 !i113 1
@@ -1797,7 +1797,7 @@ R5
 R6
 n@r@a@m
 vseg7_data
-Z41 !s110 1743412232
+Z45 !s110 1743412232
 !i10b 1
 !s100 A[E9;jm@WMGR1G>RJeC?i0
 Ik^D79=XIS1HRGfeTS@H<01
@@ -1806,7 +1806,7 @@ R0
 w1733131615
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data.v
-Z42 L0 17
+Z46 L0 17
 R3
 r1
 !s85 0
@@ -1818,7 +1818,7 @@ R14
 R5
 R6
 vseg7_data2
-R41
+R45
 !i10b 1
 !s100 ?I]iKTEh:6YU7:73?FcJ12
 IRo2zBA]O_fkH@@JI6E15?0
@@ -1827,7 +1827,7 @@ R0
 w1739983984
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data2.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/seg7_data2.v
-R42
+R46
 R3
 r1
 !s85 0
@@ -1839,7 +1839,7 @@ R14
 R5
 R6
 vshift_register
-R41
+R45
 !i10b 1
 !s100 VAzG:O2b5c_d47VO6CLeK0
 IAZIUmdOcM6NKfXhD<<?6E0
@@ -1860,7 +1860,7 @@ R14
 R5
 R6
 vshift_register_with_valid
-R41
+R45
 !i10b 1
 !s100 ;cdR>M_0>EbOO3G;H[KAd3
 I>bY4koedZ=8N?mICB7nTR3
@@ -1881,7 +1881,7 @@ R14
 R5
 R6
 vsigned_shift_register
-R41
+R45
 !i10b 1
 !s100 ZkK_4GR3cCkIjfWClZW;93
 IRoT<SK^kTan1bA^EI:7>o1
@@ -1916,20 +1916,20 @@ R3
 r1
 !s85 0
 31
-Z43 !s108 1743412233.000000
+Z47 !s108 1743412233.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/test_real.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/test_real.v|
 !i113 1
 R5
 R6
 vtop_module
-!s110 1743539262
+R41
 !i10b 1
-!s100 ;WbgJD;[5DSlIehO>e>ni0
-I2X2ClX;Wm6mHb=ePn4ODC3
+!s100 `9VVWD;hP>93S];:GF=7H3
+IKA^I3E]6R58zOmZzJ3]ki1
 R2
 R0
-w1743539257
+w1744296037
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/top_module.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/top_module.v
 R7
@@ -1937,7 +1937,7 @@ R3
 r1
 !s85 0
 31
-!s108 1743539262.000000
+R42
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/top_module.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/top_module.v|
 !i113 1
@@ -1958,14 +1958,14 @@ R3
 r1
 !s85 0
 31
-R43
+R47
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/tw_factor_generator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/tw_factor_generator.v|
 !i113 1
 R5
 R6
 vTWIDLE_10_bit
-Z44 !s110 1743412234
+Z48 !s110 1743412234
 !i10b 1
 !s100 1_A:aQTSDYLY_DQ;Z`jac0
 IG`jcW0BhDVZE1e4KK3KSR3
@@ -1979,7 +1979,7 @@ R3
 r1
 !s85 0
 31
-Z45 !s108 1743412234.000000
+Z49 !s108 1743412234.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_10_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_10_bit.v|
 !i113 1
@@ -1987,7 +1987,7 @@ R5
 R6
 n@t@w@i@d@l@e_10_bit
 vTWIDLE_11_bit
-R44
+R48
 !i10b 1
 !s100 >jELMMYh<5`^NeAM65G@P0
 IG4]211_=U6YX4:Mi6OLz32
@@ -2001,7 +2001,7 @@ R3
 r1
 !s85 0
 31
-R45
+R49
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_11_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_11_bit.v|
 !i113 1
@@ -2009,7 +2009,7 @@ R5
 R6
 n@t@w@i@d@l@e_11_bit
 vTWIDLE_12_bit
-R44
+R48
 !i10b 1
 !s100 zn^g<<IgWDFDl1ogl8CCz2
 IofgeRCOJMC2ijTR;Ag99G3
@@ -2023,7 +2023,7 @@ R3
 r1
 !s85 0
 31
-R45
+R49
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_12_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_12_bit.v|
 !i113 1
@@ -2031,7 +2031,7 @@ R5
 R6
 n@t@w@i@d@l@e_12_bit
 vTWIDLE_13_bit
-R44
+R48
 !i10b 1
 !s100 PN59SFL^ie5_8A5OKE_9a0
 IcmDSSJLb8f5k4c0;OPdcG0
@@ -2045,7 +2045,7 @@ R3
 r1
 !s85 0
 31
-R45
+R49
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_13_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_13_bit.v|
 !i113 1
@@ -2053,7 +2053,7 @@ R5
 R6
 n@t@w@i@d@l@e_13_bit
 vTWIDLE_14_bit
-R44
+R48
 !i10b 1
 !s100 PX<E_ldGG4TUJkkzLhUF@2
 IKZ0WI2:[@@2?]fk:D>j7B2
@@ -2067,7 +2067,7 @@ R3
 r1
 !s85 0
 31
-R45
+R49
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_14_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_14_bit.v|
 !i113 1
@@ -2075,7 +2075,7 @@ R5
 R6
 n@t@w@i@d@l@e_14_bit
 vTWIDLE_15_bit
-R44
+R48
 !i10b 1
 !s100 dRmzMaQnNO]lhIGFY`OUm0
 IJ_DRk3fjg:eU:KPJ<;9;X1
@@ -2089,7 +2089,7 @@ R3
 r1
 !s85 0
 31
-R45
+R49
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_15_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_15_bit.v|
 !i113 1
@@ -2097,7 +2097,7 @@ R5
 R6
 n@t@w@i@d@l@e_15_bit
 vTWIDLE_16_bit
-R44
+R48
 !i10b 1
 !s100 QY8L[]9^8WX`YEXJ04a8<3
 IF^@3BaB3UU]>MDCo>JWRY2
@@ -2111,7 +2111,7 @@ R3
 r1
 !s85 0
 31
-R45
+R49
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_16_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_16_bit.v|
 !i113 1
@@ -2133,7 +2133,7 @@ R3
 r1
 !s85 0
 31
-R43
+R47
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_6_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_6_bit.v|
 !i113 1
@@ -2155,7 +2155,7 @@ R3
 r1
 !s85 0
 31
-R43
+R47
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_7_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_7_bit.v|
 !i113 1
@@ -2177,7 +2177,7 @@ R3
 r1
 !s85 0
 31
-R43
+R47
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_8_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_8_bit.v|
 !i113 1
@@ -2199,7 +2199,7 @@ R3
 r1
 !s85 0
 31
-R43
+R47
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_9_bit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/TWIDLE_9_bit.v|
 !i113 1
@@ -2207,7 +2207,7 @@ R5
 R6
 n@t@w@i@d@l@e_9_bit
 vuart_rx
-Z46 !s110 1743412235
+Z50 !s110 1743412235
 !i10b 1
 !s100 Gfk>=21f5SL>oWKE8R@;70
 IYYWfHRQae?_gA]ngHhW402
@@ -2221,14 +2221,14 @@ R3
 r1
 !s85 0
 31
-Z47 !s108 1743412235.000000
+Z51 !s108 1743412235.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_rx.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_rx.v|
 !i113 1
 R5
 R6
 vuart_tx
-R46
+R50
 !i10b 1
 !s100 oOZJWPON163B8?gcT]NTm2
 I4EI<>QzhGoO9]L@?`L[L`0
@@ -2242,14 +2242,14 @@ R3
 r1
 !s85 0
 31
-R47
+R51
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_tx.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_tx.v|
 !i113 1
 R5
 R6
 vuart_vd
-R46
+R50
 !i10b 1
 !s100 X^]2H[8lYI:Z[nWBlz9Vj0
 IDM3nGVb8el8S=3z[1cJGV1
@@ -2263,20 +2263,20 @@ R3
 r1
 !s85 0
 31
-R47
+R51
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd.v|
 !i113 1
 R5
 R6
 vuart_vd_tb
-!s110 1743428167
+!s110 1744310862
 !i10b 1
-!s100 8kT8_XGkbz[lLLlWKKI:K2
-IEP;9CN@KfoUn=CG?G9O8h3
+!s100 QZLA[A3C`jYmYQIJlgL_@2
+Igi>^cGnnKDcz8af:DD<X33
 R2
 R0
-w1743428165
+w1744310860
 8D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd_tb.v
 FD:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd_tb.v
 L0 4
@@ -2284,7 +2284,7 @@ R3
 r1
 !s85 0
 31
-!s108 1743428167.000000
+!s108 1744310862.000000
 !s107 D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Digital chipset design/FFT_Sequence_lab_FOR_PATENT/uart_vd_tb.v|
 !i113 1

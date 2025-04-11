@@ -61,7 +61,7 @@ module multiplexor #(
                 Im_o         <= Im_i_1; 
             end
             selector   <= ~selector; // Переключаемся между входами
-        end 
+        end else selector   <= 1'b0;;
     end
 
      always @(posedge clk  ) begin

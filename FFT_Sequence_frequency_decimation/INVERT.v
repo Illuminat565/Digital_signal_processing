@@ -31,12 +31,8 @@ module INVERT #(parameter  N            = 16,
 
   //----------------------------------------------------------------
 
-generate
-    genvar j;
-    for (j = 0; j < SIZE; j = j + 1) begin : bit_reversal
-        assign invert_addr[j] = delay_rd_ptr[SIZE - 1 - j];
-    end
-endgenerate
+ assign invert_addr= delay_rd_ptr;
+
 
 
 always @(posedge clk ) begin

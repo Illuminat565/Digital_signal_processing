@@ -8,6 +8,7 @@ module  new_adress_genarator #(parameter  N = 16, SIZE = 4)(
     output                             next_state_FFT,
     output reg       [SIZE-1:0]        rd_ptr,
     output reg       [10  :0]          rd_ptr_angle, 
+    output reg       [10  :0]          rd_ptr_angle_final, 
 
     output reg                         en_rd,         
     output reg                         done_o 
@@ -20,7 +21,7 @@ module  new_adress_genarator #(parameter  N = 16, SIZE = 4)(
     reg [6:0] cur_state;
     reg [6:0] next_state;
 
-    wire [SIZE:0] element_number = 1<<(stage_FFT-1);
+    wire [SIZE:0] element_number = 1<<(SIZE-stage_FFT);
     wire [SIZE-1:0]       flag_1 = (k == element_number);
     assign next_state_FFT = (b==N); 
  //--------------------------------------------------------------
@@ -130,9 +131,28 @@ endtask
 
 always @(posedge clk ) begin
     if(next_state == READ) begin
-        rd_ptr_1           <= (i<<(stage_FFT-1)) + k;
-        rd_ptr_2           <= ((i+1)<<(stage_FFT-1)) + k;
-        rd_ptr_angle       <= (k << (10-stage_FFT));  
+        rd_ptr_1           <= (i<<(SIZE-stage_FFT)) + k;
+        rd_ptr_2           <= ((i+1)<<(SIZE-stage_FFT)) + k;
+        rd_ptr_angle       <= (k << (9-(SIZE-stage_FFT)));  
+        
+    end
+end
+
+wire [SIZE-1:0]  rd_ptr_angle_temp;
+wire [SIZE-1:0]  invert_addr;
+
+assign rd_ptr_angle_temp = i >> 1;
+
+generate
+    genvar j;
+    for (j = 0; j < SIZE; j = j + 1) begin : bit_reversal
+        assign invert_addr[j] = rd_ptr_angle_temp[SIZE - 1 - j];
+    end
+endgenerate
+
+always @(posedge clk ) begin
+    if(next_state == READ) begin
+       rd_ptr_angle_final <= invert_addr << (9-SIZE);   
     end
 end
 
