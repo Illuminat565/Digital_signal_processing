@@ -34,22 +34,18 @@ module MODIFY_FFT
     // Адресные указатели для чтения и записи в память
     wire [10:0] rd_ptr_angle;   // Указатель угла для коэффициентов вращения
     wire [SIZE-1:0] wr_ptr, rd_ptr; // Указатели чтения и записи
+    wire [10:0] rd_ptr_angle_final; 
 
     // Выходные сигналы демультиплексора для разделения потоков данных
     wire signed [bit_width-1:0] Re_demul, Im_demul;
 
     // Данные коэффициентов вращения (значения sin и cos)
-    wire signed [word_length_tw-1:0] sin_data2, cos_data2;
+    wire signed [word_length_tw-1:0] sin_data_2, cos_data_2;
     wire signed [word_length_tw-1:0] sin_data_radix, cos_data_radix;
+    wire signed [word_length_tw-1:0] sin_data_radix2, cos_data_radix2;
+    wire signed [word_length_tw-1:0] sin_data_radix3, cos_data_radix3;
     wire signed [word_length_tw-1:0] sin_data, cos_data;
-
-    //----------------------------------------------------------------------  
-    // Генератор множителей: создает значения допольнительной множителей на основе степени вобуляции периодла повторения импулсьов  
-    // вращения (sin и cos), которые используются при вычислении FFT.  
-    add_multiplier_generator #(.word_length_tw(word_length_tw), .STAGGER(stagger)) multiplier_gen_inst (
-        .sin_data2(sin_data2),
-        .cos_data2(cos_data2)
-    );
+    wire signed [word_length_tw-1:0] sin_data_3, cos_data_3;
 
     //----------------------------------------------------------------------  
     // Модуль управления: управляет сигналами управления FFT, такими как запуск,  
@@ -66,6 +62,7 @@ module MODIFY_FFT
         .wr_ptr(wr_ptr),
         .rd_ptr(rd_ptr),
         .rd_ptr_angle(rd_ptr_angle),
+        .rd_ptr_angle_final(rd_ptr_angle_final),
         .en_rd(en_rd),
         .finish_FFT(finish_FFT),
         .load_data(load_data),
@@ -109,13 +106,34 @@ module MODIFY_FFT
     //----------------------------------------------------------------------  
     // Генератор коэффициентов вращения: формирует значения sin и cos  
     // для использования в вычислениях FFT на основе углового указателя.  
-    tw_factor_generator #(.word_length_tw(word_length_tw), .STAGGER(stagger)) tw_factor_gen_inst (
-        .clk(clk),
-        .en_rd(en_rd),
-        .rd_ptr_angle(rd_ptr_angle),
-        .en_modify_tw(en_modify_tw),
-        .cos_data(cos_data),
-        .sin_data(sin_data)
+
+    TWIDLE_14_bit #( .SIZE(10),.word_length_tw(word_length_tw))
+    TWIDLE_14_bit_inst (
+    .clk(clk),
+    .en_rd(en_rd),
+    .rd_ptr_angle(rd_ptr_angle),
+
+    .cos_data(cos_data),
+    .sin_data(sin_data)
+    );
+    TWIDLE_14_bit_final_STAGE_1 #( .SIZE(10),.word_length_tw(word_length_tw))
+    TWIDLE_14_bit_final_STAGE_1 (
+    .clk(clk),
+    .en_rd(en_rd),
+    .rd_ptr_angle(rd_ptr_angle_final),
+
+    .cos_data(cos_data_2),
+    .sin_data(sin_data_2)
+    );
+
+    TWIDLE_14_bit_final_STAGE_2 #( .SIZE(10),.word_length_tw(word_length_tw))
+    TWIDLE_14_bit_final_STAGE_2 (
+    .clk(clk),
+    .en_rd(en_rd),
+    .rd_ptr_angle(rd_ptr_angle_final+512),
+
+    .cos_data(cos_data_3),
+    .sin_data(sin_data_3)
     );
 
     //----------------------------------------------------------------------  
@@ -151,18 +169,46 @@ module MODIFY_FFT
         .in_data(sin_data),
         .out_data(sin_data_radix)
     );
+        shift_register #(.width(word_length_tw), .depth(1)) shift_reg_inst4 (
+        .clk(clk),
+        .rst_n(rst_n),
+        .in_data(cos_data_2),
+        .out_data(cos_data_radix2)
+    );
 
+        shift_register #(.width(word_length_tw), .depth(1)) shift_reg_inst5 (
+        .clk(clk),
+        .rst_n(rst_n),
+        .in_data(sin_data_2),
+        .out_data(sin_data_radix2)
+    );        
+    
+        shift_register #(.width(word_length_tw), .depth(1)) shift_reg_inst6 (
+        .clk(clk),
+        .rst_n(rst_n),
+        .in_data(cos_data_3),
+        .out_data(cos_data_radix3)
+    );
+
+        shift_register #(.width(word_length_tw), .depth(1)) shift_reg_inst7 (
+        .clk(clk),
+        .rst_n(rst_n),
+        .in_data(sin_data_3),
+        .out_data(sin_data_radix3)
+    );
     //----------------------------------------------------------------------  
     // Модификация FFT (Modified Radix-2):С допольнительным умножением 
     // FFT по алгоритмам Modified Radix-2 и Radix-2.  
     MODIFY_RADIX2 #( .bit_width(bit_width), .word_length_tw(word_length_tw)) modify_radix2_inst (
         .clk(clk),
         .rst_n(rst_n),
-        .en_modify(en_modify),
+        .en_modify(0),
         .sin_data(sin_data_radix),
         .cos_data(cos_data_radix),
-        .sin_data2(sin_data2),
-        .cos_data2(cos_data2),
+        .sin_data2(sin_data_radix2),
+        .cos_data2(cos_data_radix2),
+        .sin_data3(sin_data_radix3),
+        .cos_data3(cos_data_radix3),
         .Re_i1(Re_temp2),
         .Im_i1(Im_temp2),
         .Re_i2(Re_temp4),
